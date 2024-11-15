@@ -1,0 +1,32 @@
+title: LabIMotion Schema
+description: JSON Schema Documentation for LabIMotion Templates
+remote_theme: just-the-docs/just-the-docs
+
+# Theme settings
+color_scheme: light
+search_enabled: true
+heading_anchors: true
+
+# Aux links for upper right navigation
+aux_links:
+  "Template Hub":
+    - "https://www.chemotion-repository.net/home/genericHub"
+  "LabIMotion Docs":
+    - "https://www.chemotion.net/docs/labimotion"
+  "GitHub":
+    - "https://github.com/LabIMotion/labimotion"
+
+# Makes Aux links open in new tab
+aux_links_new_tab: true
+
+# Footer content
+footer_content: "Copyright &copy; 2024 LabIMotion."
+
+# Enable copy code button
+enable_copy_code_button: true
+
+# Collections for schema versions
+collections:
+  schema_v1:
+    permalink: "/schema/v1.0/:path"
+    output: true
