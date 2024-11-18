@@ -96,8 +96,8 @@ Elements can have multiple layers, each containing:
 
 ## Related Schemas
 
-- [Common Properties Schema](../common-properties)
-- [Layers Schema](../layers)
+- [Common Properties Schema](../../../schema/latest/include/sch-common-properties.json)
+- [Layers Schema](../../../schema/latest/include/sch-layers.json)
 
 ## Version History
 

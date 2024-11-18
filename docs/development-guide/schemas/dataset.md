@@ -110,9 +110,9 @@ Optional select options for dropdown fields:
 
 ## Related Schemas
 
-- [Common Properties Schema](../common-properties)
-- [Layers Schema](../layers)
-- [Select Options Schema](../select-options)
+- [Common Properties Schema](../../../schema/latest/include/sch-common-properties.json)
+- [Layers Schema](../../../schema/latest/include/sch-layers.json)
+- [Select Options Schema](../../../schema/latest/include/select-options.json)
 
 ## Version History
 
