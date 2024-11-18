@@ -24,9 +24,9 @@ Released: January 31, 2024
 
 | Schema | Description | Documentation | Raw Schema |
 |:-------|:------------|:--------------|:-----------|
-| Element Schema | Core element definitions | [View Docs](./schemas/element) | [JSON Schema](./schema/latest/sch-element.json) |
-| Segment Schema | Segment structure and properties | [View Docs](./schemas/segment) | [JSON Schema](./schema/latest/sch-segment.json) |
-| Dataset Schema | Dataset organization | [View Docs](./schemas/dataset) | [JSON Schema](./schema/latest/sch-dataset.json) |
+| Element Schema | Core element definitions | [View Docs](./development-guide/schemas/element) | [JSON Schema](./schema/latest/sch-element.json) |
+| Segment Schema | Segment structure and properties | [View Docs](./development-guide/schemas/segment) | [JSON Schema](./schema/latest/sch-segment.json) |
+| Dataset Schema | Dataset organization | [View Docs](./development-guide/schemas/dataset) | [JSON Schema](./schema/latest/sch-dataset.json) |
 
 ## Feedback
 

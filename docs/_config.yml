@@ -20,7 +20,7 @@ aux_links:
 aux_links_new_tab: true
 
 # Footer content
-footer_content: "Copyright &copy; 2024 LabIMotion."
+footer_content: "Copyright &copy; 2022-2024 LabIMotion."
 
 # Enable copy code button
 enable_copy_code_button: true
@@ -30,3 +30,23 @@ collections:
   schema_v1:
     permalink: "/schema/v1.0/:path"
     output: true
+
+# Enable nesting
+nav_external_links:
+  - title: GitHub
+    url: https://github.com/LabIMotion/labimotion
+    hide_icon: false
+
+# Maximum sidebar depth
+nav_level: 3
+
+# Enable collapsible navigation
+collapse_inactive_chapters: true
+
+# Custom CSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Add custom CSS
+custom_css: true

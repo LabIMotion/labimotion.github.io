@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Schemas
-nav_order: 2
+parent: Development Guide
 has_children: true
-permalink: /schemas
+nav_order: 1
 ---
 
 # LabIMotion Schemas
@@ -14,11 +14,11 @@ Documentation for all available LabIMotion JSON Schemas.
 
 ### Core Schemas
 
-| Schema                      | Description                              | Version |
-| :-------------------------- | :--------------------------------------- | :------ |
-| [Element Schema](./element) | Defines the structure for basic elements | 1.0     |
-| [Segment Schema](./segment) | Defines the structure for segments       | 1.0     |
-| [Dataset Schema](./dataset) | Defines the structure for datasets       | 1.0     |
+| Schema                      | Description                        | Version |
+| :-------------------------- | :--------------------------------- | :------ |
+| [Element Schema](./element) | Defines the structure for elements | 1.0     |
+| [Segment Schema](./segment) | Defines the structure for segments | 1.0     |
+| [Dataset Schema](./dataset) | Defines the structure for datasets | 1.0     |
 
 ### Supporting Schemas
 
@@ -47,10 +47,6 @@ You can reference the schemas directly in your JSON:
   "$schema": "https://labimotion.github.io/schema/v1.0/sch-element.json"
 }
 ```
-
-### Local Development
-
-For local development, you can download the schemas from our [GitHub repository](https://github.com/LabIMotion/labimotion).
 
 ## Contributing
 
