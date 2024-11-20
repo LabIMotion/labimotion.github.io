@@ -3,20 +3,20 @@
   --nav-width-md: 18.75rem;
 }
 
-.side-bar {
-  width: var(--nav-width);
-}
+// .side-bar {
+//   width: var(--nav-width);
+// }
 
-.main {
-  margin-left: var(--nav-width);
-}
+// .main {
+//   margin-left: var(--nav-width);
+// }
 
-@media (min-width: 50rem) {
-  .side-bar {
-    width: var(--nav-width-md);
-  }
+// @media (min-width: 50rem) {
+//   .side-bar {
+//     width: var(--nav-width-md);
+//   }
 
-  .main {
-    margin-left: var(--nav-width-md);
-  }
-}
+//   .main {
+//     margin-left: var(--nav-width-md);
+//   }
+// }
