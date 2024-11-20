@@ -20,3 +20,23 @@
 //     margin-left: var(--nav-width-md);
 //   }
 // }
+
+.category-tag {
+  display: inline-block;
+  padding: 0.2em 0.5em;
+  margin: 0 0.2em;
+  border-radius: 3px;
+  background-color: #f0f0f0;
+  color: #666;
+  font-size: 0.9em;
+  text-decoration: none;
+
+  &:hover {
+    background-color: #e0e0e0;
+    color: #333;
+  }
+}
+
+.post-categories {
+  margin: 0.5em 0;
+}

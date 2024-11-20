@@ -11,7 +11,7 @@ has_toc: true
 ## Latest Posts
 
 {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
-{% for post in sorted_posts limit:5 %}
+{% for post in sorted_posts limit:3 %}
   <article class="post-preview">
     <h3>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
@@ -21,7 +21,7 @@ has_toc: true
     <div class="post-categories">
       Categories:
       {% for category in post.categories %}
-        <span class="category-tag">{{ category }}</span>
+        <a href="./categories#{{ category | slugify }}" class="category-tag">{{ category }}</a>
       {% endfor %}
     </div>
     {% endif %}
@@ -31,4 +31,4 @@ has_toc: true
   </article>
 {% endfor %}
 
-[View All Posts](./archive)
+[View All Posts](./archive) | [Browse by Category](./categories)
