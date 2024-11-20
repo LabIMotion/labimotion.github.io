@@ -25,18 +25,18 @@
   display: inline-block;
   padding: 0.2em 0.5em;
   margin: 0 0.2em;
-  border-radius: 3px;
-  background-color: #f0f0f0;
-  color: #666;
-  font-size: 0.9em;
+  border-radius: 40px;
+  border: thin solid #7253ed;
+  font-size: 0.8em;
   text-decoration: none;
 
   &:hover {
-    background-color: #e0e0e0;
-    color: #333;
+    background-color: #7253ed;
+    color: #ffffff;
   }
 }
 
 .post-categories {
   margin: 0.5em 0;
+  display: flex;
 }
