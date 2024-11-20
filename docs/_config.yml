@@ -30,6 +30,11 @@ collections:
   schema_v1:
     permalink: "/schema/v1.0/:path"
     output: true
+  posts:
+    permalink: "/blog/:year/:month/:day/:title"
+    output: true
+    sort_by: date
+    sort_reverse: true
 
 # Enable nesting
 nav_external_links:
@@ -50,3 +55,12 @@ sass:
 
 # Add custom CSS
 custom_css: true
+
+# Blog-specific settings
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: default
+      parent: Blog
