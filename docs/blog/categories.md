@@ -5,7 +5,7 @@ parent: Blog
 nav_order: 2
 ---
 
-# Post Categories
+# Categories
 
 {% assign categories = site.posts | map: "categories" | flatten | uniq | sort %}
 
