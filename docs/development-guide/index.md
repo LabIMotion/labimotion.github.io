@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Development Guide
-nav_order: 2
+nav_order: 99
 has_children: true
 permalink: /development-guide
+nav_exclude: true
 ---
 
 # Development Guide
