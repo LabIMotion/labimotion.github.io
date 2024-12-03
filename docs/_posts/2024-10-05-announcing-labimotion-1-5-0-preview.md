@@ -13,14 +13,6 @@ description: "Join the preview of Chemotion LabIMotion 1.5.0 and explore excitin
 
 <time datetime="{{ page.date | date_to_xmlschema }}" class="fs-3 fw-500">{{ page.date | date: "%B %d, %Y" }}</time>
 
-{% if page.categories %}
-  <div class="post-categories mt-6">
-    {% for category in page.categories %}
-      <a href="./categories#{{ category | slugify }}" class="category-tag">{{ category }}</a>
-    {% endfor %}
-  </div>
-{% endif %}
-
 Dear Chemotion LabIMotion users,
 
 We're excited to share the upcoming features we've prepared. Please feel free to explore these enhancements in our [test instance](https://labimotion-stage.ibcs.kit.edu/home) and share your thoughts and observations in our discussion thread.
@@ -45,9 +37,26 @@ We appreciate your participation and look forward to your feedback.
 
 Thank you!
 
-### Subscribe to Us!
-
-Get the latest development updates [<i class="bi bi-newspaper"></i> Subscribe](https://www.lists.kit.edu/sympa/subscribe/labimotion-users){: .btn .btn-blue }
-
 Best regards,<br>
 LabIMotion Team
+
+---
+
+{% if page.categories %}
+  <div class="post-categories mt-6">
+    Categories:&nbsp;&nbsp;
+    {% for category in page.categories %}
+      <a href="./categories#{{ category | slugify }}" class="category-tag">{{ category }}</a>
+    {% endfor %}
+  </div>
+{% endif %}
+
+---
+
+### Subscribe to Us!
+
+Get the latest development updates, tips, and best practices.
+
+[<i class="bi bi-newspaper"></i> Subscribe](https://www.lists.kit.edu/sympa/subscribe/labimotion-users){: .btn .btn-blue }
+[<i class="bi bi-envelope-at"></i> Email Us](mailto:chemotion-labimotion@lists.kit.edu){: .btn .btn-blue }
+
