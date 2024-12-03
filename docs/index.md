@@ -5,10 +5,10 @@ nav_order: 1
 permalink: /
 ---
 
-# LabIMotion Template Schema
+# LabIMotion Blog
 {: .fs-9 }
 
-The LabIMotion Template Schema provides a contract for the JSON data used and details what properties the JSON data should have, their types, and additional constraints.
+The LabIMotion Blog provides information about the LabIMotion project - Standardize your laboratory data with flexibility.
 {: .fs-6 .fw-300 }
 
 [View on GitHub](https://github.com/LabIMotion/labimotion){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
@@ -16,17 +16,34 @@ The LabIMotion Template Schema provides a contract for the JSON data used and de
 
 ---
 
-## Latest Schema Version: 1.0
+## Latest Updates
+{: .text-purple-200 }
 
-Released: January 31, 2024
+{% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+{% for post in sorted_posts limit:1 %}
+  <article class="post-preview">
+    <h3>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </h3>
+    {% if post.description %}
+      <p>{{ post.description }}</p>
+    {% endif %}
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+    {% if post.categories %}
+    <div class="post-categories">
+      {% for category in post.categories %}
+        <a href="./categories#{{ category | slugify }}" class="category-tag">{{ category }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </article>
+{% endfor %}
 
-### Available Schemas
+[View All Posts](./blog/archive) | [Browse by Category](./blog/categories)
 
-| Schema | Description | Documentation | Raw Schema |
-|:-------|:------------|:--------------|:-----------|
-| Element Schema | Core element definitions | [View Docs](./development-guide/schemas/element) | [JSON Schema](./schema/latest/sch-element.json) |
-| Segment Schema | Segment structure and properties | [View Docs](./development-guide/schemas/segment) | [JSON Schema](./schema/latest/sch-segment.json) |
-| Dataset Schema | Dataset organization | [View Docs](./development-guide/schemas/dataset) | [JSON Schema](./schema/latest/sch-dataset.json) |
+## Subscribe to get the latest updates
+
+[Subscribe to the LabIMotion Newsletter](https://www.lists.kit.edu/sympa/subscribe/labimotion-users){: .btn .btn-blue }
 
 ## Feedback
 
