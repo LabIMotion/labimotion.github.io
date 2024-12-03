@@ -45,7 +45,7 @@ The LabIMotion Blog shares updates and insights to help you standardize your lab
 
 ## Feedback
 
-We appreciate your feedback regarding any challenges you may be facing with the current schema or any ideas you have for improvements. Subscribe to the LabIMotion Newsletter or send us an email.
+We appreciate your feedback regarding any challenges you may be facing with the current version or any ideas you have for improvements. Subscribe to the LabIMotion Newsletter or send us an email.
 
 [<i class="bi bi-newspaper"></i> Subscribe](https://www.lists.kit.edu/sympa/subscribe/labimotion-users){: .btn .btn-blue }
 [<i class="bi bi-envelope-at"></i> Email Us](mailto:chemotion-labimotion@lists.kit.edu){: .btn .btn-blue }
