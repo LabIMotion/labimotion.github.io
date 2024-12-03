@@ -42,5 +42,5 @@ Thank you!
 
 Get the latest development updates by subscribing to our [mailing list](https://www.lists.kit.edu/sympa/subscribe/labimotion-users).
 
-Best regards,
+Best regards,<br>
 LabIMotion Team

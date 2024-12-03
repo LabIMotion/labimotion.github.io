@@ -35,7 +35,7 @@ Thank you!
 
 ### Subscribe to Us!
 
-Get the latest development updates by subscribing to our [mailing list](https://www.lists.kit.edu/sympa/subscribe/labimotion-users).
+Get the latest development updates by subscribing to our [mailing list](https://www.lists.kit.edu/sympa/subscribe/labimotion-users) [<i class="bi bi-envelope-at"></i> Subscribe](https://www.lists.kit.edu/sympa/subscribe/labimotion-users){: .btn .btn-blue }
 
-Best regards,
+Best regards,<br>
 LabIMotion Team

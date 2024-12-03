@@ -26,3 +26,6 @@ To celebrate this most recent release, here are the key features introduced in t
   * **System Units and Customize Default Unit for Field** ([doc](https://www.chemotion.net/docs/labimotion/guides/designer/components/fields/types/system-defined))
 
 For more detailed information, please refer to the release notes for [1.3.0](https://github.com/LabIMotion/labimotion/releases/tag/v1.3.0). Stay up-to-date with the latest developments by subscribing to our [mailing list](https://www.lists.kit.edu/sympa/subscribe/labimotion-users) to receive the latest updates.
+
+Best regards,<br>
+LabIMotion Team
