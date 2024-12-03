@@ -9,6 +9,7 @@ description: "Join the preview of Chemotion LabIMotion 1.5.0 and explore excitin
 ---
 
 # 🎉 2024.10.05 Chemotion LabIMotion 1.5.0 Preview!
+{: .fw-500 }
 
 Dear Chemotion LabIMotion users,
 
@@ -35,7 +36,7 @@ Thank you!
 
 ### Subscribe to Us!
 
-Get the latest development updates by subscribing to our [mailing list](https://www.lists.kit.edu/sympa/subscribe/labimotion-users) [<i class="bi bi-envelope-at"></i> Subscribe](https://www.lists.kit.edu/sympa/subscribe/labimotion-users){: .btn .btn-blue }
+Get the latest development updates [<i class="bi bi-newspaper"></i> Subscribe](https://www.lists.kit.edu/sympa/subscribe/labimotion-users){: .btn .btn-blue }
 
 Best regards,<br>
 LabIMotion Team

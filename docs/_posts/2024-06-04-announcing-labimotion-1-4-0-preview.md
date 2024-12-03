@@ -8,6 +8,7 @@ description: "Join the preview of Chemotion LabIMotion 1.4.0 and explore excitin
 ---
 
 # 🎉 2024.06.04 Preview Start! Join the Chemotion LabIMotion 1.4.0 Preview!
+{: .fw-500 }
 
 Dear Chemotion LabIMotion users,
 

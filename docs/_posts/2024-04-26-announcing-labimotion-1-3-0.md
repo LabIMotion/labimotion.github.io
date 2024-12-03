@@ -8,6 +8,7 @@ description: "LabIMotion 1.3.0 brings new features including Generic Element Rep
 ---
 
 # 2024.04.26 LabIMotion 1.3.0 is here! 🥁
+{: .fw-500 }
 
 The open source LabIMotion project just released LabIMotion 1.3.0 with features and bug fixes.
 

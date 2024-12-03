@@ -8,6 +8,7 @@ description: Important Notice - Change in Test Instance
 ---
 
 # Important Notice - Change in Test Instance
+{: .fw-500 }
 
 We would like to inform you that we have established a new test instance to replace the current one. This decision was made to mitigate potential impacts caused by the unavailability of the cloud service utilized by the current instance.
 
