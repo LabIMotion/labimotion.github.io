@@ -23,15 +23,15 @@ The LabIMotion Blog shares updates and insights to help you standardize your lab
 
 {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
 {% for post in sorted_posts limit:1 %}
-  <article class="post-preview">
+  <article class="post-preview mb-6">
     {% if post.categories %}
-    <div class="post-categories">
+    <div class="post-categories mt-6">
       {% for category in post.categories %}
         <a href="./categories#{{ category | slugify }}" class="category-tag">{{ category }}</a>
       {% endfor %}
     </div>
     {% endif %}
-    <h3 class="mt-3">
+    <h3>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </h3>
     {% if post.description %}
