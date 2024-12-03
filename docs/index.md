@@ -19,7 +19,6 @@ The LabIMotion Blog shares updates and insights to help you standardize your lab
 ---
 
 ## Latest Updates
-{: .text-purple-200 }
 
 {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
 {% for post in sorted_posts limit:1 %}
@@ -43,9 +42,11 @@ The LabIMotion Blog shares updates and insights to help you standardize your lab
 
 [View All Posts](./blog/archive) | [Browse by Category](./blog/categories)
 
-## Feedback
+## Stay Connected
 
-We appreciate your feedback regarding any challenges you may be facing with the current version or any ideas you have for improvements. Subscribe to the LabIMotion Newsletter or send us an email.
+We value your feedback on any challenges you're facing with the current version or suggestions for improvement. Feel free to share your thoughts with us via email.
 
-[<i class="bi bi-newspaper"></i> Subscribe](https://www.lists.kit.edu/sympa/subscribe/labimotion-users){: .btn .btn-blue }
+Subscribe to stay updated on the latest developments, tips, and best practices.
+
 [<i class="bi bi-envelope-at"></i> Email Us](mailto:chemotion-labimotion@lists.kit.edu){: .btn .btn-blue }
+[<i class="bi bi-newspaper"></i> Subscribe](https://www.lists.kit.edu/sympa/subscribe/labimotion-users){: .btn .btn-blue }

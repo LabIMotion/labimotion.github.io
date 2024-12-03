@@ -7,11 +7,9 @@ categories: [Announcements, Preview]
 description: "Join the preview of Chemotion LabIMotion 1.5.0 and explore exciting new features including vocabulary enhancements, generic layer support, and UI foundation improvements."
 ---
 
-# 🎉 Chemotion LabIMotion 1.5.0 Preview!
+<h1 class="fw-500">🎉 Chemotion LabIMotion 1.5.0 Preview!</h1>
 
-{: .fw-500 }
-
-<time datetime="{{ page.date | date_to_xmlschema }}" class="fs-3 fw-500">{{ page.date | date: "%B %d, %Y" }}</time>
+<time datetime="{{ page.date | date_to_xmlschema }}" class="fw-500">{{ page.date | date: "%B %d, %Y" }}</time>
 
 Dear Chemotion LabIMotion users,
 
@@ -53,10 +51,9 @@ LabIMotion Team
 
 ---
 
-### Subscribe to Us!
+### Subscribe & Share Feedback
 
-Get the latest development updates, tips, and best practices.
+Get the latest development updates, tips, and best practices, or share your feedback with us.
 
 [<i class="bi bi-newspaper"></i> Subscribe](https://www.lists.kit.edu/sympa/subscribe/labimotion-users){: .btn .btn-blue }
 [<i class="bi bi-envelope-at"></i> Email Us](mailto:chemotion-labimotion@lists.kit.edu){: .btn .btn-blue }
-
