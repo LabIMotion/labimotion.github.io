@@ -2,6 +2,7 @@
 layout: default
 title: "LabIMotion 2.0.0 Public Preview"
 date: 2024-12-05
+author: "Claire Lin"
 parent: Blog
 categories: [Announcements, Preview]
 description: "This is a significant milestone for LabIMotion as we are upgrading to the latest version of react-bootstrap, the main library for UI components. We have also introduced new features to enhance the user experience."
@@ -11,7 +12,15 @@ description: "This is a significant milestone for LabIMotion as we are upgrading
 # Chemotion LabIMotion 2.0.0 Preview Start!
 {: .fw-500 }
 
-<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+<span class="fw-500">{{ page.author }}</span><span class="mx-2 fw-500">·</span><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+
+<hr class="custom-hr">
+
+<style>
+.custom-hr {
+    border-top: 1px solid var(--bs-primary);
+}
+</style>
 
 Dear Chemotion LabIMotion users,
 
@@ -27,16 +36,16 @@ With the new version of react-bootstrap and feedback from the community, we've a
 
 Based on community feedback, we have redesigned the form layout with a more general style to make it easier for users to get started.
 
-[![Form Layout](../assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/form-layout.png){: .mx-auto .d-block .mb-4 .img-fluid .w-75 }](../assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/form-layout.png){:target="_blank"}
+[![Form Layout](/assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/form-layout.png){: .mx-auto .d-block .mb-4 .img-fluid .w-75 }](/assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/form-layout.png){:target="_blank"}
 
 ### Arranging the order
 
 Drag-and-drop is a highly interactive and user-friendly feature. We use drag-and-drop to perform reordering layers or fields for Designer, and the similar feature for User to rearrange the layers in the workspace. Reordering is great, but it's even better if the user can compare the original order at the same time. Therefore, we have provided a dedicated feature for ordering that allows you to visually compare the original order and the new order.
 
 <div style="display: flex; justify-content: center;">
-  <a href="../assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/arrange-layers.mp4" target="_blank" style="display: block;">
+  <a href="/assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/arrange-layers.mp4" target="_blank" style="display: block;">
     <video width="75%" controls autoplay loop muted>
-      <source src="../assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/arrange-layers.mp4" type="video/mp4">
+      <source src="/assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/arrange-layers.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </a>
@@ -46,13 +55,13 @@ Drag-and-drop is a highly interactive and user-friendly feature. We use drag-and
 
 As a Designer, you can find functions to reorder layers or fields accordingly.
 
-[![Arrange for Designer](../assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/arrange-for-designer.png){: .mx-auto .d-block .mb-4 .img-fluid .w-75 }](../assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/arrange-for-designer.png){:target="_blank"}
+[![Arrange for Designer](/assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/arrange-for-designer.png){: .mx-auto .d-block .mb-4 .img-fluid .w-75 }](/assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/arrange-for-designer.png){:target="_blank"}
 
 
 In user workspace (aka `MyDB`), you can find a button called `Arrange` on the toolbar and use it to rearrange layers.
 
 
-[![Arrange for User](../assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/arrange-for-user.png){: .mx-auto .d-block .mb-4 .img-fluid .w-75 }](../assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/arrange-for-user.png){:target="_blank"}
+[![Arrange for User](/assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/arrange-for-user.png){: .mx-auto .d-block .mb-4 .img-fluid .w-75 }](/assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/arrange-for-user.png){:target="_blank"}
 
 ## Workflow for Segment
 
@@ -61,11 +70,11 @@ In this version, we have introduced the workflow functionality to Segment. As a 
 > [!NOTE]
 > For more details about the workflow feature, please refer to the [Designer Guide](https://www.chemotion.net/docs/labimotion/guides/designer/workflow).
 
-[![Workflow for Segment Designer](../assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/workflow-segment-designer.png){: .mx-auto .d-block .mb-4 .img-fluid .w-75 }](../assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/workflow-segment-designer.png){:target="_blank"}
+[![Workflow for Segment Designer](/assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/workflow-segment-designer.png){: .mx-auto .d-block .mb-4 .img-fluid .w-75 }](/assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/workflow-segment-designer.png){:target="_blank"}
 
 When you use a Segment that contains a predefined workflow, the workflow is automatically applied to the Segment and you can click the `Workflow (Predefined)` button to view the defined workflow.
 
-[![Workflow for Segment User](../assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/workflow-segment-user.png){: .mx-auto .d-block .mb-4 .img-fluid .w-75 }](../assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/workflow-segment-user.png){:target="_blank"}
+[![Workflow for Segment User](/assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/workflow-segment-user.png){: .mx-auto .d-block .mb-4 .img-fluid .w-75 }](/assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/workflow-segment-user.png){:target="_blank"}
 
 ---
 
