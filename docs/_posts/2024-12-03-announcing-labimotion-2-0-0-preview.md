@@ -58,13 +58,18 @@ Drag-and-drop is a highly interactive and user-friendly feature. We use drag-and
 
 As a Designer, you can find functions to reorder layers or fields accordingly.
 
-[![Arrange for Designer](/assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/arrange-for-designer.png){: .mx-auto .d-block .mb-4 .img-fluid .w-75 }](/assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/arrange-for-designer.png){:target="_blank"}
+(Click to view in a new window <i class="bi bi-window"></i>)
+{: .fs-2 .mb-0 }
 
+[![Arrange for Designer](/assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/arrange-for-designer.png){: .mx-auto .d-block .mb-4 .img-fluid .w-75 }](/assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/arrange-for-designer.png){:target="_blank"}
+{: .mt-0 }
 
 In user workspace (aka `MyDB`), you can find a button called `Arrange` on the toolbar and use it to rearrange layers.
 
-
+(Click to view in a new window <i class="bi bi-window"></i>)
+{: .fs-2 .mb-0 }
 [![Arrange for User](/assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/arrange-for-user.png){: .mx-auto .d-block .mb-4 .img-fluid .w-75 }](/assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/arrange-for-user.png){:target="_blank"}
+{: .mt-0 }
 
 ## Workflow for Segment
 
@@ -73,11 +78,17 @@ In this version, we have introduced the workflow functionality to Segment. As a 
 > [!NOTE]
 > For more details about the workflow feature, please refer to the [Designer Guide](https://www.chemotion.net/docs/labimotion/guides/designer/workflow).
 
+(Click to view in a new window <i class="bi bi-window"></i>)
+{: .fs-2 .mb-0 }
 [![Workflow for Segment Designer](/assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/workflow-segment-designer.png){: .mx-auto .d-block .mb-4 .img-fluid .w-75 }](/assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/workflow-segment-designer.png){:target="_blank"}
+{: .mt-0 }
 
 When you use a Segment that contains a predefined workflow, the workflow is automatically applied to the Segment and you can click the `Workflow (Predefined)` button to view the defined workflow.
 
+(Click to view in a new window <i class="bi bi-window"></i>)
+{: .fs-2 .mb-0 }
 [![Workflow for Segment User](/assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/workflow-segment-user.png){: .mx-auto .d-block .mb-4 .img-fluid .w-75 }](/assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/workflow-segment-user.png){:target="_blank"}
+{: .mt-0 }
 
 ## Vocabularies and Standard Layers Updates
 
