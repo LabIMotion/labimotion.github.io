@@ -16,13 +16,7 @@ description: "This is a significant milestone for LabIMotion as we are upgrading
 
 <span class="fw-500">{{ page.author }}</span><span class="mx-2 fw-500">·</span><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
 
-<hr class="custom-hr">
-
-<style>
-.custom-hr {
-    border-top: 1px solid var(--bs-primary);
-}
-</style>
+<hr class="primary-hr">
 
 Dear Chemotion LabIMotion users,
 
@@ -90,15 +84,11 @@ We appreciate your participation and look forward to your feedback.
 
 Thank you!
 
-
-Best regards,<br>
-LabIMotion Team
-
 ---
 
-### Subscribe to Us!
+### Subscribe & Share Feedback
 
-Get the latest development updates, tips, and best practices.
+Get the latest development updates, tips, and best practices, or share your feedback with us.
 
 [<i class="bi bi-newspaper"></i> Subscribe](https://www.lists.kit.edu/sympa/subscribe/labimotion-users){: .btn .btn-blue }
 [<i class="bi bi-envelope-at"></i> Email Us](mailto:chemotion-labimotion@lists.kit.edu){: .btn .btn-blue }

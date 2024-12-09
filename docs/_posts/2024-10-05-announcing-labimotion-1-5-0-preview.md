@@ -8,17 +8,14 @@ categories: [Announcements, Preview]
 description: "Join the preview of Chemotion LabIMotion 1.5.0 and explore exciting new features including vocabulary enhancements, generic layer support, and UI foundation improvements."
 ---
 
-<h1 class="fw-500">🎉 Chemotion LabIMotion 1.5.0 Preview!</h1>
+# 🎉 Chemotion LabIMotion 1.5.0 Preview!
+{: .fw-500 }
+
+<span class="fs-3">{{ page.description }}<span>
 
 <span class="fw-500">{{ page.author }}</span><span class="mx-2 fw-500">·</span><time datetime="{{ page.date | date_to_xmlschema }}" class="fw-500">{{ page.date | date: "%B %d, %Y" }}</time>
 
-<hr class="custom-hr">
-
-<style>
-.custom-hr {
-    border-top: 1px solid var(--bs-primary);
-}
-</style>
+<hr class="primary-hr">
 
 We're excited to share the upcoming features we've prepared. Please feel free to explore these enhancements in our [test instance](https://labimotion-stage.ibcs.kit.edu/home) and share your thoughts and observations in our discussion thread.
 
