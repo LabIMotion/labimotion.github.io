@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "LabIMotion 2.0.0 Public Preview"
-date: 2024-12-05
+date: 2024-12-10
 author: "Claire Lin"
 parent: Blog
 categories: [Announcements, Preview]
@@ -78,7 +78,7 @@ When you use a Segment that contains a predefined workflow, the workflow is auto
 
 1. 🖥️ **Visit the Test Instance:** [Link to Test Instance](https://labimotion-stage.ibcs.kit.edu/home)
 2. 🔍 **Explore the New Features:** Dive into the new functionalities and see how they enhance your workflow.
-3. ❤️ **Provide Feedback:** For the feedback of this preview, please share your thoughts and observations in our discussion thread [Link to Discussion Thread](https://github.com/LabIMotion/labimotion/discussions/38).
+3. 💬 **Provide Feedback:** For the feedback of this preview, please share your thoughts and observations in our discussion thread [Link to Discussion Thread](https://github.com/LabIMotion/labimotion/discussions/38).
 
 We appreciate your participation and look forward to your feedback.
 
@@ -97,9 +97,9 @@ Thank you!
 
 ---
 
-### Subscribe & Share Feedback
+### Subscribe to Us!
 
-Get the latest development updates, tips, and best practices, or share your feedback with us.
+Get the latest development updates, tips, and best practices.
 
 [<i class="bi bi-newspaper"></i> Subscribe](https://www.lists.kit.edu/sympa/subscribe/labimotion-users){: .btn .btn-blue }
 [<i class="bi bi-envelope-at"></i> Email Us](mailto:chemotion-labimotion@lists.kit.edu){: .btn .btn-blue }

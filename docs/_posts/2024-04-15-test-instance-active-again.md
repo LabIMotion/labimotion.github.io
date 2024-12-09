@@ -2,6 +2,7 @@
 layout: default
 title: Test instance active again
 date: 2024-04-15
+author: "Claire Lin"
 parent: Blog
 categories: [Announcements]
 description: Test instance active again

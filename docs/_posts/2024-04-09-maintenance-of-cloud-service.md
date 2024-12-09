@@ -2,6 +2,7 @@
 layout: default
 title: Maintenance of cloud service
 date: 2024-04-09
+author: "Claire Lin"
 parent: Blog
 categories: [Announcements]
 description: Maintenance of cloud service

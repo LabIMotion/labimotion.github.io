@@ -2,6 +2,7 @@
 layout: default
 title: Important Notice - Change in Test Instance
 date: 2024-04-16
+author: "Claire Lin"
 parent: Blog
 categories: [Announcements]
 description: Important Notice - Change in Test Instance

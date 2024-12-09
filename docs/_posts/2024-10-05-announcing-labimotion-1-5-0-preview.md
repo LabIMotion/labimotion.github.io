@@ -15,7 +15,7 @@ description: "Join the preview of Chemotion LabIMotion 1.5.0 and explore excitin
 
 <span class="fw-500">{{ page.author }}</span><span class="mx-2 fw-500">·</span><time datetime="{{ page.date | date_to_xmlschema }}" class="fw-500">{{ page.date | date: "%B %d, %Y" }}</time>
 
-<hr class="primary-hr">
+<hr style="border-top: 1px solid #0d6efd;">
 
 We're excited to share the upcoming features we've prepared. Please feel free to explore these enhancements in our [test instance](https://labimotion-stage.ibcs.kit.edu/home) and share your thoughts and observations in our discussion thread.
 
