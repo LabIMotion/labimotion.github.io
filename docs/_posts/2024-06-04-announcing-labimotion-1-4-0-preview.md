@@ -52,7 +52,7 @@ Thank you!
   <div class="post-categories mt-6">
     Categories:&nbsp;&nbsp;
     {% for category in page.categories %}
-      <a href="./categories#{{ category | slugify }}" class="category-tag">{{ category }}</a>
+      <a href="/blog/categories#{{ category | slugify }}" class="category-tag">{{ category }}</a>
     {% endfor %}
   </div>
 {% endif %}

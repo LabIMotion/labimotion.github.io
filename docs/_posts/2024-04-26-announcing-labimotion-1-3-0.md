@@ -41,7 +41,7 @@ For more detailed information, please refer to the release notes for [1.3.0](htt
   <div class="post-categories mt-6">
     Categories:&nbsp;&nbsp;
     {% for category in page.categories %}
-      <a href="./categories#{{ category | slugify }}" class="category-tag">{{ category }}</a>
+      <a href="/blog/categories#{{ category | slugify }}" class="category-tag">{{ category }}</a>
     {% endfor %}
   </div>
 {% endif %}

@@ -25,7 +25,7 @@ We are pleased to announce the release of LabIMotion 1.4.0! 🚀 Discover the ex
   <div class="post-categories mt-6">
     Categories:&nbsp;&nbsp;
     {% for category in page.categories %}
-      <a href="./categories#{{ category | slugify }}" class="category-tag">{{ category }}</a>
+      <a href="/blog/categories#{{ category | slugify }}" class="category-tag">{{ category }}</a>
     {% endfor %}
   </div>
 {% endif %}

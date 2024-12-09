@@ -15,5 +15,22 @@ We would like to inform you that we have established a new test instance to repl
 
 The new instance is at [https://labimotion-stage.ibcs.kit.edu/home](https://labimotion-stage.ibcs.kit.edu/home).
 
-Best regards,<br>
-LabIMotion Team
+---
+
+{% if page.categories %}
+  <div class="post-categories mt-6">
+    Categories:&nbsp;&nbsp;
+    {% for category in page.categories %}
+      <a href="/blog/categories#{{ category | slugify }}" class="category-tag">{{ category }}</a>
+    {% endfor %}
+  </div>
+{% endif %}
+
+---
+
+### Subscribe & Share Feedback
+
+Get the latest development updates, tips, and best practices, or share your feedback with us.
+
+[<i class="bi bi-newspaper"></i> Subscribe](https://www.lists.kit.edu/sympa/subscribe/labimotion-users){: .btn .btn-blue }
+[<i class="bi bi-envelope-at"></i> Email Us](mailto:chemotion-labimotion@lists.kit.edu){: .btn .btn-blue }
