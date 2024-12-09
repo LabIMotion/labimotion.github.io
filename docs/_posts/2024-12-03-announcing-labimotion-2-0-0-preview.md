@@ -33,15 +33,19 @@ With the new version of react-bootstrap and feedback from the community, we've a
 Based on community feedback, we have redesigned the form layout with a more general style to make it easier for users to get started.
 
 (Click to view in a new window <i class="bi bi-window"></i>)
-{: .fs-2 }
+{: .fs-2 .mb-0 }
 
 [![Form Layout](/assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/form-layout.png){: .mx-auto .d-block .mb-4 .img-fluid .w-75 }](/assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/form-layout.png){:target="_blank"}
+{: .mt-0 }
 
 ### Arranging the order
 
 Drag-and-drop is a highly interactive and user-friendly feature. We use drag-and-drop to perform reordering layers or fields for Designer, and the similar feature for User to rearrange the layers in the workspace. Reordering is great, but it's even better if the user can compare the original order at the same time. Therefore, we have provided a dedicated feature for ordering that allows you to visually compare the original order and the new order.
 
-<div style="display: flex; justify-content: center;">
+(Click to view in a new window <i class="bi bi-window"></i>)
+{: .fs-2 .mb-0 }
+
+<div style="display: flex; justify-content: center; margin-top: 0;">
   <a href="/assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/arrange-layers.mp4" target="_blank" style="display: block;">
     <video width="75%" controls autoplay loop muted>
       <source src="/assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/arrange-layers.mp4" type="video/mp4">
@@ -74,6 +78,10 @@ In this version, we have introduced the workflow functionality to Segment. As a 
 When you use a Segment that contains a predefined workflow, the workflow is automatically applied to the Segment and you can click the `Workflow (Predefined)` button to view the defined workflow.
 
 [![Workflow for Segment User](/assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/workflow-segment-user.png){: .mx-auto .d-block .mb-4 .img-fluid .w-75 }](/assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/workflow-segment-user.png){:target="_blank"}
+
+## Vocabularies and Standard Layers Updates
+
+
 
 ---
 
