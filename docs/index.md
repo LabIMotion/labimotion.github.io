@@ -26,7 +26,7 @@ The LabIMotion Blog shares updates and insights to help you standardize your lab
     {% if post.categories %}
     <div class="post-categories mt-6">
       {% for category in post.categories %}
-        <a href="./categories#{{ category | slugify }}" class="category-tag">{{ category }}</a>
+        <a href="./blog/categories#{{ category | slugify }}" class="category-tag">{{ category }}</a>
       {% endfor %}
     </div>
     {% endif %}
