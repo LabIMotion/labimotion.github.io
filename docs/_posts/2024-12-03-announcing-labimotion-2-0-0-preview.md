@@ -32,6 +32,8 @@ With the new version of react-bootstrap and feedback from the community, we've a
 
 Based on community feedback, we have redesigned the form layout with a more general style to make it easier for users to get started.
 
+(Click to view in a new window <i class="bi bi-window"></i>)
+
 [![Form Layout](/assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/form-layout.png){: .mx-auto .d-block .mb-4 .img-fluid .w-75 }](/assets/images/posts/2024-12-03-announcing-labimotion-2-0-0-preview/form-layout.png){:target="_blank"}
 
 ### Arranging the order
