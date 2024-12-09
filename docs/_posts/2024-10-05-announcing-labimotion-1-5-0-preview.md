@@ -2,6 +2,7 @@
 layout: default
 title: "LabIMotion 1.5.0 Public Preview"
 date: 2024-10-05
+author: "Claire Lin"
 parent: Blog
 categories: [Announcements, Preview]
 description: "Join the preview of Chemotion LabIMotion 1.5.0 and explore exciting new features including vocabulary enhancements, generic layer support, and UI foundation improvements."
@@ -9,9 +10,7 @@ description: "Join the preview of Chemotion LabIMotion 1.5.0 and explore excitin
 
 <h1 class="fw-500">🎉 Chemotion LabIMotion 1.5.0 Preview!</h1>
 
-<time datetime="{{ page.date | date_to_xmlschema }}" class="fw-500">{{ page.date | date: "%B %d, %Y" }}</time>
-
-Dear Chemotion LabIMotion users,
+{{ page.author }}<span class="mx-2">·</span><time datetime="{{ page.date | date_to_xmlschema }}" class="fw-500">{{ page.date | date: "%B %d, %Y" }}</time>
 
 We're excited to share the upcoming features we've prepared. Please feel free to explore these enhancements in our [test instance](https://labimotion-stage.ibcs.kit.edu/home) and share your thoughts and observations in our discussion thread.
 
@@ -34,9 +33,6 @@ All details and videos are available at [here](https://github.com/LabIMotion/lab
 We appreciate your participation and look forward to your feedback.
 
 Thank you!
-
-Best regards,<br>
-LabIMotion Team
 
 ---
 

@@ -7,6 +7,7 @@ has_toc: true
 ---
 
 # LabIMotion Blog
+{: .fw-500 }
 
 ## Latest Posts
 
@@ -16,7 +17,7 @@ has_toc: true
     <h3>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </h3>
-    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="fw-500">{{ post.date | date: "%B %d, %Y" }}</time>
     {% if post.categories %}
     <div class="post-categories">
       Categories:
