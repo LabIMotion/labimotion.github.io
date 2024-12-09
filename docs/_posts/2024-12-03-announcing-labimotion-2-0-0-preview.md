@@ -12,6 +12,8 @@ description: "This is a significant milestone for LabIMotion as we are upgrading
 # Chemotion LabIMotion 2.0.0 Preview Start!
 {: .fw-500 }
 
+<p class="fs-3">{{ page.description }}<p>
+
 <span class="fw-500">{{ page.author }}</span><span class="mx-2 fw-500">·</span><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
 
 <hr class="custom-hr">
