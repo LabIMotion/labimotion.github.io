@@ -12,7 +12,7 @@ description: "This is a significant milestone for LabIMotion as we are upgrading
 # Chemotion LabIMotion 2.0.0 Preview Start!
 {: .fw-500 }
 
-<p class="fs-3">{{ page.description }}<p>
+<span class="fs-3">{{ page.description }}<span>
 
 <span class="fw-500">{{ page.author }}</span><span class="mx-2 fw-500">·</span><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
 
@@ -84,7 +84,7 @@ When you use a Segment that contains a predefined workflow, the workflow is auto
 
 1. 🖥️ **Visit the Test Instance:** [Link to Test Instance](https://labimotion-stage.ibcs.kit.edu/home)
 2. 🔍 **Explore the New Features:** Dive into the new functionalities and see how they enhance your workflow.
-3. 💬 **Provide Feedback:** For the feedback of this preview, please share your thoughts and observations in our discussion thread [Link to Discussion Thread](https://github.com/LabIMotion/labimotion/discussions/38).
+3. ❤️ **Provide Feedback:** For the feedback of this preview, please share your thoughts and observations in our discussion thread [Link to Discussion Thread](https://github.com/LabIMotion/labimotion/discussions/38).
 
 We appreciate your participation and look forward to your feedback.
 
