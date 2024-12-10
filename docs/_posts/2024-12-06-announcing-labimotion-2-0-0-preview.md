@@ -122,7 +122,7 @@ In the initial release of the LabIMotion Vocabulary (Lab-Vocab) and Generic Laye
 
 1. 🖥️ **Visit the Test Instance:** [Link to Test Instance](https://labimotion-stage.ibcs.kit.edu/home)
 2. 🔍 **Explore the New Features:** Dive into the new functionalities and see how they enhance your workflow.
-3. ❤️ **Provide Feedback:** For the feedback of this preview, please share your thoughts and observations in our discussion thread [Link to Discussion Thread](https://github.com/LabIMotion/labimotion/discussions/38).
+3. ❤️ **Provide Feedback:** For the feedback of this preview, please share your thoughts and observations in our discussion thread [Link to Discussion Thread](https://github.com/LabIMotion/labimotion/discussions/39).
 
 We appreciate your participation and look forward to your feedback.
 
