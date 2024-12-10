@@ -98,7 +98,7 @@ In the initial release of the LabIMotion Vocabulary (Lab-Vocab) and Generic Laye
 
 (Click to view in a new window <i class="bi bi-window"></i>)
 {: .fs-2 .mb-0 }
-[![Vocab and Generic Layers Example](/assets/images/posts/2024-12-06-announcing-labimotion-2-0-0-preview/generic-vocab-and-layers_dataset-example){: .mx-auto .d-block .mb-4 .img-fluid .w-75 }](/assets/images/posts/2024-12-06-announcing-labimotion-2-0-0-preview/generic-vocab-and-layers_dataset-example){:target="_blank"}
+[![Vocab and Generic Layers Example](/assets/images/posts/2024-12-06-announcing-labimotion-2-0-0-preview/generic-vocab-and-layers_dataset-example.png){: .mx-auto .d-block .mb-4 .img-fluid .w-75 }](/assets/images/posts/2024-12-06-announcing-labimotion-2-0-0-preview/generic-vocab-and-layers_dataset-example.png){:target="_blank"}
 {: .mt-0 }
 
 
