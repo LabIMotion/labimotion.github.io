@@ -1,0 +1,5 @@
+<span class="fs-3">{{ include.description }}</span>
+
+<span class="fs-3 fw-300">{{ include.author }}</span><span class="mx-2 fs-3 fw-300">·</span><time class="fs-3 fw-300" datetime="{{ include.date | date_to_xmlschema }}">{{ include.date | date: "%B %d, %Y" }}</time>
+
+<hr class="primary-hr">

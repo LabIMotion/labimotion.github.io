@@ -1,0 +1,73 @@
+// Turquoise color scheme
+// A fresh, marine-inspired color palette
+
+// Color variables
+$turquoise: #40E0D0;
+$turquoise-dark: #20B2AA;
+$turquoise-light: #7FFFD4;
+$turquoise-very-light: #E0FFFF;
+$turquoise-very-dark: #008B8B;
+
+$accent-teal: #48D1CC;
+$highlight-aqua: #AFEEEE;
+$neutral-gray: #F8F8F8;
+$text-gray: #333333;
+$white: #FFFFFF;
+
+// Base colors
+$body-background-color: $white;
+$sidebar-color: $turquoise-very-light;
+$search-background-color: $turquoise-very-light;
+$table-background-color: $white;
+$code-background-color: $neutral-gray;
+$feedback-color: darken($sidebar-color, 3%);
+
+// Text colors
+$body-text-color: $text-gray;
+$body-heading-color: $turquoise-very-dark;
+$search-result-preview-color: $text-gray;
+$link-color: $turquoise-dark;
+$btn-primary-color: $turquoise-dark;
+$base-button-color: $neutral-gray;
+
+// Border colors
+$border-color: $highlight-aqua;
+$table-border-color: $highlight-aqua;
+
+// Navigation colors
+$nav-child-link-color: $turquoise-dark;
+$nav-link-color: $turquoise-very-dark;
+
+// Button colors
+$btn-primary-color: $turquoise-dark;
+
+// Focus colors
+$focus-color: lighten($turquoise, 10%);
+
+// Typography
+$body-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$mono-font-family: "SFMono-Regular", Menlo, Consolas, Monospace;
+$root-font-size: 16px;
+$body-line-height: 1.5;
+$content-line-height: 1.6;
+$body-heading-line-height: 1.25;
+
+// Spacing
+$sp-1: 0.25rem;
+$sp-2: 0.5rem;
+$sp-3: 0.75rem;
+$sp-4: 1rem;
+$sp-5: 1.5rem;
+$sp-6: 2rem;
+$sp-7: 2.5rem;
+$sp-8: 3rem;
+$sp-9: 3.5rem;
+$sp-10: 4rem;
+$gutter-spacing: $sp-6;
+$gutter-spacing-sm: $sp-4;
+$nav-spacing: $sp-4;
+$nav-width: 18.75rem;
+$nav-width-md: 18.75rem;
+$content-width: 50rem;
+$header-height: 3.75rem;
+$transition-duration: 400ms;

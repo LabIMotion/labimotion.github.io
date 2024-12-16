@@ -1,0 +1,9 @@
+{% if include.categories %}
+  <div class="post-categories mt-4">
+    Categories:&nbsp;&nbsp;
+    {% for category in include.categories %}
+      {% assign category_slug = category | strip | replace: " ", "-" | downcase %}
+      <a href="{{ site.baseurl }}/blog/categories/{{ category_slug }}" class="category-tag">{{ category }}</a>
+    {% endfor %}
+  </div>
+{% endif %}

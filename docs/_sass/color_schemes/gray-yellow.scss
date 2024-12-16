@@ -1,0 +1,75 @@
+// Gray-Yellow color scheme
+// Based on PANTONE 17-5104 Ultimate Gray + PANTONE 13-0647 Illuminating
+
+// Color variables
+$ultimate-gray: #939597; // PANTONE 17-5104 Ultimate Gray
+$illuminating: #F5DF4D; // PANTONE 13-0647 Illuminating
+
+$gray-dark: #636363;
+$gray-light: #BCBCBC;
+$gray-very-light: #F5F5F5;
+$gray-very-dark: #333333;
+
+$yellow-dark: #E6C60D;
+$yellow-light: #F9EB80;
+$yellow-very-light: #FEFBE8;
+$neutral-offwhite: #FAFAFA;
+$white: #FFFFFF;
+
+// Base colors
+$body-background-color: $white;
+$sidebar-color: $gray-very-light;
+$search-background-color: $neutral-offwhite;
+$table-background-color: $white;
+$code-background-color: $gray-very-light;
+$feedback-color: darken($sidebar-color, 3%);
+
+// Text colors
+$body-text-color: $gray-very-dark;
+$body-heading-color: $gray-dark;
+$search-result-preview-color: $gray-dark;
+$link-color: $gray-dark;
+$btn-primary-color: $ultimate-gray;
+$base-button-color: $neutral-offwhite;
+
+// Border colors
+$border-color: $gray-light;
+$table-border-color: $gray-light;
+
+// Navigation colors
+$nav-child-link-color: $gray-dark;
+$nav-link-color: $gray-very-dark;
+
+// Button colors
+$btn-primary-color: $ultimate-gray;
+
+// Focus colors
+$focus-color: $illuminating;
+
+// Typography
+$body-font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$mono-font-family: "SFMono-Regular", Menlo, Consolas, Monospace;
+$root-font-size: 16px;
+$body-line-height: 1.5;
+$content-line-height: 1.6;
+$body-heading-line-height: 1.25;
+
+// Spacing
+$sp-1: 0.25rem;
+$sp-2: 0.5rem;
+$sp-3: 0.75rem;
+$sp-4: 1rem;
+$sp-5: 1.5rem;
+$sp-6: 2rem;
+$sp-7: 2.5rem;
+$sp-8: 3rem;
+$sp-9: 3.5rem;
+$sp-10: 4rem;
+$gutter-spacing: $sp-6;
+$gutter-spacing-sm: $sp-4;
+$nav-spacing: $sp-4;
+$nav-width: 18.75rem;
+$nav-width-md: 18.75rem;
+$content-width: 50rem;
+$header-height: 3.75rem;
+$transition-duration: 400ms;

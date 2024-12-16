@@ -1,0 +1,104 @@
+// Ultra Violet color scheme
+// Based on PANTONE 18-3838 Ultra Violet
+
+// Color variables
+$ultra-violet: #5F4B8B; // PANTONE 18-3838 Ultra Violet
+$violet-dark: #483A6A;
+$violet-light: #8C77B0;
+$violet-very-light: #EAE5F3;
+$violet-very-dark: #322849;
+
+$accent-lavender: #B2A1D0;
+$highlight-lilac: #D0C5E7;
+$neutral-gray: #F7F7F7;
+$warm-gray: #F0EDF5;
+$text-gray: #323232;
+$white: #FFFFFF;
+
+// Base colors
+$body-background-color: $white;
+$sidebar-color: $violet-very-light;
+$search-background-color: $warm-gray;
+$table-background-color: $white;
+$code-background-color: $neutral-gray;
+$feedback-color: darken($sidebar-color, 3%);
+
+// Text colors
+$body-text-color: $text-gray;
+$body-heading-color: $violet-dark;
+$search-result-preview-color: $text-gray;
+$link-color: $ultra-violet;
+$btn-primary-color: $ultra-violet;
+$base-button-color: $neutral-gray;
+
+// Border colors
+$border-color: $accent-lavender;
+$table-border-color: $accent-lavender;
+
+// Navigation colors
+$nav-child-link-color: $ultra-violet;
+$nav-link-color: $violet-dark;
+
+// Button colors
+$btn-primary-color: $ultra-violet;
+
+// Focus colors
+$focus-color: $ultra-violet;
+
+// Typography
+$body-font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$mono-font-family: "SFMono-Regular", Menlo, Consolas, Monospace;
+$root-font-size: 16px;
+$body-line-height: 1.5;
+$content-line-height: 1.6;
+$body-heading-line-height: 1.25;
+
+// Spacing
+$sp-1: 0.25rem;
+$sp-2: 0.5rem;
+$sp-3: 0.75rem;
+$sp-4: 1rem;
+$sp-5: 1.5rem;
+$sp-6: 2rem;
+$sp-7: 2.5rem;
+$sp-8: 3rem;
+$sp-9: 3.5rem;
+$sp-10: 4rem;
+$gutter-spacing: $sp-6;
+$gutter-spacing-sm: $sp-4;
+$nav-spacing: $sp-4;
+$nav-width: 18.75rem;
+$nav-width-md: 18.75rem;
+$content-width: 50rem;
+$header-height: 3.75rem;
+$transition-duration: 400ms;
+
+// Add callout-specific variables to your color scheme
+
+$purple-000: #EAE5F3;
+$purple-100: #D4CAE7;
+$purple-200: #B09ECF;
+$purple-300: #8C73B7;
+$purple-400: #5F4B8B; // Ultra Violet
+
+$yellow-000: #FFFAEC;
+$yellow-100: #FFF3D0;
+$yellow-200: #FFE6A0;
+$yellow-300: #FFD970;
+$yellow-400: #FFBA0A;
+
+$red-000: #FCE8EC;
+$red-100: #F8D0DC;
+$red-200: #F2A2B9;
+$red-300: #EC7396;
+$red-400: #C24270;
+
+// Define callout colors
+$callout-warning-color: $yellow-400;
+$callout-warning-background: $yellow-000;
+
+$callout-note-color: $purple-400;
+$callout-note-background: $purple-000;
+
+$callout-important-color: $red-400;
+$callout-important-background: $red-000;

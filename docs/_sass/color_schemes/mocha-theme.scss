@@ -1,0 +1,73 @@
+// Mocha Mousse color scheme
+// Based on PANTONE 17-1230 Mocha Mousse
+
+// Color variables
+$mocha: #A47551; // PANTONE 17-1230 Mocha Mousse
+$mocha-dark: #7D593E;
+$mocha-light: #C19978;
+$mocha-very-light: #F2E8DE;
+$mocha-very-dark: #5A4130;
+
+$accent-tan: #D8BFA8;
+$highlight-cream: #F7F2EC;
+$neutral-gray: #F9F9F9;
+$text-gray: #333333;
+$white: #FFFFFF;
+
+// Base colors
+$body-background-color: $white;
+$sidebar-color: $mocha-very-light;
+$search-background-color: $highlight-cream;
+$table-background-color: $white;
+$code-background-color: $neutral-gray;
+$feedback-color: darken($sidebar-color, 3%);
+
+// Text colors
+$body-text-color: $text-gray;
+$body-heading-color: $mocha-dark;
+$search-result-preview-color: $text-gray;
+$link-color: $mocha;
+$btn-primary-color: $mocha;
+$base-button-color: $neutral-gray;
+
+// Border colors
+$border-color: $accent-tan;
+$table-border-color: $accent-tan;
+
+// Navigation colors
+$nav-child-link-color: $mocha;
+$nav-link-color: $mocha-dark;
+
+// Button colors
+$btn-primary-color: $mocha;
+
+// Focus colors
+$focus-color: $mocha-light;
+
+// Typography
+$body-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$mono-font-family: "SFMono-Regular", Menlo, Consolas, Monospace;
+$root-font-size: 16px;
+$body-line-height: 1.5;
+$content-line-height: 1.6;
+$body-heading-line-height: 1.25;
+
+// Spacing
+$sp-1: 0.25rem;
+$sp-2: 0.5rem;
+$sp-3: 0.75rem;
+$sp-4: 1rem;
+$sp-5: 1.5rem;
+$sp-6: 2rem;
+$sp-7: 2.5rem;
+$sp-8: 3rem;
+$sp-9: 3.5rem;
+$sp-10: 4rem;
+$gutter-spacing: $sp-6;
+$gutter-spacing-sm: $sp-4;
+$nav-spacing: $sp-4;
+$nav-width: 18.75rem;
+$nav-width-md: 18.75rem;
+$content-width: 50rem;
+$header-height: 3.75rem;
+$transition-duration: 400ms;

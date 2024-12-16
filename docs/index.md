@@ -13,20 +13,36 @@ The LabIMotion Blog shares updates and insights to help you standardize your lab
 
 ![LabIMotion Blog](assets/images/labimotion_logo.png){: .mx-auto .d-block .mb-4 .img-fluid .w-75 }
 
-[View on GitHub](https://github.com/LabIMotion/labimotion){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Try LabIMotion](https://labimotion-stage.ibcs.kit.edu/home){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
+[View on GitHub](https://github.com/LabIMotion/labimotion){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [View Template Hub](https://www.chemotion-repository.net/home/genericHub){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
 ## Latest Updates
 
-{% assign sorted_posts = site.posts | sort: 'date' | reverse %}
-{% for post in sorted_posts limit:2 %}
+{% assign all_pages = site.pages %}
+{% assign blog_posts = "" | split: "" %}
+
+{% for page in all_pages %}
+  {% assign path_segments = page.path | split: '/' %}
+  {% if path_segments.size > 3 and path_segments[0] == 'blog' and path_segments[1] == 'categories' %}
+    {% if page.date and page.name != 'index.md' %}
+      {% unless page.title == 'Announcements' or page.title == 'Releases' or page.title == 'Preview' %}
+        {% assign blog_posts = blog_posts | push: page %}
+      {% endunless %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+{% assign sorted_posts = blog_posts | sort: 'date' | reverse %}
+
+{% for post in sorted_posts limit:3 %}
   <article class="post-preview mb-6">
     {% if post.categories %}
     <div class="post-categories mt-6">
       {% for category in post.categories %}
-        <a href="./blog/categories#{{ category | slugify }}" class="category-tag">{{ category }}</a>
+        <a href="{{ site.baseurl }}/blog/categories/{{ category | slugify | downcase }}" class="category-tag">{{ category }}</a>
       {% endfor %}
     </div>
     {% endif %}
@@ -46,10 +62,10 @@ The LabIMotion Blog shares updates and insights to help you standardize your lab
 
 We value your feedback on any challenges you're facing with the current version or suggestions for improvement. Feel free to share your thoughts with us via email.
 
-[<i class="bi bi-envelope-at"></i> Email Us](mailto:chemotion-labimotion@lists.kit.edu){: .btn .btn-blue }
+[<i class="bi bi-envelope-at"></i> Email Us](mailto:chemotion-labimotion@lists.kit.edu){: .btn .btn-primary }
 
 ## Newsletter
 
 Subscribe to stay updated on the latest developments, tips, and best practices.
 
-[<i class="bi bi-newspaper"></i> Subscribe](https://www.lists.kit.edu/sympa/subscribe/labimotion-users){: .btn .btn-blue }
+[<i class="bi bi-newspaper"></i> Subscribe](https://www.lists.kit.edu/sympa/subscribe/labimotion-users){: .btn .btn-primary }

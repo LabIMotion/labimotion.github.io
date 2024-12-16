@@ -13,5 +13,3 @@ The LabIMotion Blog Page is a static website built with Jekyll and hosted on Git
 Kindly utilize the :raising_hand: [LabIMotion Discussion](https://github.com/LabIMotion/labimotion) section or :e-mail: [email us](mailto:chemotion-labimotion@lists.kit.edu) for any inquiries, concerns, suggestions, or ideas you may wish to share. We will initiate the process of creating an 'issue' with the appropriate label to provide you with a more comprehensive status overview.
 
 [![GitHub](https://github.com/favicon.ico) LabIMotion](https://github.com/LabIMotion/labimotion)
-
-<!-- About: LabIMotion Schema provides a contract for the Template used and details the properties, types, and other constraints that the Template should have. -->

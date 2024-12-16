@@ -1,0 +1,39 @@
+{% comment %}
+  This include modifies the navigation to highlight the correct items for posts.
+  It works by adding a data attribute to the body that Just-the-Docs will use.
+{% endcomment %}
+
+{% if page.layout != "home" %}
+  {% if page.url contains "/blog/categories/" %}
+    {% assign segments = page.url | split: '/' %}
+    {% if segments.size >= 4 %}
+      {% assign category = segments[3] | capitalize %}
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          // Force the Categories item to be active
+          document.querySelectorAll('.nav-list-link').forEach(function(link) {
+            if (link.textContent.trim() === 'Categories') {
+              link.closest('.nav-list-item').classList.add('active');
+            }
+
+            // If we're in a specific category page or post
+            {% if segments.size >= 4 %}
+              // Find the specific category link and make it active
+              if (link.textContent.trim() === '{{ category }}') {
+                link.classList.add('active');
+                link.closest('.nav-list-item').classList.add('active');
+
+                // Also activate parent items
+                var parent = link.closest('.nav-list-item').parentElement.closest('.nav-list-item');
+                while (parent) {
+                  parent.classList.add('active');
+                  parent = parent.parentElement.closest('.nav-list-item');
+                }
+              }
+            {% endif %}
+          });
+        });
+      </script>
+    {% endif %}
+  {% endif %}
+{% endif %}

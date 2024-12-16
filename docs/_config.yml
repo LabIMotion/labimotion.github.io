@@ -3,24 +3,23 @@ description: LabIMotion Documentation
 remote_theme: just-the-docs/just-the-docs
 
 # Theme settings
-color_scheme: light
+color_scheme: ultra-violet
 search_enabled: true
 heading_anchors: true
 
 # Aux links for upper right navigation
 aux_links:
+  "Try LabIMotion":
+    - "https://labimotion-stage.ibcs.kit.edu/home"
+  "User Manual":
+    - "https://www.chemotion.net/docs/labimotion"
   "Template Hub":
     - "https://www.chemotion-repository.net/home/genericHub"
-  "LabIMotion Docs":
-    - "https://www.chemotion.net/docs/labimotion"
   "GitHub":
     - "https://github.com/LabIMotion/labimotion"
 
 # Makes Aux links open in new tab
 aux_links_new_tab: true
-
-# Footer content
-footer_content: "Copyright &copy; 2022-2024 LabIMotion."
 
 # Enable copy code button
 enable_copy_code_button: true
@@ -30,17 +29,17 @@ collections:
   schema_v1:
     permalink: "/schema/v1.0/:path"
     output: true
-  posts:
-    permalink: "/blog/:year/:month/:day/:title"
-    output: true
-    sort_by: date
-    sort_reverse: true
 
 # Enable nesting
 nav_external_links:
   - title: GitHub
     url: https://github.com/LabIMotion/labimotion
     hide_icon: false
+    opens_in_new_tab: true
+  - title: "Try LabIMotion"
+    url: https://labimotion-stage.ibcs.kit.edu/home
+    hide_icon: false
+    opens_in_new_tab: true
 
 # Maximum sidebar depth
 nav_level: 3
@@ -56,11 +55,46 @@ sass:
 # Add custom CSS
 custom_css: true
 
+sort_order: reverse
+sort:
+  default: # Default sort for everything else
+    - key: nav_order
+    - key: title
+
 # Blog-specific settings
 defaults:
+  # Category pages
+  - scope:
+      path: "blog/categories"
+      type: pages
+    values:
+      parent: Categories
+      grand_parent: Blog
+      has_toc: false
+
+  # Posts in category subfolders - let the folder structure define parent/child
+  - scope:
+      path: "blog/categories/announcements"
+    values:
+      parent: Announcements
+      grand_parent: Categories
+
+  - scope:
+      path: "blog/categories/releases"
+    values:
+      parent: Releases
+      grand_parent: Categories
+
+  - scope:
+      path: "blog/categories/preview"
+    values:
+      parent: Preview
+      grand_parent: Categories
+
+  # Generic post defaults (will be overridden by the more specific paths above)
   - scope:
       path: ""
       type: "posts"
     values:
       layout: default
-      parent: Blog
+      has_toc: false

@@ -1,0 +1,534 @@
+{"0": {
+    "doc": "Welcome to LabIMotion",
+    "title": "Welcome to Chemotion LabIMotion!🥳",
+    "content": "LabIMotion will help you to customize new modules tailored to your unique needs. An introduction to LabIMotion and its features. Claire Lin·December 20, 2023 . | 📗 Documentation: Explorer the possibility of LabIMotion . | ⚡ Sneak peek: Try the latest features out at test instance. | . If you need designer permissions, please feel free to reach out to us after creating your own account in the test instance. | 🔔 Subscribe to our mailing list to receive the latest updates. | . Best regards, LabIMotion Team . Categories:&nbsp;&nbsp; Announcements . Subscribe &amp; Share Feedback . Get the latest development updates, tips, and best practices, or share your feedback with us. Subscribe Email Us ",
+    "url": "/blog/categories/announcements/2023-12-20-welcome.html#welcome-to-chemotion-labimotion",
+    
+    "relUrl": "/blog/categories/announcements/2023-12-20-welcome.html#welcome-to-chemotion-labimotion"
+  },"1": {
+    "doc": "Welcome to LabIMotion",
+    "title": "Welcome to LabIMotion",
+    "content": " ",
+    "url": "/blog/categories/announcements/2023-12-20-welcome.html",
+    
+    "relUrl": "/blog/categories/announcements/2023-12-20-welcome.html"
+  },"2": {
+    "doc": "Maintenance of cloud service",
+    "title": "Maintenance of Cloud Service",
+    "content": "Maintenance of cloud service. Claire Lin·April 09, 2024 . Due to the cloud service is under maintenance, the test instance is not accessible. We will start the test instance after the maintenance is completed. Categories:&nbsp;&nbsp; Announcements . Subscribe &amp; Share Feedback . Get the latest development updates, tips, and best practices, or share your feedback with us. Subscribe Email Us ",
+    "url": "/blog/categories/announcements/2024-04-09-maintenance-of-cloud-service.html#maintenance-of-cloud-service",
+    
+    "relUrl": "/blog/categories/announcements/2024-04-09-maintenance-of-cloud-service.html#maintenance-of-cloud-service"
+  },"3": {
+    "doc": "Maintenance of cloud service",
+    "title": "Maintenance of cloud service",
+    "content": " ",
+    "url": "/blog/categories/announcements/2024-04-09-maintenance-of-cloud-service.html",
+    
+    "relUrl": "/blog/categories/announcements/2024-04-09-maintenance-of-cloud-service.html"
+  },"4": {
+    "doc": "Test instance active again",
+    "title": "Test instance active again",
+    "content": "Test instance active again. Claire Lin·April 15, 2024 . The maintenance of the cloud service in the Karlsruhe region is complete. We have started the test instance, and the service is back again. Categories:&nbsp;&nbsp; Announcements . Subscribe &amp; Share Feedback . Get the latest development updates, tips, and best practices, or share your feedback with us. Subscribe Email Us ",
+    "url": "/blog/categories/announcements/2024-04-15-test-instance-active-again.html",
+    
+    "relUrl": "/blog/categories/announcements/2024-04-15-test-instance-active-again.html"
+  },"5": {
+    "doc": "Important Notice - Change in Test Instance",
+    "title": "Important Notice - Change in Test Instance",
+    "content": "Important Notice - Change in Test Instance. Claire Lin·April 16, 2024 . We would like to inform you that we have established a new test instance to replace the current one. This decision was made to mitigate potential impacts caused by the unavailability of the cloud service utilized by the current instance. The new instance is at https://labimotion-stage.ibcs.kit.edu/home. Categories:&nbsp;&nbsp; Announcements . Subscribe &amp; Share Feedback . Get the latest development updates, tips, and best practices, or share your feedback with us. Subscribe Email Us ",
+    "url": "/blog/categories/announcements/2024-04-16-change-test-instance.html",
+    
+    "relUrl": "/blog/categories/announcements/2024-04-16-change-test-instance.html"
+  },"6": {
+    "doc": "Version 1.3.0 Release Announcement",
+    "title": "LabIMotion 1.3.0 is here! 🥁",
+    "content": "LabIMotion 1.3.0 brings new features including Generic Element Reporting, Split Function, and Export/Import Collection capabilities. Claire Lin·April 26, 2024 . The open source LabIMotion project just released LabIMotion 1.3.0 with features and bug fixes. ",
+    "url": "/blog/categories/releases/2024-04-26-announcing-labimotion-1-3-0.html#labimotion-130-is-here-",
+    
+    "relUrl": "/blog/categories/releases/2024-04-26-announcing-labimotion-1-3-0.html#labimotion-130-is-here-"
+  },"7": {
+    "doc": "Version 1.3.0 Release Announcement",
+    "title": "Highlights from LabIMotion 1.3.0",
+    "content": "To celebrate this most recent release, here are the key features introduced in this release: . | As a User . | Generic Element Reporting Function (doc) | Generic Element Split Function (doc) | Export/Import Collection function (doc) | . | As a Designer . | Restriction Setting (doc) | System Units and Customize Default Unit for Field (doc) | . | . For more detailed information, please refer to the release notes for 1.3.0. Stay up-to-date with the latest developments by subscribing to our mailing list to receive the latest updates. Categories:&nbsp;&nbsp; Announcements Releases . Subscribe &amp; Share Feedback . Get the latest development updates, tips, and best practices, or share your feedback with us. Subscribe Email Us ",
+    "url": "/blog/categories/releases/2024-04-26-announcing-labimotion-1-3-0.html#highlights-from-labimotion-130",
+    
+    "relUrl": "/blog/categories/releases/2024-04-26-announcing-labimotion-1-3-0.html#highlights-from-labimotion-130"
+  },"8": {
+    "doc": "Version 1.3.0 Release Announcement",
+    "title": "Version 1.3.0 Release Announcement",
+    "content": " ",
+    "url": "/blog/categories/releases/2024-04-26-announcing-labimotion-1-3-0.html",
+    
+    "relUrl": "/blog/categories/releases/2024-04-26-announcing-labimotion-1-3-0.html"
+  },"9": {
+    "doc": "Version 1.4.0 Public Preview",
+    "title": "Preview Start! Join the Chemotion LabIMotion 1.4.0 Preview! 👀",
+    "content": "Join the preview of Chemotion LabIMotion 1.4.0 and explore exciting new features including image previews, custom labeling, and interactive workflows. Claire Lin·June 04, 2024 . Dear Chemotion LabIMotion users, . We are thrilled to announce the upcoming release of Chemotion LabIMotion version 1.4.0! To ensure this version meets your needs and expectations, we invite you to participate in our preview program. This is your chance to explore the new features and provide invaluable feedback. What’s New in v1.4.0: . | 🖼️ Preview Image Function for the “Upload” Field Type: Get an image preview as soon as you upload a file. You can zoom in/out by adjusting the percentage, and open the original file with a single click. | 🏷️ Labeling Feature: Enhance your organization and categorization with custom labels. This feature improves searchability and overall management within the system. | ➡️ Drag Reactions to Elements: Experience a more interactive and intuitive interface by dragging and dropping reactions onto elements. The Export/Import Collection and Reporting functions will now include reaction data as well. | 🔄 Change Layer or Field Order via Drag-and-Drop: Enjoy greater flexibility in managing your data by simply dragging and dropping layers or fields into your desired order. | 🖌️ Custom Flow: Enables users to record their steps/work and visualize them as a flow diagram. | . All details and videos are available at here. We encourage you to try out these features in our test instance and share your feedback or observations. Your insights are crucial for refining these features before the final release. How to Participate: . | 🖥️ Visit the Test Instance: Link to Test Instance | 🔍 Explore the New Features: Dive into the new functionalities and see how they enhance your workflow. | 💬 Provide Feedback: Share your thoughts and observations in our discussion thread Link to Discussion Thread. | . We appreciate your participation and look forward to your feedback. Thank you! . Categories:&nbsp;&nbsp; Announcements Preview . Subscribe &amp; Share Feedback . Get the latest development updates, tips, and best practices, or share your feedback with us. Subscribe Email Us ",
+    "url": "/blog/categories/preview/2024-06-04-announcing-labimotion-1-4-0-preview.html#preview-start-join-the-chemotion-labimotion-140-preview-",
+    
+    "relUrl": "/blog/categories/preview/2024-06-04-announcing-labimotion-1-4-0-preview.html#preview-start-join-the-chemotion-labimotion-140-preview-"
+  },"10": {
+    "doc": "Version 1.4.0 Public Preview",
+    "title": "Version 1.4.0 Public Preview",
+    "content": " ",
+    "url": "/blog/categories/preview/2024-06-04-announcing-labimotion-1-4-0-preview.html",
+    
+    "relUrl": "/blog/categories/preview/2024-06-04-announcing-labimotion-1-4-0-preview.html"
+  },"11": {
+    "doc": "Version 1.4.0 Release Announcement",
+    "title": "🥁 Chemotion LabIMotion 1.4.0 is here!",
+    "content": "LabIMotion 1.4.0 brings new features including image previews, custom labeling, and interactive workflows. Claire Lin·October 04, 2024 . We are pleased to announce the release of LabIMotion 1.4.0! 🚀 . Discover the exciting updates in our 1.4.0 release discussion for all the details! . Categories:&nbsp;&nbsp; Announcements Releases . Subscribe &amp; Share Feedback . Get the latest development updates, tips, and best practices, or share your feedback with us. Subscribe Email Us ",
+    "url": "/blog/categories/releases/2024-10-04-announcing-labimotion-1-4-0.html#-chemotion-labimotion-140-is-here",
+    
+    "relUrl": "/blog/categories/releases/2024-10-04-announcing-labimotion-1-4-0.html#-chemotion-labimotion-140-is-here"
+  },"12": {
+    "doc": "Version 1.4.0 Release Announcement",
+    "title": "Version 1.4.0 Release Announcement",
+    "content": " ",
+    "url": "/blog/categories/releases/2024-10-04-announcing-labimotion-1-4-0.html",
+    
+    "relUrl": "/blog/categories/releases/2024-10-04-announcing-labimotion-1-4-0.html"
+  },"13": {
+    "doc": "Version 1.5.0 Public Preview",
+    "title": "🎉 Chemotion LabIMotion 1.5.0 Preview!",
+    "content": "Join the preview of Chemotion LabIMotion 1.5.0 and explore exciting new features including vocabulary enhancements, standard layer support, and UI foundation improvements. Claire Lin·October 05, 2024 . We’re excited to share the upcoming features we’ve prepared. Please feel free to explore these enhancements in our test instance and share your thoughts and observations in our discussion thread. What’s New in v1.5.0: . | 🔤 Vocabulary . | 🧱 Standard Layer . | ✍️ UI Foundation . | . All details and videos are available at here. How to Participate: . | 🖥️ Visit the Test Instance: Link to Test Instance | 🔍 Explore the New Features: Dive into the new functionalities and see how they enhance your workflow. | 💬 Provide Feedback: Share your thoughts and observations in our discussion thread Link to Discussion Thread. | . We appreciate your participation and look forward to your feedback. Thank you! . Categories:&nbsp;&nbsp; Announcements Preview . Subscribe &amp; Share Feedback . Get the latest development updates, tips, and best practices, or share your feedback with us. Subscribe Email Us ",
+    "url": "/blog/categories/preview/2024-10-05-announcing-labimotion-1-5-0-preview.html#-chemotion-labimotion-150-preview",
+    
+    "relUrl": "/blog/categories/preview/2024-10-05-announcing-labimotion-1-5-0-preview.html#-chemotion-labimotion-150-preview"
+  },"14": {
+    "doc": "Version 1.5.0 Public Preview",
+    "title": "Version 1.5.0 Public Preview",
+    "content": " ",
+    "url": "/blog/categories/preview/2024-10-05-announcing-labimotion-1-5-0-preview.html",
+    
+    "relUrl": "/blog/categories/preview/2024-10-05-announcing-labimotion-1-5-0-preview.html"
+  },"15": {
+    "doc": "Version 2.0.0 Public Preview",
+    "title": "Chemotion LabIMotion 2.0.0 Preview Start!",
+    "content": "This is a significant milestone for LabIMotion as we are upgrading to the latest version of react-bootstrap, the main library for UI components. We have also introduced new features to enhance the user experience. Claire Lin·December 06, 2024 . Dear Chemotion LabIMotion users, . Welcome to the preview for Chemotion LabIMotion 2.0.0! . This is a major milestone for LabIMotion as we are upgrading to the latest version of react-bootstrap, which is the main library for UI components. This upgrade brings us a more modern and feature-rich UI experience. With the new version of react-bootstrap and feedback from the community, we’ve also introduced new features to enhance the user experience. Let’s jump into the details! . ",
+    "url": "/blog/categories/preview/2024-12-06-announcing-labimotion-2-0-0-preview.html#chemotion-labimotion-200-preview-start",
+    
+    "relUrl": "/blog/categories/preview/2024-12-06-announcing-labimotion-2-0-0-preview.html#chemotion-labimotion-200-preview-start"
+  },"16": {
+    "doc": "Version 2.0.0 Public Preview",
+    "title": "Introducing the new UI experience",
+    "content": "Designer’s New Form Layout . Based on community feedback, we have redesigned the form layout with a more general style to make it easier for users to get started. (Click to view in a new window ) . Arranging the order . Drag-and-drop is a highly interactive and user-friendly feature. We use drag-and-drop to perform reordering layers or fields for Designer, and the similar feature for User to rearrange the layers in the workspace. Reordering is great, but it’s even better if the user can compare the original order at the same time. Therefore, we have provided a dedicated feature for ordering that allows you to visually compare the original order and the new order. (Click to view in a new window ) . Your browser does not support the video tag. As a Designer, you can find functions to reorder layers or fields accordingly. (Click to view in a new window ) . In user workspace (aka MyDB), you can find a button called Arrange on the toolbar and use it to rearrange layers. (Click to view in a new window ) . ",
+    "url": "/blog/categories/preview/2024-12-06-announcing-labimotion-2-0-0-preview.html#introducing-the-new-ui-experience",
+    
+    "relUrl": "/blog/categories/preview/2024-12-06-announcing-labimotion-2-0-0-preview.html#introducing-the-new-ui-experience"
+  },"17": {
+    "doc": "Version 2.0.0 Public Preview",
+    "title": "Workflow for Segment",
+    "content": "In this version, we have introduced the workflow functionality to Segment. As a Designer, you can define a workflow in Segment template just like in Element template. For more details about the workflow feature, please refer to the Designer Guide. (Click to view in a new window ) . When you use a Segment that contains a predefined workflow, the workflow is automatically applied to the Segment and you can click the Workflow (Predefined) button to view the defined workflow. (Click to view in a new window ) . ",
+    "url": "/blog/categories/preview/2024-12-06-announcing-labimotion-2-0-0-preview.html#workflow-for-segment",
+    
+    "relUrl": "/blog/categories/preview/2024-12-06-announcing-labimotion-2-0-0-preview.html#workflow-for-segment"
+  },"18": {
+    "doc": "Version 2.0.0 Public Preview",
+    "title": "Vocabularies and Standard Layers Updates",
+    "content": "In the initial release of the LabIMotion Vocabulary (Lab-Vocab) and Standard Layer, the data size were relatively small. Developing uniform, predefined, reusable, ontology-related sets of fields and layouts is a complex task that relies on domain expertise. We are grateful to the community for their invaluable contributions, which allow us to continuously enhance this data. (Click to view in a new window ) . (Click to view in a new window ) . Your browser does not support the video tag. How to Participate in the Preview . | 🖥️ Visit the Test Instance: Link to Test Instance | 🔍 Explore the New Features: Dive into the new functionalities and see how they enhance your workflow. | ❤️ Provide Feedback: For the feedback of this preview, please share your thoughts and observations in our discussion thread Link to Discussion Thread. | . We appreciate your participation and look forward to your feedback. Thank you! . Categories:&nbsp;&nbsp; Announcements Preview . Subscribe &amp; Share Feedback . Get the latest development updates, tips, and best practices, or share your feedback with us. Subscribe Email Us ",
+    "url": "/blog/categories/preview/2024-12-06-announcing-labimotion-2-0-0-preview.html#vocabularies-and-standard-layers-updates",
+    
+    "relUrl": "/blog/categories/preview/2024-12-06-announcing-labimotion-2-0-0-preview.html#vocabularies-and-standard-layers-updates"
+  },"19": {
+    "doc": "Version 2.0.0 Public Preview",
+    "title": "Version 2.0.0 Public Preview",
+    "content": " ",
+    "url": "/blog/categories/preview/2024-12-06-announcing-labimotion-2-0-0-preview.html",
+    
+    "relUrl": "/blog/categories/preview/2024-12-06-announcing-labimotion-2-0-0-preview.html"
+  },"20": {
+    "doc": "Service Interruption Due to Technical Issues",
+    "title": "Service Interruption Due to Technical Issues",
+    "content": "Service goes down due to technical issue. Claire Lin·December 13, 2024 . The service is currently inaccessible due to the deployment of a non-functional version of the ELN. We’re aware of this technical issue and are working to get things back to normal as quickly as possible. We apologize for any inconvenience. Categories:&nbsp;&nbsp; Announcements . Subscribe &amp; Share Feedback . Get the latest development updates, tips, and best practices, or share your feedback with us. Subscribe Email Us ",
+    "url": "/blog/categories/announcements/2024-12-13-service-is-down.html",
+    
+    "relUrl": "/blog/categories/announcements/2024-12-13-service-is-down.html"
+  },"21": {
+    "doc": "Service Is Back Online",
+    "title": "Service Is Back Online",
+    "content": "Service is back online. Claire Lin·December 16, 2024 . Thanks for bearing with us! The service is now back online. We apologize for any inconvenience. Categories:&nbsp;&nbsp; Announcements . Subscribe &amp; Share Feedback . Get the latest development updates, tips, and best practices, or share your feedback with us. Subscribe Email Us ",
+    "url": "/blog/categories/announcements/2024-12-16-service-is-back.html",
+    
+    "relUrl": "/blog/categories/announcements/2024-12-16-service-is-back.html"
+  },"22": {
+    "doc": "Version 2.0.0 Release Announcement",
+    "title": "🎉 Release Chemotion LabIMotion 2.0.0!",
+    "content": "This changelog allows you to identify specific versions that contain feature requests or bug fixes. Claire Lin·March 25, 2025 . We are delighted to announce the release of LabIMotion 2.0.0, packed with cool features and improvements! . Here are a few highlights in the 2.0.0: . | New UI for Designer | New Field Type: Select (Multiple) introduced in Designer | Quick Filter for Designer – Easily locate templates containing specific keywords | New Supported Units - See the full list at Supported Units for System Defined Field | Collapse/Expand All Layers** – A single-click feature to toggle all layers | Vocabularies and Standard Layers | . The planned 1.5.0 release was postponed due to dependencies in a consuming project. All updates from 1.5.0 are included in 2.0.0, along with additional features and a breaking change. Bug fixes and various improvements are also included. A more detailed list can be found at Release 2.0.0. To learn more about LabIMotion 2.0.0, check out: . | Version 2.0.0 Public Preview. | Version 1.5.0 Public Preview | . Categories:&nbsp;&nbsp; Announcements Releases . Subscribe &amp; Share Feedback . Get the latest development updates, tips, and best practices, or share your feedback with us. Subscribe Email Us ",
+    "url": "/blog/categories/releases/2025-03-25-announcing-labimotion-2-0-0.html#-release-chemotion-labimotion-200",
+    
+    "relUrl": "/blog/categories/releases/2025-03-25-announcing-labimotion-2-0-0.html#-release-chemotion-labimotion-200"
+  },"23": {
+    "doc": "Version 2.0.0 Release Announcement",
+    "title": "Version 2.0.0 Release Announcement",
+    "content": " ",
+    "url": "/blog/categories/releases/2025-03-25-announcing-labimotion-2-0-0.html",
+    
+    "relUrl": "/blog/categories/releases/2025-03-25-announcing-labimotion-2-0-0.html"
+  },"24": {
+    "doc": "Announcements",
+    "title": "Announcements",
+    "content": "Version 2.0.0 Release Announcement . March 25, 2025 This changelog allows you to identify specific versions that contain feature requests or bug fixes. Service Is Back Online . December 16, 2024 Service is back online. Service Interruption Due to Technical Issues . December 13, 2024 Service goes down due to technical issue. Version 2.0.0 Public Preview . December 06, 2024 This is a significant milestone for LabIMotion as we are upgrading to the latest version of react-bootstrap, the main library for UI components. We have also introduced new features to enhance the user experience. Version 1.5.0 Public Preview . October 05, 2024 Join the preview of Chemotion LabIMotion 1.5.0 and explore exciting new features including vocabulary enhancements, standard layer support, and UI foundation improvements. Version 1.4.0 Release Announcement . October 04, 2024 LabIMotion 1.4.0 brings new features including image previews, custom labeling, and interactive workflows. Version 1.4.0 Public Preview . June 04, 2024 Join the preview of Chemotion LabIMotion 1.4.0 and explore exciting new features including image previews, custom labeling, and interactive workflows. Version 1.3.0 Release Announcement . April 26, 2024 LabIMotion 1.3.0 brings new features including Generic Element Reporting, Split Function, and Export/Import Collection capabilities. Important Notice - Change in Test Instance . April 16, 2024 Important Notice - Change in Test Instance. Test instance active again . April 15, 2024 Test instance active again. Maintenance of cloud service . April 09, 2024 Maintenance of cloud service. Welcome to LabIMotion . December 20, 2023 An introduction to LabIMotion and its features. Announcements . ",
+    "url": "/blog/categories/announcements",
+    
+    "relUrl": "/blog/categories/announcements"
+  },"25": {
+    "doc": "Archive",
+    "title": "Blog Archive",
+    "content": "All posts listed by date . Version 2.0.0 Release Announcement . March 25, 2025 Categories:&nbsp;&nbsp; Announcements Releases This changelog allows you to identify specific versions that contain feature requests or bug fixes. Service Is Back Online . December 16, 2024 Categories:&nbsp;&nbsp; Announcements Service is back online. Service Interruption Due to Technical Issues . December 13, 2024 Categories:&nbsp;&nbsp; Announcements Service goes down due to technical issue. Version 2.0.0 Public Preview . December 06, 2024 Categories:&nbsp;&nbsp; Announcements Preview This is a significant milestone for LabIMotion as we are upgrading to the latest version of react-bootstrap, the main library for UI components. We have also introduced new features to enhance the user experience. Version 1.5.0 Public Preview . October 05, 2024 Categories:&nbsp;&nbsp; Announcements Preview Join the preview of Chemotion LabIMotion 1.5.0 and explore exciting new features including vocabulary enhancements, standard layer support, and UI foundation improvements. Version 1.4.0 Release Announcement . October 04, 2024 Categories:&nbsp;&nbsp; Announcements Releases LabIMotion 1.4.0 brings new features including image previews, custom labeling, and interactive workflows. Version 1.4.0 Public Preview . June 04, 2024 Categories:&nbsp;&nbsp; Announcements Preview Join the preview of Chemotion LabIMotion 1.4.0 and explore exciting new features including image previews, custom labeling, and interactive workflows. Version 1.3.0 Release Announcement . April 26, 2024 Categories:&nbsp;&nbsp; Announcements Releases LabIMotion 1.3.0 brings new features including Generic Element Reporting, Split Function, and Export/Import Collection capabilities. Important Notice - Change in Test Instance . April 16, 2024 Categories:&nbsp;&nbsp; Announcements Important Notice - Change in Test Instance. Test instance active again . April 15, 2024 Categories:&nbsp;&nbsp; Announcements Test instance active again. Maintenance of cloud service . April 09, 2024 Categories:&nbsp;&nbsp; Announcements Maintenance of cloud service. Welcome to LabIMotion . December 20, 2023 Categories:&nbsp;&nbsp; Announcements An introduction to LabIMotion and its features. ",
+    "url": "/blog/archive#blog-archive",
+    
+    "relUrl": "/blog/archive#blog-archive"
+  },"26": {
+    "doc": "Archive",
+    "title": "Archive",
+    "content": " ",
+    "url": "/blog/archive",
+    
+    "relUrl": "/blog/archive"
+  },"27": {
+    "doc": "Categories",
+    "title": "Blog Categories",
+    "content": "Browse posts by category . ",
+    "url": "/blog/categories#blog-categories",
+    
+    "relUrl": "/blog/categories#blog-categories"
+  },"28": {
+    "doc": "Categories",
+    "title": "Categories",
+    "content": " ",
+    "url": "/blog/categories",
+    
+    "relUrl": "/blog/categories"
+  },"29": {
+    "doc": "Dataset Schema",
+    "title": "Dataset Schema",
+    "content": "A standardized set of metadata properties used to describe Datasets in LabIMotion. View JSON Schema View on GitHub . ",
+    "url": "/development-guide/schemas/dataset.html",
+    
+    "relUrl": "/development-guide/schemas/dataset.html"
+  },"30": {
+    "doc": "Dataset Schema",
+    "title": "Overview",
+    "content": "The Dataset Schema provides a contract for the JSON data used in LabIMotion datasets, detailing what properties the JSON data should have, their types, and additional constraints. ",
+    "url": "/development-guide/schemas/dataset.html#overview",
+    
+    "relUrl": "/development-guide/schemas/dataset.html#overview"
+  },"31": {
+    "doc": "Dataset Schema",
+    "title": "Schema Structure",
+    "content": "{ \"$schema\": \"http://json-schema.org/draft-07/schema#\", \"$id\": \"https://labimotion.github.io/schema/v1.0/sch-dataset.json\", \"type\": \"object\", \"allOf\": [ { \"$ref\": \"./include/sch-common-properties.json\" }, { \"properties\": { \"layers\": { \"$ref\": \"./include/sch-layers.json\", \"description\": \"Layers to be used for dataset.\" }, \"select_options\": { \"$ref\": \"./include/sch-select-options.json\", \"description\": \"Select options for dataset.\" } } } ] } . ",
+    "url": "/development-guide/schemas/dataset.html#schema-structure",
+    
+    "relUrl": "/development-guide/schemas/dataset.html#schema-structure"
+  },"32": {
+    "doc": "Dataset Schema",
+    "title": "Properties",
+    "content": "Common Properties . All Dataset objects must include these common properties: . | Property | Type | Required | Description | . | pkg | Object | Yes | Package information including ELN version | . | uuid | String | Yes | Unique identifier | . | klass | String | Yes | Must be “DatasetKlass” | . Layer Properties . Datasets can have multiple layers, each containing: . | Property | Type | Required | Description | . | key | String | Yes | Layer identifier | . | cols | Integer | Yes | Number of columns | . | position | Integer | Yes | Layer position | . | fields | Array | No | Array of fields | . | color | String | No | Background color of the layer header | . | label | String | No | Label of the layer | . Select Options . Optional select options for dropdown fields: . | Property | Type | Required | Description | . | desc | String | Yes | Description of the option | . | options | Array | Yes | Array of key-value pairs | . ",
+    "url": "/development-guide/schemas/dataset.html#properties",
+    
+    "relUrl": "/development-guide/schemas/dataset.html#properties"
+  },"33": {
+    "doc": "Dataset Schema",
+    "title": "Example",
+    "content": "{ \"pkg\": { \"eln\": { \"version\": \"1.0.0\", \"base_revision\": \"1\", \"current_revision\": \"1\" }, \"labimotion\": \"1.0.0\" }, \"uuid\": \"123e4567-e89b-12d3-a456-426614174000\", \"klass\": \"DatasetKlass\", \"layers\": { \"basic\": { \"key\": \"basic\", \"cols\": 2, \"position\": 1, \"fields\": [] } } } . ",
+    "url": "/development-guide/schemas/dataset.html#example",
+    
+    "relUrl": "/development-guide/schemas/dataset.html#example"
+  },"34": {
+    "doc": "Dataset Schema",
+    "title": "Related Schemas",
+    "content": ". | Common Properties Schema | Layers Schema | Select Options Schema | . ",
+    "url": "/development-guide/schemas/dataset.html#related-schemas",
+    
+    "relUrl": "/development-guide/schemas/dataset.html#related-schemas"
+  },"35": {
+    "doc": "Dataset Schema",
+    "title": "Version History",
+    "content": "Version 1.0 (Current) . | Released: January 31, 2024 | Initial release with basic dataset structure | Layer support | Select options support | . ",
+    "url": "/development-guide/schemas/dataset.html#version-history",
+    
+    "relUrl": "/development-guide/schemas/dataset.html#version-history"
+  },"36": {
+    "doc": "Dataset Schema",
+    "title": "Feedback",
+    "content": "We appreciate your feedback regarding any challenges you may be facing with the current schema or any ideas you have for improvements. Email Us GitHub . ",
+    "url": "/development-guide/schemas/dataset.html#feedback",
+    
+    "relUrl": "/development-guide/schemas/dataset.html#feedback"
+  },"37": {
+    "doc": "Element Schema",
+    "title": "Element Schema",
+    "content": "A standardized set of metadata properties used to describe Elements in LabIMotion. View JSON Schema View on GitHub . ",
+    "url": "/development-guide/schemas/element.html",
+    
+    "relUrl": "/development-guide/schemas/element.html"
+  },"38": {
+    "doc": "Element Schema",
+    "title": "Overview",
+    "content": "The Element Schema provides a contract for the JSON data used in LabIMotion elements, detailing what properties the JSON data should have, their types, and additional constraints. ",
+    "url": "/development-guide/schemas/element.html#overview",
+    
+    "relUrl": "/development-guide/schemas/element.html#overview"
+  },"39": {
+    "doc": "Element Schema",
+    "title": "Schema Structure",
+    "content": "{ \"$schema\": \"http://json-schema.org/draft-07/schema#\", \"$id\": \"https://labimotion.github.io/schema/latest/sch-element.json\", \"type\": \"object\", \"allOf\": [ { \"$ref\": \"./include/sch-common-properties.json\" }, { \"properties\": { \"layers\": { \"$ref\": \"./include/sch-layers.json\" } } } ] } . ",
+    "url": "/development-guide/schemas/element.html#schema-structure",
+    
+    "relUrl": "/development-guide/schemas/element.html#schema-structure"
+  },"40": {
+    "doc": "Element Schema",
+    "title": "Properties",
+    "content": "Common Properties . All Element objects must include these common properties: . | Property | Type | Required | Description | . | pkg | Object | Yes | Package information including ELN version | . | uuid | String | Yes | Unique identifier | . | klass | String | Yes | Must be “ElementKlass” | . Layer Properties . Elements can have multiple layers, each containing: . | Property | Type | Required | Description | . | key | String | Yes | Layer identifier | . | cols | Integer | Yes | Number of columns | . | position | Integer | Yes | Layer position | . | fields | Array | No | Array of fields | . | color | String | No | Background color of the layer header | . | label | String | No | Label of the layer | . ",
+    "url": "/development-guide/schemas/element.html#properties",
+    
+    "relUrl": "/development-guide/schemas/element.html#properties"
+  },"41": {
+    "doc": "Element Schema",
+    "title": "Example",
+    "content": "{ \"pkg\": { \"eln\": { \"version\": \"1.0.0\", \"base_revision\": \"1\", \"current_revision\": \"1\" }, \"labimotion\": \"1.0.0\" }, \"uuid\": \"123e4567-e89b-12d3-a456-426614174000\", \"klass\": \"ElementKlass\", \"layers\": { \"basic\": { \"key\": \"basic\", \"cols\": 2, \"position\": 1, \"fields\": [] } } } . ",
+    "url": "/development-guide/schemas/element.html#example",
+    
+    "relUrl": "/development-guide/schemas/element.html#example"
+  },"42": {
+    "doc": "Element Schema",
+    "title": "Related Schemas",
+    "content": ". | Common Properties Schema | Layers Schema | . ",
+    "url": "/development-guide/schemas/element.html#related-schemas",
+    
+    "relUrl": "/development-guide/schemas/element.html#related-schemas"
+  },"43": {
+    "doc": "Element Schema",
+    "title": "Version History",
+    "content": "Version 1.0 (Current) . | Released: January 31, 2024 | Initial release with basic element structure | Layer support | Field definitions | . ",
+    "url": "/development-guide/schemas/element.html#version-history",
+    
+    "relUrl": "/development-guide/schemas/element.html#version-history"
+  },"44": {
+    "doc": "Element Schema",
+    "title": "Feedback",
+    "content": "We appreciate your feedback regarding any challenges you may be facing with the current schema or any ideas you have for improvements. Email Us GitHub . ",
+    "url": "/development-guide/schemas/element.html#feedback",
+    
+    "relUrl": "/development-guide/schemas/element.html#feedback"
+  },"45": {
+    "doc": "Schemas",
+    "title": "LabIMotion Schemas",
+    "content": "Documentation for all available LabIMotion JSON Schemas. ",
+    "url": "/development-guide/schemas/#labimotion-schemas",
+    
+    "relUrl": "/development-guide/schemas/#labimotion-schemas"
+  },"46": {
+    "doc": "Schemas",
+    "title": "Available Schemas",
+    "content": "Core Schemas . | Schema | Description | Version | . | Element Schema | Defines the structure for elements | 1.0 | . | Segment Schema | Defines the structure for segments | 1.0 | . | Dataset Schema | Defines the structure for datasets | 1.0 | . Supporting Schemas . | Schema | Description | . | Common Properties | Base properties used across all schemas | . | Layers | Layer structure definition | . | Fields | Field type definitions | . ",
+    "url": "/development-guide/schemas/#available-schemas",
+    
+    "relUrl": "/development-guide/schemas/#available-schemas"
+  },"47": {
+    "doc": "Schemas",
+    "title": "Schema Versioning",
+    "content": "The current stable version is 1.0. All schemas follow semantic versioning: . | Major version changes (1.0 → 2.0) indicate breaking changes | Minor version changes (1.0 → 1.1) indicate new features | Patch version changes (1.0.0 → 1.0.1) indicate bug fixes | . ",
+    "url": "/development-guide/schemas/#schema-versioning",
+    
+    "relUrl": "/development-guide/schemas/#schema-versioning"
+  },"48": {
+    "doc": "Schemas",
+    "title": "Using the Schemas",
+    "content": "Direct References . You can reference the schemas directly in your JSON: . { \"$schema\": \"https://labimotion.github.io/schema/v1.0/sch-element.json\" } . ",
+    "url": "/development-guide/schemas/#using-the-schemas",
+    
+    "relUrl": "/development-guide/schemas/#using-the-schemas"
+  },"49": {
+    "doc": "Schemas",
+    "title": "Contributing",
+    "content": "We welcome contributions! Please see our contribution guidelines for more information. ",
+    "url": "/development-guide/schemas/#contributing",
+    
+    "relUrl": "/development-guide/schemas/#contributing"
+  },"50": {
+    "doc": "Schemas",
+    "title": "Schemas",
+    "content": " ",
+    "url": "/development-guide/schemas/",
+    
+    "relUrl": "/development-guide/schemas/"
+  },"51": {
+    "doc": "Development Guide",
+    "title": "Development Guide",
+    "content": "Learn about LabIMotion templates. ",
+    "url": "/development-guide",
+    
+    "relUrl": "/development-guide"
+  },"52": {
+    "doc": "Development Guide",
+    "title": "Overview",
+    "content": "The Development Guide provides documentation for working with LabIMotion templates and schemas. This guide will help you understand the structure and capabilities of LabIMotion. ",
+    "url": "/development-guide#overview",
+    
+    "relUrl": "/development-guide#overview"
+  },"53": {
+    "doc": "Development Guide",
+    "title": "Getting Started",
+    "content": ". | Understanding Templates . | Templates are JSON files that define the structure of your laboratory data | Each template follows a specific schema (Element, Segment, or Dataset) | Templates can be customized with various field types and layouts | . | Basic Components . | Element Schema: A generic element with layers and fields | Segment Schema: Groups related data together for a single element | Dataset Schema: A dataset based on the ontology terminology | . | Template Structure . | Each template consists of layers | Layers contain fields | Fields can be of various types (text, number, select, etc.) | . | . ",
+    "url": "/development-guide#getting-started",
+    
+    "relUrl": "/development-guide#getting-started"
+  },"54": {
+    "doc": "Development Guide",
+    "title": "Template Development",
+    "content": "Prerequisites . | Basic understanding of JSON | Familiarity with JSON Schema | Access to the Template Hub | . Development Process . | Choose appropriate schema type | Define template structure | Add layers and fields | Validate against schema | Test in LabIMotion | Deploy to production | . ",
+    "url": "/development-guide#template-development",
+    
+    "relUrl": "/development-guide#template-development"
+  },"55": {
+    "doc": "Development Guide",
+    "title": "Best Practices",
+    "content": ". | Use meaningful layer and field names | Group related fields in the same layer | Validate templates before deployment | Document custom implementations | Follow naming conventions | . ",
+    "url": "/development-guide#best-practices",
+    
+    "relUrl": "/development-guide#best-practices"
+  },"56": {
+    "doc": "Development Guide",
+    "title": "Tools and Resources",
+    "content": ". | Template Hub: Browse existing templates | JSON Schema Validator: Validate your templates | GitHub Repository: Source code and examples | . ",
+    "url": "/development-guide#tools-and-resources",
+    
+    "relUrl": "/development-guide#tools-and-resources"
+  },"57": {
+    "doc": "Development Guide",
+    "title": "Need Help?",
+    "content": "We’re here to help you with your template development journey: . Email Support GitHub Issues . ",
+    "url": "/development-guide#need-help",
+    
+    "relUrl": "/development-guide#need-help"
+  },"58": {
+    "doc": "Blog",
+    "title": "LabIMotion Blog",
+    "content": " ",
+    "url": "/blog#labimotion-blog",
+    
+    "relUrl": "/blog#labimotion-blog"
+  },"59": {
+    "doc": "Blog",
+    "title": "Latest Posts",
+    "content": "Version 2.0.0 Release Announcement . March 25, 2025 Categories: Announcements Releases This changelog allows you to identify specific versions that contain feature requests or bug fixes. Service Is Back Online . December 16, 2024 Categories: Announcements Service is back online. Service Interruption Due to Technical Issues . December 13, 2024 Categories: Announcements Service goes down due to technical issue. | View All Posts | Browse by Category | . ",
+    "url": "/blog#latest-posts",
+    
+    "relUrl": "/blog#latest-posts"
+  },"60": {
+    "doc": "Blog",
+    "title": "Blog",
+    "content": " ",
+    "url": "/blog",
+    
+    "relUrl": "/blog"
+  },"61": {
+    "doc": "Home",
+    "title": "LabIMotion Blog",
+    "content": "The LabIMotion Blog shares updates and insights to help you standardize your laboratory data with flexibility. Try LabIMotion View on GitHub View Template Hub . ",
+    "url": "/#labimotion-blog",
+    
+    "relUrl": "/#labimotion-blog"
+  },"62": {
+    "doc": "Home",
+    "title": "Latest Updates",
+    "content": "Announcements Releases Version 2.0.0 Release Announcement . This changelog allows you to identify specific versions that contain feature requests or bug fixes. March 25, 2025 Announcements Service Is Back Online . Service is back online. December 16, 2024 Announcements Service Interruption Due to Technical Issues . Service goes down due to technical issue. December 13, 2024 | View All Posts | Browse by Category | . ",
+    "url": "/#latest-updates",
+    
+    "relUrl": "/#latest-updates"
+  },"63": {
+    "doc": "Home",
+    "title": "Feedback",
+    "content": "We value your feedback on any challenges you’re facing with the current version or suggestions for improvement. Feel free to share your thoughts with us via email. Email Us . ",
+    "url": "/#feedback",
+    
+    "relUrl": "/#feedback"
+  },"64": {
+    "doc": "Home",
+    "title": "Newsletter",
+    "content": "Subscribe to stay updated on the latest developments, tips, and best practices. Subscribe . ",
+    "url": "/#newsletter",
+    
+    "relUrl": "/#newsletter"
+  },"65": {
+    "doc": "Home",
+    "title": "Home",
+    "content": " ",
+    "url": "/",
+    
+    "relUrl": "/"
+  },"66": {
+    "doc": "Preview",
+    "title": "Preview",
+    "content": "Version 2.0.0 Public Preview . December 06, 2024 This is a significant milestone for LabIMotion as we are upgrading to the latest version of react-bootstrap, the main library for UI components. We have also introduced new features to enhance the user experience. Version 1.5.0 Public Preview . October 05, 2024 Join the preview of Chemotion LabIMotion 1.5.0 and explore exciting new features including vocabulary enhancements, standard layer support, and UI foundation improvements. Version 1.4.0 Public Preview . June 04, 2024 Join the preview of Chemotion LabIMotion 1.4.0 and explore exciting new features including image previews, custom labeling, and interactive workflows. Preview . ",
+    "url": "/blog/categories/preview",
+    
+    "relUrl": "/blog/categories/preview"
+  },"67": {
+    "doc": "Releases",
+    "title": "Releases",
+    "content": "Version 2.0.0 Release Announcement . March 25, 2025 This changelog allows you to identify specific versions that contain feature requests or bug fixes. Version 1.4.0 Release Announcement . October 04, 2024 LabIMotion 1.4.0 brings new features including image previews, custom labeling, and interactive workflows. Version 1.3.0 Release Announcement . April 26, 2024 LabIMotion 1.3.0 brings new features including Generic Element Reporting, Split Function, and Export/Import Collection capabilities. Releases . ",
+    "url": "/blog/categories/releases",
+    
+    "relUrl": "/blog/categories/releases"
+  },"68": {
+    "doc": "Segment Schema",
+    "title": "Segment Schema",
+    "content": "A standardized set of metadata properties used to describe Segments in LabIMotion. View JSON Schema View on GitHub . ",
+    "url": "/development-guide/schemas/segment.html",
+    
+    "relUrl": "/development-guide/schemas/segment.html"
+  },"69": {
+    "doc": "Segment Schema",
+    "title": "Overview",
+    "content": "The Segment Schema provides a contract for the JSON data used in LabIMotion segments, detailing what properties the JSON data should have, their types, and additional constraints. ",
+    "url": "/development-guide/schemas/segment.html#overview",
+    
+    "relUrl": "/development-guide/schemas/segment.html#overview"
+  },"70": {
+    "doc": "Segment Schema",
+    "title": "Schema Structure",
+    "content": "{ \"$schema\": \"http://json-schema.org/draft-07/schema#\", \"$id\": \"https://labimotion.github.io/schema/v1.0/sch-segment.json\", \"type\": \"object\", \"allOf\": [ { \"$ref\": \"./include/sch-common-properties.json\" }, { \"properties\": { \"layers\": { \"$ref\": \"./include/sch-layers.json\", \"description\": \"Layers to be used for segment.\" }, \"select_options\": { \"$ref\": \"./include/sch-select-options.json\", \"description\": \"Select options for segment.\" } } } ] } . ",
+    "url": "/development-guide/schemas/segment.html#schema-structure",
+    
+    "relUrl": "/development-guide/schemas/segment.html#schema-structure"
+  },"71": {
+    "doc": "Segment Schema",
+    "title": "Properties",
+    "content": "Common Properties . All Segment objects must include these common properties: . | Property | Type | Required | Description | . | pkg | Object | Yes | Package information including ELN version | . | uuid | String | Yes | Unique identifier | . | klass | String | Yes | Must be “SegmentKlass” | . Layer Properties . Segments can have multiple layers, each containing: . | Property | Type | Required | Description | . | key | String | Yes | Layer identifier | . | cols | Integer | Yes | Number of columns | . | position | Integer | Yes | Layer position | . | fields | Array | No | Array of fields | . | color | String | No | Background color of the layer header | . | label | String | No | Label of the layer | . Select Options . Optional select options for dropdown fields: . | Property | Type | Required | Description | . | desc | String | Yes | Description of the option | . | options | Array | Yes | Array of key-value pairs | . ",
+    "url": "/development-guide/schemas/segment.html#properties",
+    
+    "relUrl": "/development-guide/schemas/segment.html#properties"
+  },"72": {
+    "doc": "Segment Schema",
+    "title": "Example",
+    "content": "{ \"pkg\": { \"eln\": { \"version\": \"1.0.0\", \"base_revision\": \"1\", \"current_revision\": \"1\" }, \"labimotion\": \"1.0.0\" }, \"uuid\": \"123e4567-e89b-12d3-a456-426614174000\", \"klass\": \"SegmentKlass\", \"layers\": { \"basic\": { \"key\": \"basic\", \"cols\": 2, \"position\": 1, \"fields\": [] } } } . ",
+    "url": "/development-guide/schemas/segment.html#example",
+    
+    "relUrl": "/development-guide/schemas/segment.html#example"
+  },"73": {
+    "doc": "Segment Schema",
+    "title": "Related Schemas",
+    "content": ". | Common Properties Schema | Layers Schema | Select Options Schema | . ",
+    "url": "/development-guide/schemas/segment.html#related-schemas",
+    
+    "relUrl": "/development-guide/schemas/segment.html#related-schemas"
+  },"74": {
+    "doc": "Segment Schema",
+    "title": "Version History",
+    "content": "Version 1.0 (Current) . | Released: January 31, 2024 | Initial release with basic segment structure | Layer support | Select options support | . ",
+    "url": "/development-guide/schemas/segment.html#version-history",
+    
+    "relUrl": "/development-guide/schemas/segment.html#version-history"
+  },"75": {
+    "doc": "Segment Schema",
+    "title": "Feedback",
+    "content": "We appreciate your feedback regarding any challenges you may be facing with the current schema or any ideas you have for improvements. Email Us GitHub . ",
+    "url": "/development-guide/schemas/segment.html#feedback",
+    
+    "relUrl": "/development-guide/schemas/segment.html#feedback"
+  }
+}
