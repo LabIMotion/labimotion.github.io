@@ -21,7 +21,7 @@ The LabIMotion Blog shares updates and insights to help you standardize your lab
 ## Latest Updates
 
 {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
-{% for post in sorted_posts limit:1 %}
+{% for post in sorted_posts limit:2 %}
   <article class="post-preview mb-6">
     {% if post.categories %}
     <div class="post-categories mt-6">
