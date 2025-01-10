@@ -19,9 +19,6 @@ aux_links:
 # Makes Aux links open in new tab
 aux_links_new_tab: true
 
-# Footer content
-footer_content: "Copyright &copy; 2022-2024 LabIMotion."
-
 # Enable copy code button
 enable_copy_code_button: true
 
