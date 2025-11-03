@@ -12,7 +12,7 @@ description: "Join the preview of Chemotion LabIMotion 1.5.0 and explore excitin
 ---
 
 # 🎉 Chemotion LabIMotion 1.5.0 Preview!
-{: .fw-500 }
+{: .fs-7 .fw-500 }
 
 {% include post-header.html
   description=page.description

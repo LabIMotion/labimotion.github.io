@@ -61,6 +61,34 @@ h1, h2, h3, h4, h5, h6 {
   --theme-primary-color: #5F4B8B;
 }
 
+// Apply the wider navigation width
+@media (min-width: 50rem) {
+  .side-bar {
+    width: var(--nav-width-md) !important;
+  }
+
+  .side-bar + .main {
+    margin-left: var(--nav-width-md) !important;
+  }
+}
+
+@media (min-width: 66.5rem) {
+  .side-bar {
+    width: calc((100% - 66.5rem) / 2 + var(--nav-width)) !important;
+    min-width: var(--nav-width) !important;
+  }
+
+  .side-bar + .main {
+    margin-left: Max(var(--nav-width), calc((100% - 66.5rem) / 2 + var(--nav-width))) !important;
+  }
+}
+
+@media (min-width: 66.5rem) {
+  .site-nav, .site-header, .site-footer {
+    width: var(--nav-width) !important;
+  }
+}
+
 // Global category tag styling that works across all themes
 .post-categories {
   margin: 0.5em 0;
@@ -513,4 +541,17 @@ body.ultra-violet {
     margin-right: 0.5rem;
     margin-bottom: 0.5rem;
   }
+}
+
+// Width utility classes
+.w-75 {
+  width: 75% !important;
+}
+
+.w-80 {
+  width: 80% !important;
+}
+
+.w-90 {
+  width: 90% !important;
 }

@@ -3,7 +3,7 @@ description: LabIMotion Documentation
 remote_theme: just-the-docs/just-the-docs
 
 # Theme settings
-color_scheme: ultra-violet
+color_scheme: nil
 search_enabled: true
 heading_anchors: true
 
