@@ -16,6 +16,14 @@ Chemotion LabIMotion 2.1.0 in public preview
 
 ---
 
+Dear Chemotion LabIMotion users,
+
+Chemotion LabIMotion 2.1.0 is now available for public preview!
+
+This preview highlights the upcoming enhancements and provides early access to new functionalities planned for the next official release. It delivers enhancements across data linking, export capabilities, text handling, unit support, and overall user experience.
+
+---
+
 ## Table of Contents
 {: .no_toc .text-delta }
 
@@ -23,10 +31,6 @@ Chemotion LabIMotion 2.1.0 in public preview
 {:toc}
 
 ---
-
-Dear Chemotion LabIMotion users,
-
-Chemotion LabIMotion 2.1.0 is now available for public preview! This preview highlights the upcoming enhancements and provides early access to new functionalities planned for the next official release. It delivers enhancements across data linking, export capabilities, text handling, unit support, and overall user experience.
 
 ## Highlights
 
@@ -36,12 +40,13 @@ Scientific work requires clear traceability between materials and resulting data
 
 The new **Element Linking** features include:
 
-- **Link Element to Element**: Associate elements - such as hard-coded elements (e.g., wellplates) or generic elements - with other generic elements.
+- **Link Element to Element**: Associate elements - such as hard-coded elements (e.g., reactions, wellplates, etc., excluding samples) or generic elements - with other generic elements.
 - **Link Element to Dataset**: Similar to Element-to-Element linking, this allows associating elements directly with datasets.
 
 {: .note}
-**Note for Designers**
-Field type names have been unified to **"Link Element"**, **"Link Molecule"**, and **"Link Sample"** (previously "Drag Element", "Drag Molecule", and "Drag Sample").
+> **Note for Designers**
+> - Field type names have been unified to **"Link Element"**, **"Link Molecule"**, and **"Link Sample"** (previously "Drag Element", "Drag Molecule", and "Drag Sample").
+> - For molecules and samples, we retain the dedicated field types, **"Link Molecule"** and **"Link Sample"**, due to their unique features in the system.
 
 (**Link Element to Element** - Click the video to open in a new window <i class="bi bi-window"></i>)
 {: .fs-2 .mb-0 }
@@ -62,6 +67,10 @@ Field type names have been unified to **"Link Element"**, **"Link Molecule"**, a
     Your browser does not support the video tag.
   </video>
 </div>
+
+{: .warning}
+Cell Line element will be available in the next release.
+
 
 [⬆ Back to top](#table-of-contents)
 {: .text-right .fs-2 }
