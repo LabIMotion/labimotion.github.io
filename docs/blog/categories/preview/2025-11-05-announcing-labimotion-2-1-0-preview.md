@@ -11,7 +11,7 @@ categories: [Announcements, Preview]
 has_toc: true
 ---
 
-Chemotion LabIMotion 2.1.0 is now available for public preview!
+Chemotion LabIMotion 2.1.0 in public preview
 {: .fs-7 .fw-500 }
 
 ---
@@ -26,9 +26,9 @@ Chemotion LabIMotion 2.1.0 is now available for public preview!
 
 Dear Chemotion LabIMotion users,
 
-Welcome to the preview of Chemotion LabIMotion 2.1.0!
+Chemotion LabIMotion 2.1.0 is now available for public preview! This preview highlights the upcoming enhancements and provides early access to new functionalities planned for the next official release. It delivers enhancements across data linking, export capabilities, text handling, unit support, and overall user experience.
 
-## What's New in v2.1.0?
+## Highlights
 
 ### 🔗 Link Materials to Data: Element Linking
 
