@@ -6,7 +6,7 @@ author: "Claire Lin"
 parent: Preview
 grand_parent: Categories
 nav_exclude: false
-nav_order: -20251031
+nav_order: -20251105
 categories: [Announcements, Preview]
 has_toc: true
 ---
@@ -32,14 +32,16 @@ Welcome to the preview of Chemotion LabIMotion 2.1.0!
 
 ### 🔗 Link Materials to Data: Element Linking
 
-Scientific research requires clear traceability from materials to results. We extend the "Link Element" (aka "Drag Element") field type and it is able to accept hard-coded elements or generic elements. Our new **Element Linking** features enable:
+Scientific work requires clear traceability between materials and resulting data. The existing **“Link Element”** field type (formerly “Drag Element”) has been extended and now supports both hard-coded elements and generic elements.
 
-- **Link Element to Element**: Associate elements - whether hard-coded elements (such as wellplates) or generic elements - with your generic elements.
-- **Link Element to Dataset**: Similar to Element-to-Element linking, this allows associating elements with your datasets.
+The new **Element Linking** features include:
+
+- **Link Element to Element**: Associate elements - such as hard-coded elements (e.g., wellplates) or generic elements - with other generic elements.
+- **Link Element to Dataset**: Similar to Element-to-Element linking, this allows associating elements directly with datasets.
 
 {: .note}
-**Note for Designer**
-We now unify the field type name to "Link Element", "Link Molecule", and "Link Sample" (it was "Drag Element", "Drag Molecule", and "Drag Sample").
+**Note for Designers**
+Field type names have been unified to **"Link Element"**, **"Link Molecule"**, and **"Link Sample"** (previously "Drag Element", "Drag Molecule", and "Drag Sample").
 
 (**Link Element to Element** - Click the video to open in a new window <i class="bi bi-window"></i>)
 {: .fs-2 .mb-0 }
@@ -66,11 +68,11 @@ We now unify the field type name to "Link Element", "Link Molecule", and "Link S
 
 ### 📤 Export with Ease: Table Export
 
-Tables - such as measurement data - can now be exported in XLSX format.
+Tables - such as measurement data - can now be exported in **XLSX** format.
 
-- **Format**: XLSX
-- **SMILES by default**: For chemical data (sample), SMILES is included by default
-- **Image URL link**: For chemical data (sample or molecule), an image link is provided
+- **Format:** XLSX
+- **SMILES by default:** For chemical data (samples), SMILES are included by default
+- **Image URL links:** For chemical data (samples or molecules), an image link is provided
 
 This makes it easier to share data with collaborators or import it into various analysis tools.
 
@@ -79,7 +81,7 @@ This makes it easier to share data with collaborators or import it into various 
 
 [![Table Export](/assets/images/posts/2-1-0-preview/table_export_button.png){: .d-block .mb-4 .img-fluid .w-75 }](/assets/images/posts/2-1-0-preview/table_export_button.png){:target="_blank"}
 
-(**Tabel Export File** - Click to open in a new window <i class="bi bi-window"></i>)
+(**Table Export File** - Click to open in a new window <i class="bi bi-window"></i>)
 {: .fs-2 .mb-0 }
 
 [![Table Export in XLSX](/assets/images/posts/2-1-0-preview/table_export_xlsx.png){: .d-block .mb-4 .img-fluid .w-75 }](/assets/images/posts/2-1-0-preview/table_export_xlsx.png){:target="_blank"}
@@ -89,7 +91,7 @@ This makes it easier to share data with collaborators or import it into various 
 
 ### ✏️ Text Field with Auto-Link Support
 
-The enhanced Text Field now supports automatic URL recognition, converting URL-like text into clickable links.
+The enhanced Text Field now supports automatic URL recognition, converting URL-like text into clickable hyperlinks.
 
 (Click the video to open in a new window <i class="bi bi-window"></i>)
 {: .fs-2 .mb-0 }
@@ -106,10 +108,10 @@ The enhanced Text Field now supports automatic URL recognition, converting URL-l
 
 ### 🧪 Generic Dataset Source Information (experimental)
 
-A new experimental feature, **Source Information**, is now available for Generic Datasets. It displays metadata provided by the system or extracted from uploaded files. This feature contains two sections and will become the default for all Generic Dataset templates.
+A new experimental feature, **Source Information**, is now available for Generic Datasets. It displays metadata provided by the system or extracted from uploaded files. This feature contains two sections and is expected to become the default for all Generic Dataset templates.
 
-- **General Description**: Common information such as date, time, creator, etc.
-- ***Element* Details**: Re/Source element information such as re/source type (sample or reaction), re/source ID (sample ID or reaction ID), etc. The title of this section identify the source element itself, for example, if the source type is a sample, the title shows as "Sample details".
+- **General description**: Common information such as date, time, creator, etc.
+- ***Element* details**: Source element information such as source type (sample or reaction), source ID (sample ID or reaction ID), etc. The section title reflects the corresponding source element, for example, "Sample details".
 
 (**Generic Dataset Source Information** - Click to open in a new window <i class="bi bi-window"></i>)
 {: .fs-2 .mb-0 }
@@ -121,26 +123,26 @@ A new experimental feature, **Source Information**, is now available for Generic
 
 ### 📏 Supported Units
 
-Additional unit options are now available - for example, Power, Pressure, and Volume (metric-based) units.
-See the full list and discussion here:
+Additional unit options are now available - for example, Power, Pressure, and metric-based Volume units.
+
+The complete list is available here:
 [Supported Units for System Defined Field](https://github.com/LabIMotion/labimotion/wiki/Supported-Units-for-System-Defined-Field)
 
-### more characters for element identifer
+### 🔠 Extended Element Identifier Length
 
-Support for more characters when naming an element.
-
+Element identifiers now support a longer character range, with the allowed length expanded to 3-10 characters
 
 [⬆ Back to top](#table-of-contents)
 {: .text-right .fs-2 }
 
 ### 🎨 UX Improvements
 
-Several enhancements have been introduced to improve the overall user experience.
+Several improvements have been introduced to enhance the overall user experience:
 
 - Color examples when configuring the layer header
-- Resizable panels in the **Work Area** for a flexible workspace
-- Display of overall version information
-- One-click access to a full list (`Full List` button)
+- Resizable panels in the **Work Area**
+- A summary of the version information
+- One-click access to a complete list (`Full List` button)
 - Alphabetical sorting of active element types
 
 [⬆ Back to top](#table-of-contents)
@@ -150,10 +152,15 @@ Several enhancements have been introduced to improve the overall user experience
 
 ## How to Participate in the Preview
 
-1. 🖥️ **Visit the Test Instance:** [Link to Test Instance](https://labimotion-stage.ibcs.kit.edu/home)
-2. 🔍 **Explore the New Features:** Try out the enhancements and see how they support your work.
-3. ❤️ **Provide Feedback:** Please share your feedback in our discussion thread:
-   [Link to Discussion Thread](https://github.com/LabIMotion/labimotion/discussions/39).
+1. 🖥️ **Visit the Test Instance:**
+   [Link to Test Instance](https://labimotion-stage.ibcs.kit.edu/home)
+
+2. 🔍 **Explore the New Features:**
+   Try out the enhancements and evaluate how they support your work.
+
+3. ❤️ **Provide Feedback:**
+   Please share your comments in our discussion thread:
+   [Link to Discussion Thread](https://github.com/LabIMotion/labimotion/discussions/39)
 
 We appreciate your participation and look forward to your feedback.
 
