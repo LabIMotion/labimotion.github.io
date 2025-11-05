@@ -13,7 +13,7 @@ description: "This is a significant milestone for LabIMotion as we are upgrading
 ---
 
 # Chemotion LabIMotion 2.0.0 Preview Start!
-{: .fw-500 }
+{: .fs-7 .fw-500 }
 
 {% include post-header.html
   description=page.description

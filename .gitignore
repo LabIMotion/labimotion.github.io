@@ -1,0 +1,11 @@
+# Local development scripts
+serve-with-python.sh
+
+# Jekyll
+docs/_site/
+docs/.jekyll-cache/
+docs/.jekyll-metadata
+
+# OS files
+.DS_Store
+Thumbs.db
