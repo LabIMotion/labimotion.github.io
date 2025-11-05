@@ -160,7 +160,7 @@ Several improvements have been introduced to enhance the overall user experience
 
 3. ❤️ **Provide Feedback:**
    Please share your comments in our discussion thread:
-   [Link to Discussion Thread](https://github.com/LabIMotion/labimotion/discussions/39)
+   [Link to Discussion Thread](https://github.com/LabIMotion/labimotion/discussions/67)
 
 We appreciate your participation and look forward to your feedback.
 
