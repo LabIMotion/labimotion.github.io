@@ -11,7 +11,7 @@ nav_order: 3
 
 ### Features and Enhancements
 - **Dynamic Layer Display Names** feature.[(blog)]({% link blog/categories/preview/2026-01-13-announcing-dynamic_layer_name-preview.md %}).
-- Group layers feature: Layer grouping to manage multiple layers as a single unit.
+- **Group layers** feature: Layer grouping to manage multiple layers as a single unit.[(blog)]({% link blog/categories/preview/2026-01-07-announcing-layer_grouping-preview.md %}).
 - Set restriction values based on field type and assignment.
 - New Restriction Settings UI.
 - Default information feature in Generic Datasets.
