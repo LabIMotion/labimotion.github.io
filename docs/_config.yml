@@ -55,6 +55,10 @@ sass:
 # Add custom CSS
 custom_css: true
 
+# Mermaid Support
+mermaid:
+  version: "11.4.1"
+
 sort_order: reverse
 sort:
   default: # Default sort for everything else
