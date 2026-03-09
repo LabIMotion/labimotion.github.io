@@ -7,7 +7,7 @@ parent: Releases
 grand_parent: Categories
 nav_exclude: false
 nav_order: -20260208
-categories: [Releases]
+categories: [Announcements, Releases]
 description: Version 2.1.0 introduces Dynamic Layer Display Names, Layer Grouping, enhanced datasets, and several usability enhancements.
 ---
 
