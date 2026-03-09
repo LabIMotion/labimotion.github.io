@@ -7,14 +7,15 @@ parent: Preview
 grand_parent: Categories
 nav_exclude: false
 nav_order: -20260113
-categories: [Announcements, Preview]
+categories: [Preview]
 has_toc: true
 ---
 
 (New) Dynamic Layer Display Names
 {: .fs-7 .fw-500 }
 
----
+Layer Titles That Reflect Your Data.
+{: .page-subtitle }
 
 The **Dynamic Layer Display Names** feature makes it easier to manage and identify information by automatically updating a layer's title based on the data you enter. Instead of seeing generic titles like "Sample Information" repeated multiple times, you will see specific details like "Sample Information - Liquid" right in the header.
 
@@ -28,14 +29,12 @@ The **Dynamic Layer Display Names** feature makes it easier to manage and identi
 
 ---
 
-[⬆ Back to top](#table-of-contents)
-{: .text-right .fs-2 }
+## How It Works
 
-## How It Works (For Users)
-
-<br>
-
-*For Users: e.g. in Chemotion ELN MyDB view*
+> **Audience:** Users
+>
+> **Interface:** Chemotion ELN – MyDB view
+{: .info }
 
 Instead of navigating through multiple layers with the same generic layer name, this feature automatically builds a descriptive title as you work. This allows you to identify specific records (like a specific batch or detector type) without having to expand every layer.
 
@@ -54,12 +53,17 @@ Layer titles update automatically as data is entered.
 4. **Empty Check**: If the field is empty or blank, it is skipped.
 5. **Update**: Valid values are joined and appended to the section header.
 
----
-
 [⬆ Back to top](#table-of-contents)
 {: .text-right .fs-2 }
 
-## How to Setup (For Designers)
+---
+
+## How to Setup
+
+> **Audience:** Designers
+>
+> **Interface:** Designer functionality
+{: .info }
 
 If you have permission to edit form templates, you can configure which fields appear in the title by following these steps:
 
@@ -75,10 +79,10 @@ If you have permission to edit form templates, you can configure which fields ap
 - **Smart Logic**: Hidden or empty fields are automatically omitted.
 - **Real-time**: Titles update instantly during form entry.
 
----
-
 [⬆ Back to top](#table-of-contents)
 {: .text-right .fs-2 }
+
+---
 
 ## Example Scenario
 
@@ -91,26 +95,29 @@ Imagine a "Safety Protocol" layer that is configured to show the **Hazard Level*
 | **Type "Respirator" in Equipment** | Safety Protocol - High - Respirator |
 | **Clear the Hazard Level** | Safety Protocol - Respirator |
 
----
-
 [⬆ Back to top](#table-of-contents)
 {: .text-right .fs-2 }
+
+---
 
 ## 🚀 How to Participate in the Preview
 
 Follow these steps to explore the new features and share your insight:
 
 {: .note }
-> #### 1. 🖥️ Visit the Staging Instance
+> 1. 🖥️ **Visit the Staging Instance**<br>
 > Access the preview environment at: [labimotion-stage.ibcs.kit.edu](https://labimotion-stage.ibcs.kit.edu/home)
 >
-> #### 2. 🔍 Explore and Test
+> 2. 🔍 **Explore and Test**<br>
 > Try out the enhancements — see how they fit your workflow.
 >
-> #### 3. ❤️ Your Feedback Matters
+> 3. ❤️ **Your Feedback Matters**<br>
 > Share your comments or report any issues in our [GitHub Discussion Thread](https://github.com/LabIMotion/labimotion/discussions/67).
 
 We appreciate your help in testing these new features!
+
+[⬆ Back to top](#table-of-contents)
+{: .text-right .fs-2 }
 
 {% include category-tags.html categories=page.categories %}
 
