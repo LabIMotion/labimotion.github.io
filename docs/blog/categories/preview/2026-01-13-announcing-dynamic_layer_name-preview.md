@@ -7,7 +7,7 @@ parent: Preview
 grand_parent: Categories
 nav_exclude: false
 nav_order: -20260113
-categories: [Preview]
+categories: [Announcements, Preview]
 has_toc: true
 ---
 
