@@ -69,7 +69,7 @@ The new **Element Linking** features include:
 </div>
 
 {: .warning}
-Cell Line element will be available in the next release.
+Cell Line element will be available soon.
 
 
 [⬆ Back to top](#table-of-contents)
@@ -161,15 +161,17 @@ Several improvements have been introduced to enhance the overall user experience
 
 ## How to Participate in the Preview
 
-1. 🖥️ **Visit the Test Instance:**
-   [Link to Test Instance](https://labimotion-stage.ibcs.kit.edu/home)
-
-2. 🔍 **Explore the New Features:**
-   Try out the enhancements and evaluate how they support your work.
-
-3. ❤️ **Provide Feedback:**
-   Please share your comments in our discussion thread:
-   [Link to Discussion Thread](https://github.com/LabIMotion/labimotion/discussions/67)
+{: .note }
+>
+> 1. 🖥️ **Visit the Test Instance:**
+>    [Link to Test Instance](https://labimotion-stage.ibcs.kit.edu/home)
+>
+> 2. 🔍 **Explore the New Features:**
+>    Try out the enhancements and evaluate how they support your work.
+>
+> 3. ❤️ **Provide Feedback:**
+>    Please share your comments in our discussion thread:
+>    [Link to Discussion Thread](https://github.com/LabIMotion/labimotion/discussions/67)
 
 We appreciate your participation and look forward to your feedback.
 

@@ -1,0 +1,65 @@
+// GitBook-inspired color scheme
+// Warm cream sidebar, orange accent, clean typography
+
+// --- Core palette ---
+$gb-orange:        #FF7A00;   // GitBook primary orange
+$gb-orange-dark:   #D96300;   // Darker orange for active text / hover
+$gb-orange-light:  #FFF0E0;   // Light warm orange tint (active nav bg)
+$gb-orange-subtle: #FFF7EE;   // Very light tint for blockquotes / callouts
+
+$gb-cream:         #F8F3EC;   // Warm parchment sidebar bg
+$gb-warm-border:   #E7E0D8;   // Warm gray borders
+
+$gb-black:         #1F2328;   // Cool near-black headings (matches GitBook)
+$gb-body:          #374151;   // Dark gray body text (matches GitBook)
+$gb-muted:         #57606A;   // Lighter gray for subtitles / secondary text
+$gb-white:         #FFFFFF;
+
+// --- just-the-docs SCSS variable overrides ---
+
+// Backgrounds
+$body-background-color:    $gb-white;
+$sidebar-color:            $gb-cream;
+$search-background-color:  $gb-white;
+$table-background-color:   $gb-white;
+$code-background-color:    #F5F1EB;   // Warm cream for inline code
+$feedback-color:           $gb-orange-subtle;
+
+// Text colors
+$body-text-color:           $gb-body;
+$body-heading-color:        $gb-black;
+$search-result-preview-color: $gb-muted;
+$nav-child-link-color:      $gb-body;
+$link-color:                $gb-orange;
+$btn-primary-color:         $gb-orange;
+$base-button-color:         $gb-white;   // plain .btn → white background
+
+// Border colors
+$border-color:              $gb-warm-border;
+$table-border-color:        #D8D0C8;
+
+// Navigation colors
+$nav-link-color:            $gb-body;
+$nav-list-item-color:       $gb-body;
+$nav-list-item-hover-color: $gb-orange-dark;
+
+// Button
+$btn-primary-color: $gb-orange;
+
+// Focus / active
+$focus-color: $gb-orange;
+$search-active-color: $gb-orange;
+$search-border-color: $gb-warm-border;
+$link-hover-color: $gb-orange-dark;
+
+// Typography
+$body-font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$mono-font-family: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$root-font-size: 16px;
+$body-line-height: 1.7;
+
+// Code
+$code-linenumber-color: $gb-muted;
+
+// Sidebar width
+$sidebar-width: 280px;

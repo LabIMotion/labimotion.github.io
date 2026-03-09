@@ -12,7 +12,6 @@ description: LabIMotion 1.3.0 brings new features including Generic Element Repo
 ---
 
 # LabIMotion 1.3.0 is here! 🥁
-{: .fw-500 }
 
 {% include post-header.html
   description=page.description

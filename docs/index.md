@@ -6,12 +6,13 @@ permalink: /
 ---
 
 # LabIMotion Blog
-{: .fs-9 .fw-700 }
+
+<!-- <div style="display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; margin-bottom: 1rem;">
+  <h1 style="margin: 0;">LabIMotion Blog</h1>
+  <img src="assets/images/labimotion_logo.png" alt="LabIMotion Blog" style="max-width: 180px; width: 100%; flex-shrink: 0;" />
+</div> -->
 
 The LabIMotion Blog shares updates and insights to help you standardize your laboratory data with flexibility.
-{: .fs-6 .fw-300 }
-
-![LabIMotion Blog](assets/images/labimotion_logo.png){: .mx-auto .d-block .mb-4 .img-fluid .w-75 }
 
 [Try LabIMotion](https://labimotion-stage.ibcs.kit.edu/home){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
 [View on GitHub](https://github.com/LabIMotion/labimotion){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }

@@ -1,49 +1,95 @@
 // Add this at the beginning of your custom.scss, before any theme-specific styles
 
-// Global callout styling
-.warning,
-.note,
-.important,
-.new,
-.highlight {
-  padding: 1rem;
-  margin: 1rem 0;
-  border-radius: 4px;
-  border-left: 4px solid;
+// =============================================================================
+// Hint / callout blocks — GitBook card style
+// Full border, rounded corners, flex + Bootstrap Icon on the left
+// Classes: .info  .note  .success  .warning  .important / .danger  .new
+// =============================================================================
+
+// Base
+.info, .note, .success, .warning, .important, .danger, .new, .highlight {
+  display: grid;
+  grid-template-columns: 1.25rem 1fr;
+  column-gap: 0.75rem;
+  align-items: start;
+  padding: 0.875rem 1rem;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  border: 1px solid;
+  font-size: 0.875rem;
+  line-height: 1.6;
+
+  &::before {
+    font-family: "bootstrap-icons";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  // All direct children stack vertically in the right column
+  > * { grid-column: 2; margin: 0; }
+  > * + * { margin-top: 0.4rem; }
 }
 
-.warning {
-  background-color: #FFFAEC; // Light yellow
-  border-left-color: #FFBA0A; // Yellow
+// Info — light gray, info-circle icon (GitBook default)
+.info {
+  background-color: #F6F8FA;
+  border-color: #D0D7DE;
+  color: #374151;
+  &::before { content: "\f431"; color: #57606A; } // bi-info-circle
 }
 
+// Note — light blue tint, info-circle icon
 .note {
-  background-color: #E6F3FF; // Light blue
-  border-left-color: #448AFF; // Blue
+  background-color: #EFF6FF;
+  border-color: #BFDBFE;
+  color: #374151;
+  &::before { content: "\f431"; color: #3B82F6; } // bi-info-circle
 }
 
-.important {
-  background-color: #FFEAEE; // Light red
-  border-left-color: #FF5252; // Red
-}
-
-.new {
-  background-color: #F3E5FF; // Light purple
-  border-left-color: #7E57C2; // Purple
-}
-
+// Success / Highlight — light green, check-circle icon
+.success,
 .highlight {
-  background-color: #E8F5E9; // Light green
-  border-left-color: #4CAF50; // Green
+  background-color: #F0FDF4;
+  border-color: #BBF7D0;
+  color: #374151;
+  &::before { content: "\f26b"; color: #16A34A; } // bi-check-circle
+}
+
+// Warning — light amber, exclamation-circle icon
+.warning {
+  background-color: #FFFBEB;
+  border-color: #FDE68A;
+  color: #374151;
+  &::before { content: "\f33a"; color: #D97706; } // bi-exclamation-circle
+}
+
+// Important / Danger — light red, exclamation-triangle icon
+.important,
+.danger {
+  background-color: #FEF2F2;
+  border-color: #FECACA;
+  color: #374151;
+  &::before { content: "\f33b"; color: #DC2626; } // bi-exclamation-triangle
+}
+
+// New — light purple, stars icon
+.new {
+  background-color: #F5F3FF;
+  border-color: #DDD6FE;
+  color: #374151;
+  &::before { content: "\f588"; color: #7C3AED; } // bi-stars
 }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
   font-weight: 400;
+  font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11'; // Inter optical refinements, same as GitBook
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
   font-weight: 600;
 }
 
@@ -554,4 +600,278 @@ body.ultra-violet {
 
 .w-90 {
   width: 90% !important;
+}
+
+// =============================================================================
+// GitBook Theme — structural & component overrides
+// Activated by color_scheme: gitbook-theme in _config.yml
+// =============================================================================
+
+:root {
+  --gb-orange:        #FF7A00;
+  --gb-orange-dark:   #D96300;
+  --gb-orange-light:  #FFF0E0;
+  --gb-cream:         #F8F3EC;
+  --gb-warm-border:   #E7E0D8;
+  --gb-black:         #1F2328;
+  --gb-body:          #374151;
+  --gb-muted:         #57606A;
+
+  // Override theme primary for callouts/hr etc.
+  --theme-primary-color: #FF7A00;
+  --category-border-color: #FF7A00;
+  --category-hover-bg: #FF7A00;
+  --category-hover-text: #FFFFFF;
+}
+
+// --- Typography ---
+body {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--gb-body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-weight: 600;
+  color: var(--gb-black);
+  line-height: 1.3;
+}
+
+h1 { font-size: 2rem;      margin-top: 2rem;    margin-bottom: 1.25rem !important; }
+h2 { font-size: 1.375rem; margin-top: 2.25rem; margin-bottom: 1rem !important; }
+h3 { font-size: 1.125rem; margin-top: 1.75rem; margin-bottom: 0.875rem !important; }
+h4 { font-size: 1rem;     margin-top: 1.5rem;  margin-bottom: 0.75rem !important; }
+
+// Subtitle style — add {: .page-subtitle } below a paragraph in Markdown to apply
+.page-subtitle {
+  color: #8C959F;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-top: 1.5rem;
+  margin-bottom: 1.75rem;
+}
+
+// --- Links ---
+a {
+  color: var(--gb-orange);
+  text-decoration: none;
+  &:hover {
+    color: var(--gb-orange-dark);
+    text-decoration: underline;
+  }
+}
+
+// --- Sidebar ---
+.side-bar {
+  background-color: #F8F3EC !important;
+  border-right: 1px solid var(--gb-warm-border) !important;
+}
+
+.site-header {
+  background-color: #F8F3EC !important;
+  border-bottom: 1px solid var(--gb-warm-border) !important;
+}
+
+.site-footer {
+  background-color: #F8F3EC !important;
+  border-top: 1px solid var(--gb-warm-border) !important;
+  font-size: 0.8rem;
+  color: var(--gb-muted);
+}
+
+// --- Site title ---
+.site-title {
+  text-indent: -9999px;
+  overflow: hidden;
+  display: block !important;
+  background-image: url('/assets/images/labimotion_logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left center;
+  height: 40px;
+  width: 140px;
+
+  &:hover, &:active, &:visited, &:focus {
+    background-image: url('/assets/images/labimotion_logo.png');
+    background-color: transparent !important;
+    text-decoration: none !important;
+  }
+}
+
+// --- Navigation ---
+.nav-list-link {
+  color: var(--gb-body) !important;
+  border-radius: 4px;
+  transition: background-color 0.15s ease, color 0.15s ease;
+
+  &:hover {
+    background-color: #F0E9E0 !important;
+    color: var(--gb-orange-dark) !important;
+    text-decoration: none;
+  }
+
+  &.active {
+    background-color: var(--gb-orange-light) !important;
+    color: var(--gb-orange-dark) !important;
+    font-weight: 600;
+    border-left: 3px solid var(--gb-orange) !important;
+    padding-left: calc(1rem - 3px) !important;
+  }
+}
+
+.navigation-list-link {
+  color: var(--gb-body) !important;
+  border-radius: 4px;
+  transition: background-color 0.15s ease, color 0.15s ease;
+
+  &:hover {
+    background-color: #F0E9E0 !important;
+    color: var(--gb-orange-dark) !important;
+    text-decoration: none;
+  }
+
+  &.active {
+    background-color: var(--gb-orange-light) !important;
+    color: var(--gb-orange-dark) !important;
+    font-weight: 600;
+    border-left: 3px solid var(--gb-orange) !important;
+    padding-left: calc(1rem - 3px) !important;
+  }
+}
+
+// --- Search input ---
+// Layout left to just-the-docs defaults; only override focus colour
+.search-input {
+  &:focus {
+    border-color: var(--gb-orange) !important;
+    box-shadow: 0 0 0 3px rgba(255, 122, 0, 0.15) !important;
+  }
+}
+
+// --- Buttons (aux links / CTAs) ---
+
+// Plain secondary button — override just-the-docs purple default
+.btn {
+  background-color: #FFFFFF !important;
+  border: 1px solid #C9C2BB !important;
+  color: var(--gb-body) !important;
+  border-radius: 8px !important;
+  font-weight: 500;
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+
+  &:hover {
+    background-color: var(--gb-orange-light) !important;
+    border-color: var(--gb-orange) !important;
+    color: var(--gb-orange-dark) !important;
+    text-decoration: none;
+  }
+}
+
+// Primary filled button — GitBook orange
+.btn-primary,
+.btn-blue {
+  background-color: var(--gb-orange) !important;
+  border: 1px solid var(--gb-orange) !important;
+  color: #FFFFFF !important;
+  border-radius: 8px;
+  transition: background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+
+  &:hover {
+    background-color: var(--gb-orange-dark) !important;
+    border-color: var(--gb-orange-dark) !important;
+    color: #FFFFFF !important;
+    box-shadow: 0 4px 12px rgba(255, 122, 0, 0.35) !important;
+    transform: translateY(-1px);
+    text-decoration: none;
+  }
+
+  &:active {
+    transform: translateY(0);
+    box-shadow: none !important;
+  }
+}
+
+// Aux nav links in header (top-right) — clean outlined style
+.aux-nav-list-item .btn {
+  background-color: #FFFFFF;
+  border: 1px solid #C9C2BB;
+  color: var(--gb-body);
+
+  &:hover {
+    background-color: var(--gb-orange-light);
+    border-color: var(--gb-orange);
+    color: var(--gb-orange-dark);
+  }
+}
+
+// --- Code ---
+code {
+  background-color: #F5F1EB;
+  border: 1px solid var(--gb-warm-border);
+  border-radius: 4px;
+  padding: 0.15em 0.45em;
+  font-size: 0.875em;
+  color: #C4502D;  // warm rust for inline code
+}
+
+pre.highlight,
+.highlight pre {
+  background-color: #F5F1EB !important;
+  border: 1px solid var(--gb-warm-border);
+  border-radius: 8px;
+
+  code {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    color: inherit;
+    font-size: 0.875em;
+  }
+}
+
+// --- Blockquotes ---
+blockquote {
+  border-left: 4px solid var(--gb-orange);
+  background-color: #FFF7EE;
+  padding: 0.75rem 1.25rem;
+  margin: 1.25rem 0;
+  border-radius: 0 6px 6px 0;
+  color: var(--gb-body);
+}
+
+// --- Tables ---
+table {
+  border-collapse: collapse;
+  width: 100%;
+
+  th {
+    background-color: var(--gb-cream);
+    font-weight: 600;
+    color: var(--gb-black);
+    border: 1px solid #D8D0C8;
+    padding: 0.65rem 1rem;
+  }
+
+  td {
+    border: 1px solid #D8D0C8;
+    padding: 0.65rem 1rem;
+  }
+
+  tr:hover td {
+    background-color: #FFF7EE;
+  }
+}
+
+// --- Callout blocks: now fully defined at the top of this file ---
+// (.info, .note, .success, .warning, .important, .danger, .new, .highlight)
+
+// --- Primary HR ---
+.primary-hr {
+  border-top: 1px solid var(--gb-orange);
+}
+
+// --- Feedback / subscribe section ---
+.subscribe-feedback-section {
+  border-top-color: var(--gb-warm-border);
 }

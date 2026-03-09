@@ -12,7 +12,6 @@ description: LabIMotion 1.4.0 brings new features including image previews, cust
 ---
 
 # 🥁 Chemotion LabIMotion 1.4.0 is here!
-{: .fw-500 }
 
 {% include post-header.html
   description=page.description

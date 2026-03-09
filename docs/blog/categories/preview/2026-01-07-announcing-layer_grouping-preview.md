@@ -14,7 +14,8 @@ has_toc: true
 (New) Layer Grouping
 {: .fs-7 .fw-500 }
 
----
+Organize Multiple Layers into Logical Groups.
+{: .page-subtitle }
 
 **Layer Grouping** is a major new feature that allows you to bundle multiple layers into a single logical unit. Instead of managing dozens of individual layers, you can now organize them into cohesive blocks and control their visibility with a single rule.
 
@@ -43,14 +44,12 @@ has_toc: true
 
 ---
 
-[⬆ Back to top](#table-of-contents)
-{: .text-right .fs-2 }
+## How It Works
 
-## How It Works (For Users)
-
-<br>
-
-*For Users: e.g. in Chemotion ELN MyDB view*
+> **Audience:** Users
+>
+> **Interface:** Chemotion ELN – MyDB view
+{: .info }
 
 Forms respond instantly to your input. When you pick a specific option (like a checkbox or dropdown), the system evaluates if a whole group should appear.
 
@@ -60,12 +59,17 @@ Forms respond instantly to your input. When you pick a specific option (like a c
 
 *Note: Grouping is valuable for organization even if you don't use visibility rules!*
 
----
-
 [⬆ Back to top](#table-of-contents)
 {: .text-right .fs-2 }
 
-## How to Setup (For Designers)
+---
+
+## How to Setup
+
+> **Audience:** Designers
+>
+> **Interface:** Designer functionality
+{: .info }
 
 Configuration is managed through the new **Group & Restrictions** button in the Template Designer.
 If you have permission to edit form templates, you can configure which fields appear in the title by following these steps:
@@ -76,11 +80,10 @@ If you have permission to edit form templates, you can configure which fields ap
 4. **Choose Trigger**: Select the field and value that should reveal the group.
 5. **Save**: Click **Save** and then **Release** your template changes.
 
----
-
 [⬆ Back to top](#table-of-contents)
 {: .text-right .fs-2 }
 
+---
 
 ## Example Scenarios
 
@@ -104,26 +107,29 @@ If you have permission to edit form templates, you can configure which fields ap
 
 **User Experience**: Instead of the form appearing cluttered with 5 empty layers, the whole "Security Audit" chapter appears instantly only when the user signifies that an audit is necessary.
 
----
-
 [⬆ Back to top](#table-of-contents)
 {: .text-right .fs-2 }
+
+---
 
 ## How to Participate in the Preview
 
 Follow these steps to explore the new features and share your insight:
 
 {: .note }
-> #### 1. 🖥️ Visit the Staging Instance
+> 1. 🖥️ **Visit the Staging Instance**<br>
 > Access the preview environment at: [labimotion-stage.ibcs.kit.edu](https://labimotion-stage.ibcs.kit.edu/home)
 >
-> #### 2. 🔍 Explore and Test
+> 2. 🔍 **Explore and Test**<br>
 > Try out the enhancements — see how they fit your workflow.
 >
-> #### 3. ❤️ Your Feedback Matters
+> 3. ❤️ **Your Feedback Matters**<br>
 > Share your comments or report any issues in our [GitHub Discussion Thread](https://github.com/LabIMotion/labimotion/discussions/67).
 
 We appreciate your help in testing these new features!
+
+[⬆ Back to top](#table-of-contents)
+{: .text-right .fs-2 }
 
 {% include category-tags.html categories=page.categories %}
 
