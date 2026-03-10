@@ -31,7 +31,7 @@ Key updates include:
 - **Export Table Data to XLSX** – Convenient offline access to table data
 - **User Interface Improvements** – Resizable workspace and layout refinements for a smoother experience
 
-This release also includes bug fixes and internal improvements for better stability and maintainability. A complete list of changes is available in the [Release 2.1.0](https://github.com/LabIMotion/labimotion/blob/main/CHANGELOG.md#210){:target="_blank" rel="noopener"}.
+This release also includes bug fixes and internal improvements for better stability and maintainability. A complete list of changes is available in the [Release 2.1.0](https://github.com/LabIMotion/labimotion/blob/main/CHANGELOG.md#210){:target="_blank" rel="noopener"}. You can also refer to the [2.1.0 preview](preview/2025-11-05-announcing-labimotion-2-1-0-preview.html) for more details on the features introduced in this version.
 
 {% include category-tags.html categories=page.categories %}
 
