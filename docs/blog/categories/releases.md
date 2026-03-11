@@ -3,7 +3,7 @@ layout: default
 title: Releases
 parent: Categories
 grand_parent: Blog
-nav_order: 3
+nav_order: 2
 has_children: true
 permalink: /blog/categories/releases
 categories: [Releases]

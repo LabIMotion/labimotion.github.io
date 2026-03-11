@@ -3,7 +3,7 @@ layout: default
 title: Preview
 parent: Categories
 grand_parent: Blog
-nav_order: 2
+nav_order: 4
 has_children: true
 permalink: /blog/categories/preview
 categories: [Preview]
