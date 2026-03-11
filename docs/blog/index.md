@@ -20,9 +20,12 @@ permalink: /blog
     <h3>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </h3>
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="fw-500">{{ post.date | date: "%B %d, %Y" }}</time>
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="fs-3 fw-500">{{ post.date | date: "%B %d, %Y" }}</time>
+    {% if post.description %}
+      <p class="mt-2 fs-3">{{ post.description }}</p>
+    {% endif %}
     {% if post.categories %}
-      <div class="post-categories mt-2">
+      <div class="post-categories fs-3 mt-2">
         <span class="categories-label">Categories:</span>
         <span class="categories-container">
           {% for category in post.categories %}
@@ -31,9 +34,6 @@ permalink: /blog
           {% endfor %}
         </span>
       </div>
-    {% endif %}
-    {% if post.description %}
-      <p class="mt-2">{{ post.description }}</p>
     {% endif %}
   </article>
 {% endfor %}

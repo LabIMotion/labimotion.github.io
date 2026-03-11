@@ -20,9 +20,9 @@ categories: [Announcements]
     <h3>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </h3>
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="fw-500">{{ post.date | date: "%B %d, %Y" }}</time>
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="fs-3 fw-500">{{ post.date | date: "%B %d, %Y" }}</time>
     {% if post.description %}
-      <p>{{ post.description }}</p>
+      <p class="mt-2 fs-3">{{ post.description }}</p>
     {% endif %}
   </article>
 {% endfor %}
