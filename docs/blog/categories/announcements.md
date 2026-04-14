@@ -2,27 +2,10 @@
 layout: default
 title: Announcements
 parent: Categories
-grand_parent: Blog
 nav_order: 1
 has_children: true
 permalink: /blog/categories/announcements
 categories: [Announcements]
 ---
 
-# Announcements
-{: .fw-500 }
-
-{% assign page_files = site.pages | where_exp: "item", "item.categories contains 'Announcements'" %}
-{% assign sorted_posts = page_files | sort: 'date' | reverse %}
-
-{% for post in sorted_posts %}
-  <article class="post-preview mb-5">
-    <h3>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </h3>
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="fs-3 fw-500">{{ post.date | date: "%B %d, %Y" }}</time>
-    {% if post.description %}
-      <p class="mt-2 fs-3">{{ post.description }}</p>
-    {% endif %}
-  </article>
-{% endfor %}
+{% include category-index.html category="Announcements" description="Project news, community milestones, and important communications." %}

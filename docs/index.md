@@ -5,20 +5,18 @@ nav_order: 1
 permalink: /
 ---
 
+<div class="apple-hero-light" markdown="1">
+
 # LabIMotion Blog
 
-<!-- <div style="display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; margin-bottom: 1rem;">
-  <h1 style="margin: 0;">LabIMotion Blog</h1>
-  <img src="assets/images/labimotion_logo.png" alt="LabIMotion Blog" style="max-width: 180px; width: 100%; flex-shrink: 0;" />
-</div> -->
+Standardize your lab data with flexibility — updates, releases, and feature deep dives written for researchers.
 
-The LabIMotion Blog shares updates and insights to help you standardize your laboratory data with flexibility.
+[Try LabIMotion](https://labimotion-stage.ibcs.kit.edu/home){: .btn .btn-primary }
+[View on GitHub](https://github.com/LabIMotion/labimotion){: .btn }
+[View Template Hub](https://www.chemotion-repository.net/home/genericHub){: .btn }
 
-[Try LabIMotion](https://labimotion-stage.ibcs.kit.edu/home){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
-[View on GitHub](https://github.com/LabIMotion/labimotion){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[View Template Hub](https://www.chemotion-repository.net/home/genericHub){: .btn .fs-5 .mb-4 .mb-md-0 }
+</div>
 
----
 
 ## Latest Updates
 
@@ -39,22 +37,7 @@ The LabIMotion Blog shares updates and insights to help you standardize your lab
 {% assign sorted_posts = blog_posts | sort: 'date' | reverse %}
 
 {% for post in sorted_posts limit:3 %}
-  <article class="post-preview mb-6">
-    {% if post.categories %}
-    <div class="post-categories mt-6">
-      {% for category in post.categories %}
-        <a href="{{ site.baseurl }}/blog/categories/{{ category | slugify | downcase }}" class="category-tag">{{ category }}</a>
-      {% endfor %}
-    </div>
-    {% endif %}
-    <h3>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </h3>
-    {% if post.description %}
-      <p class="mb-1">{{ post.description }}</p>
-    {% endif %}
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="fs-3 fw-500">{{ post.date | date: "%B %d, %Y" }}</time>
-  </article>
+  {% include post-preview.html post=post show_categories=true %}
 {% endfor %}
 
 [View All Posts](./blog/archive) | [Browse by Category](./blog/categories)

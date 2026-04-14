@@ -1,0 +1,59 @@
+// Apple-inspired color scheme
+// Binary light rhythm (#ffffff / #f5f5f7), Apple Blue accent, SF Pro typography
+
+// --- Core palette ---
+$apple-black:       #000000;
+$apple-near-black:  #1d1d1f;
+$apple-light-gray:  #f5f5f7;
+$apple-surface:     #fafafc;
+$apple-white:       #ffffff;
+$apple-blue:        #0071e3;
+$apple-link:        #0066cc;
+$apple-bright-blue: #2997ff;
+$apple-border:      #d2d2d7;
+$apple-border-soft: #e8e8ed;
+
+// --- just-the-docs SCSS variable overrides ---
+
+// Backgrounds
+$body-background-color:       $apple-white;
+$sidebar-color:               $apple-light-gray;
+$search-background-color:     $apple-surface;
+$table-background-color:      $apple-white;
+$code-background-color:       $apple-light-gray;
+$feedback-color:              $apple-light-gray;
+
+// Text
+$body-text-color:             $apple-near-black;
+$body-heading-color:          $apple-near-black;
+$search-result-preview-color: rgba(0, 0, 0, 0.6);
+$nav-child-link-color:        $apple-near-black;
+$link-color:                  $apple-link;
+$btn-primary-color:           $apple-blue;
+$base-button-color:           $apple-white;
+
+// Borders
+$border-color:                $apple-border-soft;
+$table-border-color:          $apple-border-soft;
+
+// Navigation
+$nav-link-color:              $apple-near-black;
+$nav-list-item-color:         $apple-near-black;
+$nav-list-item-hover-color:   $apple-blue;
+
+// Interactive
+$focus-color:                 $apple-blue;
+$search-active-color:         $apple-blue;
+$search-border-color:         $apple-border;
+$link-hover-color:            $apple-blue;
+
+// Typography — SF Pro via -apple-system, Inter as cross-platform fallback
+$body-font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$mono-font-family: "SF Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$root-font-size: 16px;
+$body-line-height: 1.47;
+
+$code-linenumber-color: rgba(0, 0, 0, 0.48);
+
+// Sidebar
+$sidebar-width: 300px;

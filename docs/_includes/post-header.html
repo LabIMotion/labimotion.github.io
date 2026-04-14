@@ -1,5 +1,12 @@
-<span class="fs-3">{{ include.description }}</span>
-
-<span class="fs-3 fw-300">{{ include.author }}</span><span class="mx-2 fs-3 fw-300">·</span><time class="fs-3 fw-300" datetime="{{ include.date | date_to_xmlschema }}">{{ include.date | date: "%B %d, %Y" }}</time>
-
-<hr class="primary-hr">
+<header class="post-header">
+  <p class="post-meta">
+    <time datetime="{{ include.date | date_to_xmlschema }}">{{ include.date | date: "%B %d, %Y" }}</time>
+    {% if include.author %}
+      <span class="post-meta-sep" aria-hidden="true">·</span>
+      <span class="post-author">{{ include.author }}</span>
+    {% endif %}
+  </p>
+  {% if include.description %}
+    <p class="post-lead">{{ include.description }}</p>
+  {% endif %}
+</header>

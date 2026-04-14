@@ -3,7 +3,7 @@ description: LabIMotion Documentation
 remote_theme: just-the-docs/just-the-docs
 
 # Theme settings
-color_scheme: gitbook-theme
+color_scheme: apple
 search_enabled: true
 heading_anchors: true
 
@@ -67,16 +67,14 @@ sort:
 
 # Blog-specific settings
 defaults:
-  # Category pages
+  # Category pages (has_toc applies to the 4 category index pages + their posts)
   - scope:
       path: "blog/categories"
       type: pages
     values:
-      parent: Categories
-      grand_parent: Blog
       has_toc: false
 
-  # Posts in category subfolders - let the folder structure define parent/child
+  # Posts in category subfolders — folder name → their parent in the nav tree
   - scope:
       path: "blog/categories/announcements"
     values:
@@ -93,6 +91,12 @@ defaults:
       path: "blog/categories/preview"
     values:
       parent: Preview
+      grand_parent: Categories
+
+  - scope:
+      path: "blog/categories/feature-highlights"
+    values:
+      parent: Feature Highlights
       grand_parent: Categories
 
   # Generic post defaults (will be overridden by the more specific paths above)

@@ -9,3 +9,6 @@ docs/.jekyll-metadata
 # OS files
 .DS_Store
 Thumbs.db
+
+CLAUDE.md
+DESIGN.md

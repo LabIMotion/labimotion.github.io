@@ -83,14 +83,17 @@
 }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   font-weight: 400;
-  font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11'; // Inter optical refinements, same as GitBook
+  letter-spacing: -0.022em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   font-weight: 600;
+  letter-spacing: -0.015em;
 }
 
 .primary-hr {
@@ -101,10 +104,10 @@ h1, h2, h3, h4, h5, h6 {
 :root {
   --nav-width: 18.75rem;     /* 300px ÷ 16 = 18.75rem */
   --nav-width-md: 18.75rem;
-  --category-border-color: #5F4B8B; /* Ultra Violet */
-  --category-hover-bg: #5F4B8B;
+  --category-border-color: #0071e3; /* Apple Blue */
+  --category-hover-bg: #0071e3;
   --category-hover-text: #FFFFFF;
-  --theme-primary-color: #5F4B8B;
+  --theme-primary-color: #0071e3;
 }
 
 // Apply the wider navigation width
@@ -143,16 +146,6 @@ h1, h2, h3, h4, h5, h6 {
   flex-wrap: wrap;
 }
 
-.categories-label {
-  margin-right: 0.5em;
-  flex-shrink: 0;
-}
-
-.categories-container {
-  display: inline-flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
 
 // Global category tag styling
 .category-tag {
@@ -172,422 +165,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-// Mocha Mousse theme specific styles (they'll only apply when mocha-theme is active)
-body.mocha-theme {
-  --category-border-color: #A47551;
-  --category-hover-bg: #A47551;
-  --category-hover-text: #ffffff;
-
-  .site-title {
-    color: #A47551; // Mocha Mousse
-  }
-
-  .site-header {
-    border-bottom: 1px solid #D8BFA8;
-  }
-
-  .search-input {
-    border: 1px solid #D8BFA8;
-  }
-
-  .search-input:focus {
-    box-shadow: 0 0 3px rgba(164, 117, 81, 0.5);
-  }
-
-  .navigation-list-item.active {
-    background: #F2E8DE;
-  }
-
-  a.navigation-list-link:hover, a.navigation-list-link.active {
-    color: #7D593E;
-  }
-
-  .primary-hr {
-    border-top: 1px solid #A47551;
-  }
-
-  // Improve button styling
-  .btn {
-    &:hover {
-      background-color: #C19978;
-    }
-  }
-
-  .search-result-highlight {
-    color: #A47551;
-  }
-
-  // Table styling
-  th {
-    background-color: #F2E8DE;
-  }
-
-  // Code block styling
-  pre.highlight, code {
-    background-color: #F9F9F9;
-    border: 1px solid #E1E5E8;
-  }
-
-  // Custom blockquotes
-  blockquote {
-    border-left: 4px solid #C19978;
-    background-color: #F7F2EC;
-  }
-
-  // Custom note styling
-  .note {
-    background-color: #F2E8DE;
-    border-left: 4px solid #A47551;
-    padding: 0.5rem 1rem;
-    margin: 1rem 0;
-  }
-}
-
-// Add this at the end of your existing file, after the mocha-theme block
-
-// Classic Blue theme specific styles
-body.classic-blue {
-  .site-title {
-    color: #0F4C81; // Classic Blue
-  }
-
-  .site-header {
-    border-bottom: 1px solid #95B8D1;
-  }
-
-  .search-input {
-    border: 1px solid #95B8D1;
-  }
-
-  .search-input:focus {
-    box-shadow: 0 0 3px rgba(15, 76, 129, 0.5);
-  }
-
-  .navigation-list-item.active {
-    background: #EBF2F8;
-  }
-
-  a.navigation-list-link:hover, a.navigation-list-link.active {
-    color: #0A3259;
-  }
-
-  // Button styling for classic blue theme
-  .btn {
-    &:hover {
-      background-color: #3570A0;
-    }
-  }
-
-  .btn-primary, .btn-blue {
-    background-color: #0F4C81;
-    color: #ffffff;
-
-    &:hover {
-      background-color: #0A3259;
-    }
-  }
-
-  .primary-hr {
-    border-top: 1px solid #0F4C81;
-  }
-
-  .search-result-highlight {
-    color: #0F4C81;
-  }
-
-  // Table styling
-  th {
-    background-color: #EBF2F8;
-  }
-
-  // Code block styling
-  pre.highlight, code {
-    background-color: #F7F7F7;
-    border: 1px solid #E1E5E8;
-  }
-
-  // Custom blockquotes
-  blockquote {
-    border-left: 4px solid #5A87AD;
-    background-color: #EBF2F8;
-  }
-
-  // Custom note styling
-  .note {
-    background-color: #EBF2F8;
-    border-left: 4px solid #0F4C81;
-    padding: 0.5rem 1rem;
-    margin: 1rem 0;
-  }
-}
-
-// Add this at the end of your existing file, after the classic-blue block
-
-// Gray-Yellow theme specific styles (Ultimate Gray + Illuminating)
-body.gray-yellow {
-  .site-title {
-    color: #939597; // Ultimate Gray
-  }
-
-  .site-header {
-    border-bottom: 1px solid #939597;
-  }
-
-  .search-input {
-    border: 1px solid #BCBCBC;
-  }
-
-  .search-input:focus {
-    box-shadow: 0 0 3px rgba(245, 223, 77, 0.5);
-    border-color: #F5DF4D; // Illuminating
-  }
-
-  .navigation-list-item.active {
-    background: #FEFBE8; // Very light yellow
-  }
-
-  a.navigation-list-link:hover, a.navigation-list-link.active {
-    color: #636363; // Dark gray
-  }
-
-  // Button styling for gray-yellow theme
-  .btn {
-    background-color: #F5F5F5; // Very light gray
-    border: thin solid #939597; // Ultimate Gray
-    color: #636363; // Dark gray
-
-    &:hover {
-      background-color: #FEFBE8; // Very light yellow
-      border-color: #F5DF4D; // Illuminating
-      color: #333333; // Very dark gray
-    }
-  }
-
-  .btn-primary, .btn-blue {
-    background-color: #939597; // Ultimate Gray
-    color: #ffffff;
-
-    &:hover {
-      background-color: #F5DF4D; // Illuminating
-      color: #333333; // Very dark gray for contrast on yellow
-    }
-  }
-
-  // Yellow accents throughout the UI
-  .primary-hr {
-    border-top: 1px solid #F5DF4D; // Illuminating
-  }
-
-  .search-result-highlight {
-    color: #E6C60D; // Dark yellow
-    background-color: #FEFBE8; // Very light yellow
-  }
-
-  // Table styling
-  th {
-    background-color: #F5F5F5; // Very light gray
-    border-bottom: 2px solid #F5DF4D; // Illuminating yellow bottom border
-  }
-
-  // Code block styling
-  pre.highlight, code {
-    background-color: #F5F5F5; // Very light gray
-    border: 1px solid #BCBCBC; // Light gray
-  }
-
-  // Custom blockquotes with dual-color styling
-  blockquote {
-    border-left: 4px solid #939597; // Ultimate Gray
-    background-color: #F5F5F5; // Very light gray
-    border-bottom: 1px solid #F5DF4D; // Illuminating yellow bottom accent
-  }
-
-  // Custom note styling with dual colors
-  .note {
-    background-color: #F5F5F5; // Very light gray
-    border-left: 4px solid #939597; // Ultimate Gray
-    border-bottom: 1px solid #F5DF4D; // Illuminating yellow bottom accent
-    padding: 0.5rem 1rem;
-    margin: 1rem 0;
-  }
-
-  // Main headings with yellow underline
-  h1, h2 {
-    border-bottom: 2px solid #F5DF4D; // Illuminating
-    padding-bottom: 0.25rem;
-    display: inline-block;
-  }
-
-  // Highlighted text
-  .highlight-text {
-    background-color: #FEFBE8; // Very light yellow
-    padding: 0.1rem 0.2rem;
-    border-radius: 3px;
-  }
-
-  // Important callouts
-  .important {
-    background-color: #FEFBE8; // Very light yellow
-    border-left: 4px solid #F5DF4D; // Illuminating
-    padding: 1rem;
-    margin: 1rem 0;
-  }
-}
-
-// Add this at the end of your existing file, after the gray-yellow block
-
-// Ultra Violet theme specific styles
-body.ultra-violet {
-  --category-border-color: #5F4B8B; /* Ultra Violet */
-  --category-hover-bg: #5F4B8B;
-  --category-hover-text: #FFFFFF;
-  --theme-primary-color: #5F4B8B;
-
-  .site-title {
-    color: #5F4B8B; // Ultra Violet
-  }
-
-  .site-header {
-    border-bottom: 1px solid #B2A1D0; // Accent lavender
-  }
-
-  .search-input {
-    border: 1px solid #B2A1D0; // Accent lavender
-  }
-
-  .search-input:focus {
-    box-shadow: 0 0 3px rgba(95, 75, 139, 0.5); // Ultra Violet with opacity
-    border-color: #5F4B8B; // Ultra Violet
-  }
-
-  .navigation-list-item.active {
-    background: #EAE5F3; // Very light violet
-  }
-
-  a.navigation-list-link:hover, a.navigation-list-link.active {
-    color: #483A6A; // Dark violet
-  }
-
-  // Button styling for ultra violet theme
-  .btn {
-    background-color: #F7F7F7; // Neutral gray
-    border: thin solid #5F4B8B; // Ultra Violet
-    color: #483A6A; // Dark violet
-
-    &:hover {
-      background-color: #5F4B8B; // Ultra Violet
-      color: #FFFFFF; // White
-    }
-  }
-
-  .btn-primary, .btn-blue {
-    background-color: #5F4B8B; // Ultra Violet
-    color: #FFFFFF; // White
-
-    &:hover {
-      background-color: #483A6A; // Dark violet
-    }
-  }
-
-  .primary-hr {
-    border-top: 1px solid #5F4B8B; // Ultra Violet
-  }
-
-  .search-result-highlight {
-    color: #5F4B8B; // Ultra Violet
-    background-color: #EAE5F3; // Very light violet
-  }
-
-  // Table styling
-  th {
-    background-color: #EAE5F3; // Very light violet
-    border-bottom: 2px solid #B2A1D0; // Accent lavender
-  }
-
-  // Code block styling
-  pre.highlight, code {
-    background-color: #F7F7F7; // Neutral gray
-    border: 1px solid #D0C5E7; // Highlight lilac
-  }
-
-  // Custom blockquotes
-  blockquote {
-    border-left: 4px solid #8C77B0; // Light violet
-    background-color: #EAE5F3; // Very light violet
-  }
-
-  // Custom note styling
-  .note {
-    background-color: #EAE5F3; // Very light violet
-    border-left: 4px solid #5F4B8B; // Ultra Violet
-    padding: 0.5rem 1rem;
-    margin: 1rem 0;
-  }
-
-  // Creative elements for Ultra Violet theme
-
-  // Main headings with subtle gradient underline
-  h1, h2 {
-    position: relative;
-
-    &:after {
-      content: "";
-      position: absolute;
-      bottom: -5px;
-      left: 0;
-      height: 3px;
-      width: 100px;
-      background: linear-gradient(to right, #5F4B8B, #8C77B0);
-    }
-  }
-
-  // Important callouts with cosmic theme
-  .important {
-    background-color: #EAE5F3; // Very light violet
-    border-left: 4px solid #5F4B8B; // Ultra Violet
-    border-radius: 4px;
-    padding: 1rem;
-    margin: 1rem 0;
-    position: relative;
-
-    &:before {
-      content: "✦"; // Cosmic star symbol
-      position: absolute;
-      top: 0.5rem;
-      right: 0.5rem;
-      font-size: 1.2rem;
-      color: #8C77B0; // Light violet
-    }
-  }
-
-  // Links with subtle underline on hover
-  a:not(.btn):not(.category-tag) {
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-    transition: border-bottom-color 0.3s ease;
-
-    &:hover {
-      border-bottom-color: #5F4B8B; // Ultra Violet
-    }
-  }
-}
-
-// Add this to your existing CSS
-
-.subscribe-feedback-section {
-  margin-top: 2rem;
-  padding-top: 1rem;
-  border-top: 1px solid var(--border-color, #eee);
-}
-
-.action-buttons {
-  margin-top: 1rem;
-
-  .btn {
-    margin-right: 0.5rem;
-    margin-bottom: 0.5rem;
-  }
-}
 
 // Width utility classes
 .w-75 {
@@ -603,84 +180,135 @@ body.ultra-violet {
 }
 
 // =============================================================================
-// GitBook Theme — structural & component overrides
-// Activated by color_scheme: gitbook-theme in _config.yml
+// Apple-inspired overrides (active when color_scheme: apple)
 // =============================================================================
 
+// Palette is duplicated here in raw hex (and in $apple-* vars in
+// color_schemes/apple.scss) because just-the-docs also compiles
+// just-the-docs-dark.scss / just-the-docs-light.scss bundles that load
+// only the dark/light scheme — SCSS interpolation like #{$apple-black}
+// would fail there since $apple-* vars live in apple.scss. Keep both in
+// sync when changing hex values.
 :root {
-  --gb-orange:        #FF7A00;
-  --gb-orange-dark:   #D96300;
-  --gb-orange-light:  #FFF0E0;
-  --gb-cream:         #F8F3EC;
-  --gb-warm-border:   #E7E0D8;
-  --gb-black:         #1F2328;
-  --gb-body:          #374151;
-  --gb-muted:         #57606A;
+  --apple-black:        #000000;
+  --apple-near-black:   #1d1d1f;
+  --apple-light-gray:   #f5f5f7;
+  --apple-surface:      #fafafc;
+  --apple-white:        #ffffff;
+  --apple-blue:         #0071e3;
+  --apple-link:         #0066cc;
+  --apple-bright-blue:  #2997ff;
+  --apple-border:       #d2d2d7;
+  --apple-border-soft:  #e8e8ed;
+  --apple-text-sec:     rgba(0, 0, 0, 0.8);
+  --apple-text-ter:     rgba(0, 0, 0, 0.48);
+  --apple-card-shadow:  rgba(0, 0, 0, 0.22) 3px 5px 30px 0px;
 
-  // Override theme primary for callouts/hr etc.
-  --theme-primary-color: #FF7A00;
-  --category-border-color: #FF7A00;
-  --category-hover-bg: #FF7A00;
-  --category-hover-text: #FFFFFF;
+  --theme-primary-color:   #0071e3;
+  --category-border-color: #0071e3;
+  --category-hover-bg:     #0071e3;
+  --category-hover-text:   #ffffff;
 }
 
-// --- Typography ---
+// --- Type scale (single source of truth) ---
+// hero    40px  2.5rem      — hero H1, page H1
+// h2      28px  1.75rem     — section headings
+// title   21px  1.3125rem   — H3, card/list row titles
+// lead    20px  1.25rem     — hero subhead, post description
+// body    17px  1.0625rem   — default paragraph/list copy
+// small   15px  0.9375rem   — card body, preview body
+// meta    13px  0.8125rem   — dates, author, secondary labels
+// micro   12px  0.75rem     — eyebrow, tag, footer fine print
+
+// --- Base typography ---
 body {
-  font-size: 16px;
-  line-height: 1.7;
-  color: var(--gb-body);
+  font-size: 17px;
+  line-height: 1.47;
+  color: var(--apple-near-black);
+  background-color: var(--apple-white);
 }
 
+// Just-the-docs scopes most prose to .main-content with its own font-size —
+// lock it to the body scale so every page reads at the same 17px baseline.
+// Headings are also scoped under .main-content to beat the theme's specificity
+// (theme uses .main-content h1 {…} which would otherwise win against a bare h1).
+.main-content {
+  font-size: 17px;
+  line-height: 1.47;
+  letter-spacing: -0.022em;
+  padding-top: 1.25rem;
+
+  p, li, dd, dt { font-size: inherit; line-height: inherit; }
+  p { margin: 0 0 1rem; }
+
+  // !important is used here because just-the-docs' .fs-* / .fw-* utility
+  // classes (sprinkled on some legacy post titles like `{: .fs-7 .fw-500 }`)
+  // ship with !important and would otherwise override the canonical scale.
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--apple-near-black);
+    font-weight: 600 !important;
+    line-height: 1.14;
+  }
+
+  h1 { font-size: 2.5rem    !important; letter-spacing: -0.028em; line-height: 1.07; margin-top: 2.5rem;  margin-bottom: 1.5rem; }
+  h2 { font-size: 1.75rem   !important; letter-spacing: -0.02em;  line-height: 1.14; margin-top: 2.25rem; margin-bottom: 1rem; }
+  h3 { font-size: 1.3125rem !important; letter-spacing: -0.015em; line-height: 1.19; margin-top: 1.75rem; margin-bottom: 0.875rem; }
+  h4 { font-size: 1.0625rem !important; letter-spacing: -0.01em;  line-height: 1.24; margin-top: 1.5rem;  margin-bottom: 0.75rem; }
+}
+
+// Same scale outside .main-content (hero blocks, home layout fragments).
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: var(--apple-near-black);
   font-weight: 600;
-  color: var(--gb-black);
-  line-height: 1.3;
+  line-height: 1.14;
 }
+h1 { font-size: 2.5rem;    letter-spacing: -0.028em; line-height: 1.07; }
+h2 { font-size: 1.75rem;   letter-spacing: -0.02em;  line-height: 1.14; }
+h3 { font-size: 1.3125rem; letter-spacing: -0.015em; line-height: 1.19; }
+h4 { font-size: 1.0625rem; letter-spacing: -0.01em;  line-height: 1.24; }
 
-h1 { font-size: 2rem;      margin-top: 2rem;    margin-bottom: 1.25rem !important; }
-h2 { font-size: 1.375rem; margin-top: 2.25rem; margin-bottom: 1rem !important; }
-h3 { font-size: 1.125rem; margin-top: 1.75rem; margin-bottom: 0.875rem !important; }
-h4 { font-size: 1rem;     margin-top: 1.5rem;  margin-bottom: 0.75rem !important; }
-
-// Subtitle style — add {: .page-subtitle } below a paragraph in Markdown to apply
 .page-subtitle {
-  color: #8C959F;
-  font-size: 1.05rem;
-  line-height: 1.6;
+  color: var(--apple-text-ter);
+  font-size: 1.0625rem;
+  line-height: 1.5;
+  letter-spacing: -0.022em;
   margin-top: 1.5rem;
   margin-bottom: 1.75rem;
 }
 
 // --- Links ---
 a {
-  color: var(--gb-orange);
+  color: var(--apple-link);
   text-decoration: none;
   &:hover {
-    color: var(--gb-orange-dark);
+    color: var(--apple-blue);
     text-decoration: underline;
   }
 }
 
 // --- Sidebar ---
 .side-bar {
-  background-color: #F8F3EC !important;
-  border-right: 1px solid var(--gb-warm-border) !important;
+  background-color: var(--apple-light-gray) !important;
+  border-right: 1px solid var(--apple-border-soft) !important;
 }
 
+// Translucent glass header — the signature Apple UI element
 .site-header {
-  background-color: #F8F3EC !important;
-  border-bottom: 1px solid var(--gb-warm-border) !important;
+  background-color: rgba(245, 245, 247, 0.72) !important;
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border-bottom: 1px solid var(--apple-border-soft) !important;
 }
 
 .site-footer {
-  background-color: #F8F3EC !important;
-  border-top: 1px solid var(--gb-warm-border) !important;
-  font-size: 0.8rem;
-  color: var(--gb-muted);
+  background-color: var(--apple-light-gray) !important;
+  border-top: 1px solid var(--apple-border-soft) !important;
+  font-size: 0.75rem;
+  letter-spacing: -0.01em;
+  color: var(--apple-text-ter);
 }
 
-// --- Site title ---
+// --- Site title (logo-as-image) ---
 .site-title {
   text-indent: -9999px;
   overflow: hidden;
@@ -700,126 +328,216 @@ a {
 }
 
 // --- Navigation ---
-.nav-list-link {
-  color: var(--gb-body) !important;
-  border-radius: 4px;
-  transition: background-color 0.15s ease, color 0.15s ease;
-
-  &:hover {
-    background-color: #F0E9E0 !important;
-    color: var(--gb-orange-dark) !important;
-    text-decoration: none;
-  }
-
-  &.active {
-    background-color: var(--gb-orange-light) !important;
-    color: var(--gb-orange-dark) !important;
-    font-weight: 600;
-    border-left: 3px solid var(--gb-orange) !important;
-    padding-left: calc(1rem - 3px) !important;
-  }
-}
-
+.nav-list-link,
 .navigation-list-link {
-  color: var(--gb-body) !important;
-  border-radius: 4px;
+  color: var(--apple-near-black) !important;
+  border-radius: 6px;
+  letter-spacing: -0.01em;
   transition: background-color 0.15s ease, color 0.15s ease;
 
   &:hover {
-    background-color: #F0E9E0 !important;
-    color: var(--gb-orange-dark) !important;
+    background-color: rgba(0, 0, 0, 0.04) !important;
+    color: var(--apple-blue) !important;
     text-decoration: none;
   }
 
   &.active {
-    background-color: var(--gb-orange-light) !important;
-    color: var(--gb-orange-dark) !important;
+    background-color: rgba(0, 113, 227, 0.08) !important;
+    color: var(--apple-blue) !important;
     font-weight: 600;
-    border-left: 3px solid var(--gb-orange) !important;
+    border-left: 3px solid var(--apple-blue) !important;
     padding-left: calc(1rem - 3px) !important;
   }
 }
 
-// --- Search input ---
-// Layout left to just-the-docs defaults; only override focus colour
-.search-input {
-  &:focus {
-    border-color: var(--gb-orange) !important;
-    box-shadow: 0 0 0 3px rgba(255, 122, 0, 0.15) !important;
+// --- Search input — compact Apple-style pill to match aux link rhythm ---
+.search {
+  padding: 0 !important;
+  display: flex;
+  align-items: center;
+}
+
+.search-input-wrap {
+  height: 1.75rem !important;
+  min-height: 1.75rem !important;
+  background-color: var(--apple-light-gray);
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+
+  &:hover {
+    background-color: #ececef;
+  }
+
+  &:focus-within {
+    background-color: var(--apple-white);
+    border-color: var(--apple-blue);
+    box-shadow: 0 0 0 3px rgba(0, 113, 227, 0.18);
   }
 }
 
-// --- Buttons (aux links / CTAs) ---
-
-// Plain secondary button — override just-the-docs purple default
-.btn {
-  background-color: #FFFFFF !important;
-  border: 1px solid #C9C2BB !important;
-  color: var(--gb-body) !important;
+.search-input {
+  height: 1.75rem !important;
+  line-height: 1.75rem !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
   border-radius: 8px !important;
-  font-weight: 500;
-  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+  color: var(--apple-near-black) !important;
+  font-size: 0.8125rem;
+  letter-spacing: -0.01em;
+
+  &::placeholder {
+    color: var(--apple-text-ter);
+    opacity: 1;
+  }
+
+  &:focus {
+    outline: none !important;
+  }
+}
+
+.search-icon {
+  color: var(--apple-text-ter) !important;
+  fill: currentColor !important;
+  width: 0.875rem !important;
+  height: 0.875rem !important;
+
+  .search-input-wrap:focus-within & {
+    color: var(--apple-blue) !important;
+  }
+}
+
+.search-label {
+  background: transparent;
+}
+
+// Search results dropdown
+.search-results {
+  border-radius: 12px;
+  border: 1px solid var(--apple-border-soft);
+  box-shadow: var(--apple-card-shadow);
+  overflow: hidden;
+  margin-top: 0.375rem;
+}
+
+.search-result {
+  padding: 0.625rem 0.875rem;
+  border-radius: 8px;
+  margin: 0.125rem 0.25rem;
+
+  &:hover, &:focus {
+    background-color: rgba(0, 113, 227, 0.06);
+  }
+}
+
+.search-result-title {
+  color: var(--apple-near-black);
+  font-size: 0.9375rem;
+  letter-spacing: -0.01em;
+}
+
+.search-result-rel-url {
+  color: var(--apple-text-ter);
+  font-size: 0.75rem;
+}
+
+.search-result-highlight {
+  color: var(--apple-blue);
+  background-color: rgba(0, 113, 227, 0.08);
+  font-weight: 600;
+  padding: 0 2px;
+  border-radius: 3px;
+}
+
+// --- Buttons — 980px pill radius, Apple Blue primary ---
+
+// Plain secondary button
+.btn {
+  background-color: var(--apple-white) !important;
+  border: 1px solid var(--apple-border) !important;
+  color: var(--apple-near-black) !important;
+  border-radius: 980px !important;
+  font-weight: 400;
+  font-size: 0.9375rem;
+  letter-spacing: -0.01em;
+  padding: 0.5rem 1.25rem;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
 
   &:hover {
-    background-color: var(--gb-orange-light) !important;
-    border-color: var(--gb-orange) !important;
-    color: var(--gb-orange-dark) !important;
+    background-color: var(--apple-light-gray) !important;
+    border-color: var(--apple-near-black) !important;
+    color: var(--apple-near-black) !important;
     text-decoration: none;
   }
 }
 
-// Primary filled button — GitBook orange
+// Primary filled — Apple Blue pill
 .btn-primary,
 .btn-blue {
-  background-color: var(--gb-orange) !important;
-  border: 1px solid var(--gb-orange) !important;
-  color: #FFFFFF !important;
-  border-radius: 8px;
-  transition: background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+  background-color: var(--apple-blue) !important;
+  border: 1px solid var(--apple-blue) !important;
+  color: var(--apple-white) !important;
+  border-radius: 980px !important;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
 
   &:hover {
-    background-color: var(--gb-orange-dark) !important;
-    border-color: var(--gb-orange-dark) !important;
-    color: #FFFFFF !important;
-    box-shadow: 0 4px 12px rgba(255, 122, 0, 0.35) !important;
-    transform: translateY(-1px);
+    background-color: #0077ed !important;
+    border-color: #0077ed !important;
+    color: var(--apple-white) !important;
     text-decoration: none;
   }
 
   &:active {
-    transform: translateY(0);
-    box-shadow: none !important;
+    background-color: #006edb !important;
   }
 }
 
-// Aux nav links in header (top-right) — clean outlined style
-.aux-nav-list-item .btn {
-  background-color: #FFFFFF;
-  border: 1px solid #C9C2BB;
-  color: var(--gb-body);
+// Dark pill variant
+.btn-purple {
+  background-color: var(--apple-near-black) !important;
+  border: 1px solid var(--apple-near-black) !important;
+  color: var(--apple-white) !important;
+  border-radius: 980px !important;
 
   &:hover {
-    background-color: var(--gb-orange-light);
-    border-color: var(--gb-orange);
-    color: var(--gb-orange-dark);
+    background-color: #3a3a3c !important;
+    border-color: #3a3a3c !important;
+    color: var(--apple-white) !important;
+  }
+}
+
+// Aux nav links in header (top-right) — outlined pill
+.aux-nav-list-item .btn {
+  background-color: transparent !important;
+  border: 1px solid var(--apple-border) !important;
+  color: var(--apple-near-black) !important;
+
+  &:hover {
+    background-color: var(--apple-light-gray) !important;
+    border-color: var(--apple-near-black) !important;
   }
 }
 
 // --- Code ---
 code {
-  background-color: #F5F1EB;
-  border: 1px solid var(--gb-warm-border);
+  background-color: var(--apple-light-gray);
+  border: none;
   border-radius: 4px;
   padding: 0.15em 0.45em;
   font-size: 0.875em;
-  color: #C4502D;  // warm rust for inline code
+  color: var(--apple-near-black);
+  font-family: "SF Mono", SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 }
 
 pre.highlight,
 .highlight pre {
-  background-color: #F5F1EB !important;
-  border: 1px solid var(--gb-warm-border);
-  border-radius: 8px;
+  background-color: var(--apple-light-gray) !important;
+  border: 1px solid var(--apple-border-soft);
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
 
   code {
     background-color: transparent;
@@ -832,46 +550,442 @@ pre.highlight,
 
 // --- Blockquotes ---
 blockquote {
-  border-left: 4px solid var(--gb-orange);
-  background-color: #FFF7EE;
-  padding: 0.75rem 1.25rem;
-  margin: 1.25rem 0;
-  border-radius: 0 6px 6px 0;
-  color: var(--gb-body);
+  border-left: 3px solid var(--apple-blue);
+  background-color: var(--apple-light-gray);
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  border-radius: 0 8px 8px 0;
+  color: var(--apple-text-sec);
 }
 
 // --- Tables ---
 table {
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 0;
   width: 100%;
+  border: 1px solid var(--apple-border-soft);
+  border-radius: 12px;
+  overflow: hidden;
 
   th {
-    background-color: var(--gb-cream);
+    background-color: var(--apple-light-gray);
     font-weight: 600;
-    color: var(--gb-black);
-    border: 1px solid #D8D0C8;
-    padding: 0.65rem 1rem;
+    color: var(--apple-near-black);
+    border: none;
+    border-bottom: 1px solid var(--apple-border-soft);
+    padding: 0.75rem 1rem;
+    letter-spacing: -0.01em;
   }
 
   td {
-    border: 1px solid #D8D0C8;
-    padding: 0.65rem 1rem;
+    border: none;
+    border-bottom: 1px solid var(--apple-border-soft);
+    padding: 0.75rem 1rem;
   }
 
-  tr:hover td {
-    background-color: #FFF7EE;
-  }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td     { background-color: var(--apple-light-gray); }
 }
-
-// --- Callout blocks: now fully defined at the top of this file ---
-// (.info, .note, .success, .warning, .important, .danger, .new, .highlight)
 
 // --- Primary HR ---
 .primary-hr {
-  border-top: 1px solid var(--gb-orange);
+  border-top: 1px solid var(--apple-border);
 }
 
-// --- Feedback / subscribe section ---
-.subscribe-feedback-section {
-  border-top-color: var(--gb-warm-border);
+// --- Blog post previews — Apple editorial rhythm ---
+.post-preview {
+  padding: 1rem 0 !important;
+  margin: 0 !important;               // neutralize just-the-docs .mb-* utilities
+  border-bottom: 1px solid var(--apple-border-soft);
+
+  &:first-child { padding-top: 0.25rem !important; }
+  &:last-child { border-bottom: none; }
+
+  h3 {
+    margin-top: 0.25rem !important;
+    margin-bottom: 0.25rem !important;
+    font-size: 1.3125rem;
+    letter-spacing: -0.015em;
+    line-height: 1.19;
+
+    a {
+      color: var(--apple-near-black);
+      &:hover { color: var(--apple-blue); text-decoration: none; }
+    }
+  }
+
+  p {
+    color: var(--apple-text-sec);
+    margin: 0.125rem 0 0.375rem !important;
+    font-size: 0.9375rem;
+    line-height: 1.47;
+  }
+
+  .post-categories {
+    margin: 0 0 0.125rem !important;
+  }
+
+  time {
+    color: var(--apple-text-ter);
+    font-size: 0.8125rem;
+    letter-spacing: -0.01em;
+  }
+}
+
+// --- Category tags — Apple Blue pill ---
+.category-tag {
+  border-radius: 980px;
+  border: 1px solid var(--apple-blue);
+  color: var(--apple-blue);
+  font-size: 0.75rem;
+  letter-spacing: -0.01em;
+  padding: 0.15em 0.85em;
+
+  &:hover {
+    background-color: var(--apple-blue);
+    color: var(--apple-white);
+    text-decoration: none;
+  }
+}
+
+// --- Article (release) post header ---
+.post-header {
+  margin: 0 0 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--apple-border-soft);
+}
+
+.post-meta {
+  font-size: 0.8125rem !important;
+  color: var(--apple-text-ter) !important;
+  letter-spacing: -0.01em;
+  margin: 0 0 1rem !important;
+
+  time { color: var(--apple-text-ter); }
+  .post-meta-sep { margin: 0 0.5rem; opacity: 0.5; }
+  .post-author  { color: var(--apple-text-sec); }
+}
+
+.post-lead {
+  font-size: 1.25rem !important;
+  line-height: 1.4 !important;
+  letter-spacing: -0.015em;
+  color: var(--apple-text-sec) !important;
+  margin: 0 !important;
+}
+
+// --- Article body: feature-list bullets (modern Apple-style dots) ---
+// Applies to every markdown UL inside the main content area but skips the
+// specialized lists that have their own class.
+.main-content ul:not(.apple-link-list):not(.post-categories):not(.post-footer-categories):not(.nav-list):not(.aux-nav-list) {
+  list-style: none;
+  padding-left: 0;
+
+  > li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin: 0.5rem 0;
+    line-height: 1.55;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0.25rem;
+      top: 0.65em;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--apple-blue);
+    }
+
+    ul {
+      list-style: disc;
+      padding-left: 1.25rem;
+      margin: 0.375rem 0 0.25rem;
+
+      > li::before { display: none; }
+      > li { padding-left: 0; margin: 0.25rem 0; }
+    }
+  }
+}
+
+// --- Footer category row (after article body) ---
+.post-footer-categories {
+  margin: 3rem 0 0;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--apple-border-soft);
+
+  .post-footer-categories-label {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--apple-text-ter);
+    margin-bottom: 0.625rem;
+  }
+
+  .post-footer-categories-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+}
+
+// --- Subscribe / feedback card ---
+.subscribe-card {
+  margin: 2.5rem 0 0;
+  padding: 1.75rem 2rem;
+  background: var(--apple-light-gray);
+  border-radius: 16px;
+
+  h3 {
+    margin: 0 0 0.5rem !important;
+    font-size: 1.3125rem !important;
+    letter-spacing: -0.015em;
+    line-height: 1.19;
+    color: var(--apple-near-black);
+  }
+
+  p {
+    margin: 0 0 1.25rem !important;
+    color: var(--apple-text-sec);
+    font-size: 1.0625rem;
+    line-height: 1.47;
+  }
+
+  .subscribe-card-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.625rem;
+  }
+
+  .btn i { margin-right: 0.375rem; }
+}
+
+// --- Callouts — Apple tonal adjustments (overrides earlier generic tones) ---
+.info, .note, .success, .warning, .important, .danger, .new, .highlight {
+  border-radius: 12px;
+  border-width: 1px;
+  letter-spacing: -0.01em;
+}
+
+// --- Hero block (.apple-hero-light) ---
+.apple-hero-light {
+  background: var(--apple-light-gray);
+  color: var(--apple-near-black);
+  border-radius: 18px;
+  padding: 3.5rem 2rem;
+  margin: 1rem 0 2.5rem;
+  text-align: center;
+
+  h1, h2 {
+    color: var(--apple-near-black) !important;
+    font-size: 2.5rem;
+    letter-spacing: -0.028em;
+    line-height: 1.07;
+    margin: 0 0 0.75rem !important;
+    border: none;
+    &::after { display: none; }
+  }
+
+  .eyebrow {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    color: var(--apple-blue);
+    text-transform: uppercase;
+    margin: 0 0 0.5rem;
+  }
+
+  p {
+    color: var(--apple-text-sec);
+    font-size: 1.25rem;
+    letter-spacing: -0.015em;
+    line-height: 1.4;
+    max-width: 640px;
+    margin: 0 auto 1.5rem;
+  }
+
+  .btn {
+    margin: 0 0.25rem 0.5rem;
+  }
+}
+
+// --- Category card grid (.apple-card-grid / .apple-card) ---
+.apple-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 1.25rem 0 2rem;
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+a.apple-card,
+.apple-card {
+  display: flex !important;
+  flex-direction: column;
+  background: var(--apple-white);
+  border: 1px solid var(--apple-border-soft);
+  border-radius: 12px;
+  padding: 1rem 1.125rem;
+  text-decoration: none !important;
+  color: var(--apple-near-black);
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 0.25s ease, transform 0.2s ease, border-color 0.2s ease;
+
+  // Anchor-overlay pattern: invisible link covers the whole card so Kramdown
+  // doesn't have to parse block-level content inside an <a> tag.
+  .apple-card-link {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    text-decoration: none;
+    text-indent: -9999px;
+    overflow: hidden;
+    border-radius: inherit;
+  }
+
+  > *:not(.apple-card-link) {
+    position: relative;
+    z-index: 1;
+  }
+
+  // Subtle blue accent strip on left
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: var(--apple-blue);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+
+  &:hover {
+    box-shadow: var(--apple-card-shadow);
+    transform: translateY(-2px);
+    border-color: transparent;
+    text-decoration: none !important;
+    color: var(--apple-near-black);
+
+    &::before { opacity: 1; }
+    .apple-card-cta { color: var(--apple-blue); }
+    .apple-card-title { color: var(--apple-blue); }
+  }
+
+  .apple-card-eyebrow {
+    font-size: 0.75rem !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.03em;
+    color: var(--apple-text-ter);
+    text-transform: uppercase;
+    margin: 0 0 0.25rem !important;
+    line-height: 1.3;
+  }
+
+  .apple-card-title {
+    font-size: 1.3125rem !important;
+    font-weight: 600 !important;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    color: var(--apple-near-black);
+    margin: 0 0 0.25rem !important;
+    transition: color 0.2s ease;
+  }
+
+  .apple-card-desc {
+    font-size: 0.9375rem !important;
+    line-height: 1.4;
+    color: var(--apple-text-sec);
+    margin: 0 0 0.5rem !important;
+  }
+
+  .apple-card-cta {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: var(--apple-link);
+    letter-spacing: -0.01em;
+    transition: color 0.2s ease;
+    &::after { content: " ›"; margin-left: 2px; }
+  }
+}
+
+// --- Changelog-style link list ---
+ul.apple-link-list {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin: 1.5rem 0;
+  border: 1px solid var(--apple-border-soft);
+  border-radius: 14px;
+  overflow: hidden;
+  background: var(--apple-white);
+
+  li {
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none;
+    border-bottom: 1px solid var(--apple-border-soft);
+    transition: background-color 0.2s ease;
+
+    &::before { content: none !important; }
+    &:last-child { border-bottom: none; }
+    &:hover { background-color: var(--apple-light-gray); }
+
+    > a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 1.25rem;
+      color: var(--apple-near-black);
+      font-weight: 500;
+      font-size: 1rem;
+      letter-spacing: -0.01em;
+      text-decoration: none;
+
+      &::after {
+        content: "›";
+        color: var(--apple-text-ter);
+        font-size: 1.25rem;
+        margin-left: 1rem;
+        transition: color 0.2s ease, transform 0.2s ease;
+      }
+
+      &:hover {
+        color: var(--apple-blue);
+        text-decoration: none;
+        &::after {
+          color: var(--apple-blue);
+          transform: translateX(2px);
+        }
+      }
+    }
+
+    .link-meta {
+      color: var(--apple-text-ter);
+      font-size: 0.8125rem;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+      margin-left: 0.75rem;
+    }
+
+    .link-badge {
+      display: inline-block;
+      margin-left: 0.5rem;
+      padding: 0.125rem 0.625rem;
+      background: rgba(0, 113, 227, 0.1);
+      color: var(--apple-blue);
+      border-radius: 980px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+      text-transform: uppercase;
+    }
+  }
 }

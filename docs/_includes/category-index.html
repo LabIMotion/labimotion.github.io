@@ -1,0 +1,15 @@
+{% assign cat_posts = site.pages | where_exp: "item", "item.categories contains include.category" | where_exp: "item", "item.date" | sort: 'date' | reverse %}
+
+<div class="apple-hero-light" markdown="1">
+
+<p class="eyebrow">Category</p>
+
+# {{ include.category }}
+
+{{ include.description }}
+
+</div>
+
+{% for post in cat_posts %}
+  {% include post-preview.html post=post show_categories=false %}
+{% endfor %}

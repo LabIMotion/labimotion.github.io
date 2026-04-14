@@ -1,0 +1,17 @@
+<article class="post-preview">
+  {% if include.show_categories and post.categories %}
+    <div class="post-categories">
+      {% for category in post.categories %}
+        {% assign category_slug = category | strip | replace: " ", "-" | downcase %}
+        <a href="{{ '/blog/categories/' | append: category_slug | relative_url }}" class="category-tag">{{ category }}</a>
+      {% endfor %}
+    </div>
+  {% endif %}
+  <h3>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  </h3>
+  {% if post.description %}
+    <p>{{ post.description }}</p>
+  {% endif %}
+  <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+</article>
