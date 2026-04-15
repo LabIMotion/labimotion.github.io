@@ -44,10 +44,10 @@ The **Overview Map** acts as a "mission control" for your data entry process. Ea
 
 
 **Primary Benefits:**
-*   **Progress Visibility**: Instantly see which sections are complete via **color-coded bars** and **completion percentages**.
-*   **Rapid Navigation**: Use the **blue "↓" icons** on map cards to instantly bypass long forms.
-*   **Precision Focus**: Target sections are briefly **highlighted in yellow** upon arrival so you can immediately find your place.
-*   **Layered Tracking**: Expand grouped sections (like "Reaction Info") within the map to monitor the progress of specific sub-tasks across multiple layers.
+*  **Progress Visibility**: Instantly see which sections are complete via **color-coded bars** and **completion percentages**.
+*  **Rapid Navigation**: Use the **blue "↓" icons** on map cards to instantly bypass long forms.
+*  **Precision Focus**: Target sections are briefly **highlighted in yellow** upon arrival so you can immediately find your place.
+*  **Layered Tracking**: Expand grouped sections (like "Reaction Info") within the map to monitor the progress of specific sub-tasks across multiple layers.
 
 [![Overview Map](/assets/images/posts/2026-03-25-overview-map-preview/2.png){: .mx-auto .d-block .mb-4 .img-fluid .w-75 }](/assets/images/posts/2026-03-25-overview-map-preview/2.png){:target="_blank"}
 
