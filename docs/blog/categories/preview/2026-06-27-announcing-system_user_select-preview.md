@@ -21,7 +21,7 @@ description: Point a Select field at the host's real user directory instead of a
   date=page.date
 %}
 
-A **System User Selection** field points an ordinary `SELECT` or `MULTI-SELECT` field at the host application's user directory — Chemotion ELN users — instead of a fixed option list typed into the template. Users search for and pick real people, and only their **user ids** are stored. There is **no new field type** to learn: it is the same select field, simply configured to use the user list as its option source.
+A **System User Selection** field points an ordinary **Select** or **Select (Multiple)** field at the host application's user directory — Chemotion ELN users — instead of a fixed option list typed into the template. Users search for and pick real people, and only their **user ids** are stored. There is **no new field type** to learn: it is the same select field, simply configured to use the user list as its option source.
 
 ---
 
@@ -41,7 +41,7 @@ A **System User Selection** field points an ordinary `SELECT` or `MULTI-SELECT` 
 {: .info }
 
 - **Real people as options**: The field offers actual host users instead of a hand-typed list — nothing to maintain when your team changes.
-- **No new field type**: Reuses the existing `SELECT` / `MULTI-SELECT` field; you just choose the user list as its option source.
+- **No new field type**: Reuses the existing **Select** / **Select (Multiple)** field; you just choose the user list as its option source.
 - **Async search**: Type a few characters and the field searches the host's user directory, showing up to 5 matches.
 - **Live names, stored ids**: Only ids are saved; names are looked up fresh, so a renamed user always shows their current name.
 - **Resilient selections**: A user who no longer exists shows as `<id> (depr.)` rather than silently vanishing.
@@ -54,11 +54,14 @@ A **System User Selection** field points an ordinary `SELECT` or `MULTI-SELECT` 
 
 ## For Designers — binding a field to the user list
 
-1. Add or edit a `SELECT` or `MULTI-SELECT` field.
+1. Add or edit a **Select** or **Select (Multiple)** field.
 2. For its **option source**, choose **"System user list"** instead of typing options. You do **not** add any option entries.
 3. That's it. The field now shows a friendly **"System user list"** badge instead of a static option list.
 
 What persists in the template is only the **source choice** — there is no option list to maintain, and no user names are baked into the template.
+
+{: .info }
+> **Scope:** This applies to a **Select** / **Select (Multiple)** field placed in a **layer**. It is **not** available for a **Select** column inside a **Table** field — a table column's option source offers only static selection lists, not the system user list.
 
 [⬆ Back to top](#table-of-contents)
 {: .text-right .fs-2 }
@@ -109,7 +112,7 @@ Follow these steps to explore the new features and share your insight:
 > Try out the enhancements — see how they fit your workflow.
 >
 > 3. ❤️ **Your Feedback Matters**<br>
-> Share your comments or report any issues in our [GitHub Discussion Thread](https://github.com/LabIMotion/labimotion/discussions/67).
+> Share your comments or report any issues in our [GitHub Discussion Thread](https://github.com/LabIMotion/labimotion/discussions/87).
 
 We appreciate your help in testing these new features!
 

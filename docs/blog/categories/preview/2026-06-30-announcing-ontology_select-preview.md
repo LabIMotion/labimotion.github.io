@@ -105,7 +105,7 @@ Follow these steps to explore the new features and share your insight:
 > Try out the enhancements — see how they fit your workflow.
 >
 > 3. ❤️ **Your Feedback Matters**<br>
-> Share your comments or report any issues in our [GitHub Discussion Thread](https://github.com/LabIMotion/labimotion/discussions/67).
+> Share your comments or report any issues in our [GitHub Discussion Thread](https://github.com/LabIMotion/labimotion/discussions/87).
 
 We appreciate your help in testing these new features!
 

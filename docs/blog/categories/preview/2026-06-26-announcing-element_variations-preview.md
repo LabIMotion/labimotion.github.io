@@ -21,7 +21,7 @@ description: A Variations tab where each row captures one variation of a generic
   date=page.date
 %}
 
-The new **Variations** tab on a generic element's detail view gives you an editable grid where each row is one *variation* of the element — a place to record several parameter sets, runs, or conditions side by side. Modelled on Chemotion's **Reaction Variations** and generalized to any generic element, it answers *"I made this several ways — let me capture them all in one place"* without needing a separate template per run.
+The new **Variations** tab on a generic element's detail view gives you an editable grid where each row is one *variation* of the element — a place to record several parameter sets, runs, or conditions side by side. It answers *"I made this several ways — let me capture them all in one place"* without needing a separate template per run.
 
 ---
 
@@ -56,9 +56,9 @@ The new **Variations** tab on a generic element's detail view gives you an edita
 
 There is no separate per-template switch to author: the Variations tab reads from the element's existing template. What you design upstream is what a user can turn into columns.
 
-- **Property fields** become variation columns when they are an eligible type: `integer`, `number`, `select`, `select-multi`, `system-defined`, `text`, `date`, `datetime`. Other field types are skipped — so design the fields you want users to vary as one of these.
+- **Property fields** become variation columns when they are an eligible type: **Integer**, **Number**, **Select**, **Select (Multiple)**, **System-Defined**, **Text**, **Date**, or **Date/Time**. Other field types are skipped — so design the fields you want users to vary as one of these.
 - **Segment fields** are offered too — any segment attached to the element contributes its fields under the **Segments** group in the column picker.
-- **Units** ride along for `system-defined` (unit-bearing) fields: the designer's unit set is what users cycle through in the column header.
+- **Units** ride along for **System-Defined** (unit-bearing) fields: the designer's unit set is what users cycle through in the column header.
 
 In short: define the relevant fields and segments on the template; the variations grid exposes them automatically.
 
@@ -90,7 +90,7 @@ Hiding a column that still holds data prompts a **"Hide and clear"** warning so 
 - **Stable column identity.** A property column maps unambiguously back to a template field even across layers; metadata columns use fixed keys (`notes`, `analyses`, `group`).
 - **Flexible analyses linking.** Analyses can be linked per row, or to a specific layer within a variation — not just to the whole row.
 - **Units convert on the client.** The chosen display unit per column is remembered per user and element, while the saved values stay in the base unit.
-- **Groups batch rows.** Sequential and repetition numbering helpers mirror how Reaction Variations replicate sample sets.
+- **Groups batch rows.** Sequential and repetition numbering helpers let you replicate sets of variations.
 - **Autosave seam.** Pending grid edits flush when you switch tabs, marking the element dirty so they persist alongside it.
 
 [⬆ Back to top](#table-of-contents)
@@ -114,7 +114,7 @@ Follow these steps to explore the new features and share your insight:
 > Try out the enhancements — see how they fit your workflow.
 >
 > 3. ❤️ **Your Feedback Matters**<br>
-> Share your comments or report any issues in our [GitHub Discussion Thread](https://github.com/LabIMotion/labimotion/discussions/67).
+> Share your comments or report any issues in our [GitHub Discussion Thread](https://github.com/LabIMotion/labimotion/discussions/87).
 
 We appreciate your help in testing these new features!
 

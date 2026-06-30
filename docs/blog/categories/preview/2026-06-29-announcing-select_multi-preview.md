@@ -21,7 +21,7 @@ description: Pick several options from a select list at once — in layer fields
   date=page.date
 %}
 
-The new **Select (Multiple)** field works like an ordinary select field, except users can choose **more than one** option. It is available both as a **layer field** and as a **table column**, and it remembers selections in the exact order the user picked them.
+The **Select (Multiple)** field works like an ordinary select field, except users can choose **more than one** option. It is available both as a **layer field** and as a **table column**, and it remembers selections in the exact order the user picked them.
 
 ---
 
@@ -101,7 +101,7 @@ Follow these steps to explore the new features and share your insight:
 > Try out the enhancements — see how they fit your workflow.
 >
 > 3. ❤️ **Your Feedback Matters**<br>
-> Share your comments or report any issues in our [GitHub Discussion Thread](https://github.com/LabIMotion/labimotion/discussions/67).
+> Share your comments or report any issues in our [GitHub Discussion Thread](https://github.com/LabIMotion/labimotion/discussions/87).
 
 We appreciate your help in testing these new features!
 
