@@ -144,6 +144,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  gap: 0.5em;
 }
 
 
@@ -151,8 +152,6 @@ h1, h2, h3, h4, h5, h6 {
 .category-tag {
   display: inline-block;
   padding: 0.2em 1em;
-  margin-right: 0.2em;
-  // margin: 0 0.2em 0.2em 0;  // Added bottom margin for wrapping
   border-radius: 40px;
   border: thin solid var(--category-border-color);
   font-size: 0.8em;
@@ -603,7 +602,7 @@ table {
 
   h3 {
     margin-top: 0.25rem !important;
-    margin-bottom: 0.25rem !important;
+    margin-bottom: 0.375rem !important;
     font-size: 1.3125rem;
     letter-spacing: -0.015em;
     line-height: 1.19;
@@ -616,13 +615,13 @@ table {
 
   p {
     color: var(--apple-text-sec);
-    margin: 0.125rem 0 0.375rem !important;
+    margin: 0.25rem 0 0.375rem !important;
     font-size: 0.9375rem;
     line-height: 1.47;
   }
 
   .post-categories {
-    margin: 0 0 0.125rem !important;
+    margin: 0 0 0.5rem !important;
   }
 
   time {
