@@ -21,8 +21,6 @@ Chemotion LabIMotion 2.3.0 in public preview
   date=page.date
 %}
 
----
-
 Dear Chemotion LabIMotion users,
 
 Chemotion LabIMotion 2.3.0 is now available for public preview!
