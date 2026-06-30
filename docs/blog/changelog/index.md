@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Changelog
-nav_order: 4
+nav_order: 3
 ---
 
 <div class="apple-hero-light" markdown="1">
