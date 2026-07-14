@@ -5,6 +5,9 @@
       <span class="post-meta-sep" aria-hidden="true">·</span>
       <span class="post-author">{{ include.author }}</span>
     {% endif %}
+    {% if include.version %}
+      <span class="post-version">{{ include.version }}</span>
+    {% endif %}
   </p>
   {% if include.description %}
     <p class="post-lead">{{ include.description }}</p>

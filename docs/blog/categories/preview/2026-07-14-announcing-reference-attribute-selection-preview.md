@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "(New) Reference Attribute Selection"
+title: "(New) Reference Attribute Picker"
 date: 2026-07-14
 author: "Claire Lin"
 parent: Preview
@@ -8,20 +8,22 @@ grand_parent: Categories
 nav_exclude: false
 nav_order: -20260714
 categories: [Announcements, Preview]
+version: v2.4.0
 has_toc: true
 description: Pick which properties of a linked record show inline on a reference field — see the attributes you care about without opening the linked element.
 ---
 
-(New) Reference Attribute Selection
+(New) Reference Attribute Picker
 {: .fs-7 .fw-500 }
 
 {% include post-header.html
   description=page.description
   author=page.author
   date=page.date
+  version=page.version
 %}
 
-Generic elements can carry **reference fields** that link to another record — a **Ref Sample** (a linked sample) and a **Ref element** (for example a linked cell line). With **Reference Attribute Selection**, each reference gets a **list** icon that opens a checkbox dialog of the linked record's properties. Tick the ones you care about, press **Apply**, and those attributes render inline on the field — so the form shows exactly the properties you want without ever opening the linked record.
+Generic records can carry reference fields that link to another record — a linked sample, a linked molecule, and a linked element. With **Reference Attribute Picker**, each reference gets a **list** icon ( <i class="bi bi-card-list"></i> ) that opens a checkbox dialog of the linked record's properties. Tick the ones you care about, press **Apply**, and those attributes render inline on the field — so the form shows exactly the properties you want without ever opening the linked record.
 
 ---
 
@@ -37,12 +39,12 @@ Generic elements can carry **reference fields** that link to another record — 
 
 > **Audience:** Researchers
 >
-> **Interface:** Chemotion ELN / Generic Element: Properties form — reference fields
+> **Interface:** Chemotion ELN / Generic Element, Segment, Dataset
 {: .info }
 
-- **Inline linked attributes**: Show a linked record's key properties directly on the reference field — no need to open the linked sample or element to read them.
+- **Inline linked attributes**: Show a linked record's key properties directly on the reference field — no need to open the linked sample or molecule or element to read them.
 - **Pick exactly what matters**: A **Select linked element attributes** dialog lists the linked record's properties as checkboxes; tick only the ones relevant to this form.
-- **Independent per reference**: **Ref Sample** and **Ref element** are configured separately, each showing its own chosen attributes side by side.
+- **Independent per reference**: Each linked element, linked sample, and linked molecule can be configured separately, each showing its own chosen attributes side by side.
 - **Non-destructive**: The attribute picks are a display choice — nothing on the linked record is changed and no data is written.
 
 [⬆ Back to top](#table-of-contents)
@@ -50,27 +52,28 @@ Generic elements can carry **reference fields** that link to another record — 
 
 ---
 
-## Using it
+## Example Scenarios
+
+### Scenario: Displaying Attributes from Multiple Linked Records
 
 1. **Open a generic element** and go to its **Properties** form; scroll to the **Ref Sample** and **Ref element** fields.
-2. **Open the picker**: Click the **list** icon next to a reference to open the **Select linked element attributes** dialog.
-3. **Tick the properties** you want to display — for a Ref Sample that might be **Purity / Real Amount / Density**; for a Ref element (cell line) **Cell line name / Amount / Passage**.
+2. **Open the picker**: Click the **list** icon ( <i class="bi bi-card-list"></i> ) next to a reference to open the **Select linked element attributes** dialog.
+3. **Tick the properties** you want to display — for a Ref Sample that might be Purity / Real Amount / Density; for a Ref element (cell line) Cell line name / Amount / Passage.
 4. **Apply**: The chosen properties appear inline on the field as compact chips.
 5. **Repeat** for the other reference — each field keeps its own selection.
 
 (Click the video to open in a new window <i class="bi bi-window"></i>)
-{: .fs-2 .mb-0 }
+{: .fs-2 .mb-0 .text-center }
 
-<div style="display: flex; justify-content: start; margin-top: 0;">
+<div style="display: flex; justify-content: center; margin: 0 0 1.5rem;">
   <video width="75%" controls autoplay loop muted onclick="window.open('/assets/images/posts/2026-07-14-reference-attribute-selection-preview/reference-attribute-selection.mp4', '_blank')" style="cursor: pointer;">
     <source src="/assets/images/posts/2026-07-14-reference-attribute-selection-preview/reference-attribute-selection.mp4" type="video/mp4">
-    <source src="/assets/images/posts/2026-07-14-reference-attribute-selection-preview/reference-attribute-selection.webm" type="video/webm">
     Your browser does not support the video tag.
   </video>
 </div>
 
 (Click to view in a new window <i class="bi bi-window"></i>)
-{: .fs-2 .mb-0 }
+{: .fs-2 .mb-0 .text-center }
 
 [![Ref Sample and Ref element fields displaying their selected attributes inline as chips](/assets/images/posts/2026-07-14-reference-attribute-selection-preview/reference-props.png){: .mx-auto .d-block .mb-4 .img-fluid .w-75 }](/assets/images/posts/2026-07-14-reference-attribute-selection-preview/reference-props.png){:target="_blank"}
 
@@ -82,7 +85,7 @@ Generic elements can carry **reference fields** that link to another record — 
 ## How It Works
 
 - **The selection is a view, not a copy.** You choose which of the linked record's attributes to surface; the values are read from the linked record, so what you see stays in step with the source.
-- **Each reference is configured on its own.** Ref Sample and Ref element hold separate attribute selections, so one form can show a sample's purity and amount next to a cell line's passage.
+- **Each reference is configured on its own.** Every linked record maintains its own attribute selection, allowing a single form to display different sets of attributes for different references. For example, one form can display a linked sample's Purity and Amount alongside a linked molecule's Molecular Weight and Formula.
 - **Nothing is persisted to the link.** The picker only controls what displays — it never writes to or alters the linked element.
 
 [⬆ Back to top](#table-of-contents)
