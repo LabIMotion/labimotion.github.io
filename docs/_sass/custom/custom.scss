@@ -663,6 +663,20 @@ table {
   time { color: var(--apple-text-ter); }
   .post-meta-sep { margin: 0 0.5rem; opacity: 0.5; }
   .post-author  { color: var(--apple-text-sec); }
+  .post-version {
+    display: inline-block;
+    margin-left: 0.5rem;
+    padding: 0.1rem 0.5rem;
+    font-size: 0.6875rem;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    color: var(--apple-blue);
+    background: rgba(0, 113, 227, 0.1);
+    border: 1px solid rgba(0, 113, 227, 0.25);
+    border-radius: 100px;
+    vertical-align: middle;
+  }
 }
 
 .post-lead {
