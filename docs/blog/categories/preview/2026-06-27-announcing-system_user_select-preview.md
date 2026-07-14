@@ -7,7 +7,7 @@ parent: Preview
 grand_parent: Categories
 nav_exclude: false
 nav_order: -20260627
-categories: [Announcements, Preview]
+categories: [Preview]
 has_toc: true
 description: Point a Select field at the host's real user directory instead of a fixed option list.
 ---

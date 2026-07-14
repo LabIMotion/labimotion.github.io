@@ -7,7 +7,7 @@ parent: Preview
 grand_parent: Categories
 nav_exclude: false
 nav_order: -20260630
-categories: [Announcements, Preview]
+categories: [Preview]
 has_toc: true
 description: Pick a term from a controlled ontology tree instead of typing free text.
 ---
