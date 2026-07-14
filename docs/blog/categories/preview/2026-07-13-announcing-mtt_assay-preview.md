@@ -7,7 +7,7 @@ parent: Preview
 grand_parent: Categories
 nav_exclude: false
 nav_order: -20260713
-categories: [Announcements, Preview]
+categories: [Preview]
 has_toc: true
 description: Turn wellplate readings into dose-response curves and endpoint (e.g. IC50) values, then attach the results back to your samples.
 ---
