@@ -7,7 +7,7 @@ parent: Preview
 grand_parent: Categories
 nav_exclude: false
 nav_order: -20260714
-categories: [Announcements, Preview]
+categories: [Preview]
 version: v2.4.0
 has_toc: true
 description: Pick which properties of a linked record show inline on a reference field — see the attributes you care about without opening the linked element.

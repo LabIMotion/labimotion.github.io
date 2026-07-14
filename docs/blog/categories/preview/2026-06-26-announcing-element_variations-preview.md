@@ -7,7 +7,7 @@ parent: Preview
 grand_parent: Categories
 nav_exclude: false
 nav_order: -20260626
-categories: [Announcements, Preview]
+categories: [Preview]
 has_toc: true
 description: A Variations tab where each row captures one variation of a generic element.
 ---

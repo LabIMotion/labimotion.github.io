@@ -7,7 +7,7 @@ parent: Preview
 grand_parent: Categories
 nav_exclude: false
 nav_order: -20260325
-categories: [Announcements, Preview]
+categories: [Preview]
 has_toc: true
 description: Real-time Progress and Precision Navigation at Your Fingertips.
 ---

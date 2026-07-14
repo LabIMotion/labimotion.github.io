@@ -7,7 +7,7 @@ parent: Preview
 grand_parent: Categories
 nav_exclude: false
 nav_order: -20260629
-categories: [Announcements, Preview]
+categories: [Preview]
 has_toc: true
 description: Pick several options from a select list at once — in layer fields and table columns.
 ---

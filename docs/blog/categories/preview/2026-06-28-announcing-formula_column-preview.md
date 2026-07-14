@@ -7,7 +7,7 @@ parent: Preview
 grand_parent: Categories
 nav_exclude: false
 nav_order: -20260628
-categories: [Announcements, Preview]
+categories: [Preview]
 has_toc: true
 description: A read-only table column that calculates each row's value from the other columns.
 ---

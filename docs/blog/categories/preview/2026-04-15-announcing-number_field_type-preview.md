@@ -7,7 +7,7 @@ parent: Preview
 grand_parent: Categories
 nav_exclude: false
 nav_order: -20260415
-categories: [Announcements, Preview]
+categories: [Preview]
 has_toc: true
 description: Enhanced numeric input with decimal precision, min/max constraints, and scientific notation.
 ---
