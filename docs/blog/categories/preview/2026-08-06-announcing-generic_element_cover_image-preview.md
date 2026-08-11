@@ -8,8 +8,9 @@ grand_parent: Categories
 nav_exclude: false
 nav_order: -20260806
 categories: [Preview]
+version: 2.4.0-rc
 has_toc: true
-description: Give a generic element a cover image built from its own attachments and analyses, shown right above its segments.
+description: Give a generic element a cover image built from its own attachments and analyses, shown right above its tabs.
 ---
 
 (New) Cover Image for Generic Elements
@@ -19,9 +20,10 @@ description: Give a generic element a cover image built from its own attachments
   description=page.description
   author=page.author
   date=page.date
+  version=page.version
 %}
 
-Generic elements can now show a **cover image** — a fixed-size strip of pictures rendered above the element's segments, built from images you already have on the element. No separate upload: you pick from its existing **Attachments** and **Analyses**.
+Generic elements can now show a **cover image** — a fixed-size strip of pictures rendered above the element's tabs, built from images you already have on the element. No separate upload: you pick from its existing **Attachments** and **Analyses**. A Designer switches it on for the element first.
 
 ---
 
@@ -33,18 +35,54 @@ Generic elements can now show a **cover image** — a fixed-size strip of pictur
 
 ---
 
-## Key Features
+## How It Works
 
-> **Audience:** Template Designers, Researchers
+> **Audience:** Users
 >
-> **Interface:** Chemotion ELN / Generic Element detail view
+> **Interface:** Chemotion ELN – Generic Element detail view
 {: .info }
 
-- **Cover image area**: A fixed-size image display sits above an element's segments, paging through the images you selected.
-- **Designer opt-in**: Template Designers switch Cover Image on or off per element klass, alongside the other Layer Function Controls.
-- **Pick from what's already there**: Choose images from the element's own **Attachments** and **Analyses** — nothing new to upload.
-- **Order it your way**: Move images between a Candidate List and a Selected list, and reorder the selected ones.
-- **Off by default, no clutter**: When Cover Image is switched off for a klass, the component simply doesn't render.
+Where an element has Cover Image switched on, its page shows a fixed-size image block above its tabs, paging through whichever images you've picked for that element.
+
+**Primary Benefits:**
+- **Recognize at a glance**: Identify an element by sight before opening any tab or attachment.
+- **Nothing new to upload**: Every image comes from what's already on the element — its **Attachments** and its **Analyses**.
+- **Your pick, your order**: Choose which images show and in what order; anything not picked simply isn't shown.
+
+**Using It:**
+1. **Open the picker** on the element page, from its cover image area.
+2. **Choose images** from a candidate list drawn from the element's Attachments and Analyses.
+3. **Order them** — the order you choose is the order they page through in.
+4. **Close it** — the strip above the tabs now shows your selection.
+
+[⬆ Back to top](#table-of-contents)
+{: .text-right .fs-2 }
+
+---
+
+## How to Setup
+
+> **Audience:** Designers
+>
+> **Interface:** Generic Elements Designer → Template settings
+{: .info }
+
+Cover Image is opt-in per element, set from the same **Template settings** panel as the other layer-header controls — not from the Segment or Dataset Designer.
+
+**Configuration Steps:**
+1. From the top-right user menu, open the **Generic Designer** → **Generic Elements Designer**.
+2. On the element's row, click the gear icon (**Template settings**) in the **Template** column.
+3. Under **On the element page**, switch **Cover image** on.
+
+(Click to view in a new window <i class="bi bi-window"></i>)
+{: .fs-2 .mb-0 .text-center }
+
+[![Template settings modal for the Viability element, showing the Cover image toggle under \"On the element page\"](/assets/images/posts/2026-08-06-cover-image-preview/template-settings-cover-image.png){: .mx-auto .d-block .mb-4 .img-fluid .w-75 }](/assets/images/posts/2026-08-06-cover-image-preview/template-settings-cover-image.png){:target="_blank"}
+
+**Key Points:**
+- **One switch among several**: Cover image sits under "On the element page", alongside the existing "On each layer header" controls (Record time, Add reaction, Add/remove layer) — each element is configured independently.
+- **Immediate, not versioned**: the panel warns that the change *"applies to all versions of this template and takes effect immediately."*
+- **Hiding doesn't delete data**: switching it off hides the block; any images already selected on elements aren't lost.
 
 [⬆ Back to top](#table-of-contents)
 {: .text-right .fs-2 }
@@ -53,20 +91,10 @@ Generic elements can now show a **cover image** — a fixed-size strip of pictur
 
 ## Example Scenario
 
-1. **Open a generic element** that already has attachments or an analysis with images.
-2. **Open the picker**: a button opens a modal listing **Candidate List** (from Attachments and Analyses) and **Selected** (what's currently shown).
-3. **Select and order**: move images into Selected, then use the up/down arrows to set their display order.
-4. **Close the modal** — the chosen images now page through at the top of the element, above its segments.
-
-[⬆ Back to top](#table-of-contents)
-{: .text-right .fs-2 }
-
----
-
-## How It Works
-
-- **A view over existing files.** Selections are stored per element, recording each image's source (attachment or analysis) and its id — not a copy of the file.
-- **Fully opt-in.** The feature only appears where a Template Designer has switched it on for that element klass; other elements are unaffected.
+1. A **Designer** opens **Generic Elements Designer**, clicks the gear icon on the **Viability** row, and switches **Cover image** on.
+2. A **User** opens a Viability element that already has attachments or an analysis with images.
+3. They open the cover image picker and pick a couple of images to show.
+4. The chosen images now page through in a strip above the element's tabs — for every Viability element, until a Designer switches it off again.
 
 [⬆ Back to top](#table-of-contents)
 {: .text-right .fs-2 }

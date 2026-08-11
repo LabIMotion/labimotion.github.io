@@ -8,8 +8,9 @@ grand_parent: Categories
 nav_exclude: false
 nav_order: -20260810
 categories: [Preview]
+version: 2.4.0-rc
 has_toc: true
-description: Toolbar Settings now genuinely control whether the overview map and layer panels start open when a form opens.
+description: Your personal Toolbar Settings, under My LabIMotion, now genuinely control whether the overview map and layer panels start open when a form opens.
 ---
 
 (New) Toolbar Settings — Default Overview & Expand
@@ -19,9 +20,10 @@ description: Toolbar Settings now genuinely control whether the overview map and
   description=page.description
   author=page.author
   date=page.date
+  version=page.version
 %}
 
-**Toolbar Settings** let you decide how a detail form looks the moment it opens. Two defaults now work as intended: whether the **overview map** starts open or closed, and whether the form starts with **all layers expanded** or just the first one.
+**Toolbar Settings** — your own, under **My LabIMotion** — let you decide how a detail form looks the moment it opens. Two of its three switches now work as intended: **Overview** and **Expand**. The page also got a search box and a visual refresh, so finding the row you want is quicker.
 
 ---
 
@@ -35,14 +37,33 @@ description: Toolbar Settings now genuinely control whether the overview map and
 
 ## Key Features
 
-> **Audience:** Researchers, Template Designers
+> **Audience:** All Users
 >
-> **Interface:** Chemotion ELN / Generic Element, Segment toolbar
+> **Interface:** Chemotion ELN / top-right user menu → **My LabIMotion** → **Toolbar Settings**
 {: .info }
 
-- **Overview default**: the Overview toggle now sets whether the map is open or closed when a form opens — the button itself always stays available, so you can still open or close it yourself in the moment.
-- **New Expand default**: a new toggle sets whether a form opens with every layer expanded, or just the first one (the previous behavior, now made explicit and fixed).
-- **Same setting, two places**: change these defaults from the Toolbar Settings page, or from the gear icon right on the form.
+- **Overview default**: turns the Overview map open or closed the moment a form opens. The button itself always stays available, so you can still open or close it yourself in the moment.
+- **New Expand default**: turns every layer open on load, or just the first one (the previous, implicit behavior — now an explicit, working switch).
+- **Arrange, alongside them**: a third switch on the same row shows or hides the Arrange button in the toolbar — unchanged from before, just now sitting next to the other two.
+- **Same setting, two places**: change these from the Toolbar Settings page, or from the gear icon right on the form.
+- **Find a row faster**: a live search box filters both the **Elements** and **Segments** cards by label, with a match-count badge (e.g. "1/4") and an empty-state message when nothing matches.
+
+[⬆ Back to top](#table-of-contents)
+{: .text-right .fs-2 }
+
+---
+
+## What It Looks Like
+
+This is the real **Toolbar Settings** page — one row per element or segment, three switches each:
+
+(Click to view in a new window <i class="bi bi-window"></i>)
+{: .fs-2 .mb-0 .text-center }
+
+[![Toolbar Settings page under My LabIMotion, listing Elements and Segments each with Overview, Expand and Arrange switches](/assets/images/posts/2026-08-10-toolbar-settings-preview/toolbar-settings.png){: .mx-auto .d-block .mb-4 .img-fluid .w-75 }](/assets/images/posts/2026-08-10-toolbar-settings-preview/toolbar-settings.png){:target="_blank"}
+
+Hovering the **?** next to each column name gives the exact rule: **Overview** — *"Show the Overview map when the form opens."* **Expand** — *"Expand all layers when the form opens (off: only the first layer)."* **Arrange** — *"Show the Arrange button in the toolbar."*
+{: .fs-2 .mb-0 .text-center }
 
 [⬆ Back to top](#table-of-contents)
 {: .text-right .fs-2 }
@@ -51,10 +72,10 @@ description: Toolbar Settings now genuinely control whether the overview map and
 
 ## Example Scenario
 
-1. Open **Toolbar Settings** (or the gear icon on a form) for the element or segment you use most.
-2. Turn **Overview** off if you don't want the map open every time you open a form.
-3. Turn **Expand** on if you'd rather every layer open right away instead of just the first.
-4. Next time you open a matching form, it reflects your defaults — and the Overview and Expand buttons still work normally to change it for that session.
+1. Click your name in the top-right corner → **My LabIMotion** → **Toolbar Settings**.
+2. Use the search box to jump straight to the element or segment you use most — e.g. typing "sample" narrows both cards down to their matches, with a live count.
+3. Turn **Overview** off if you don't want the map open every time you open a form; turn **Expand** on if you'd rather every layer open right away.
+4. Next time you open a matching form, it reflects your defaults — and the Overview, Expand and Arrange controls on the form itself still work normally to change things for that session.
 
 [⬆ Back to top](#table-of-contents)
 {: .text-right .fs-2 }
@@ -63,8 +84,8 @@ description: Toolbar Settings now genuinely control whether the overview map and
 
 ## How It Works
 
-- These are **personal, per-klass defaults** — changing yours doesn't change what your colleagues see.
-- The Overview and Expand buttons keep working as manual, in-session toggles no matter what your defaults are set to.
+- These are **personal, per-element or per-segment defaults** — set on your own account under **My LabIMotion**, they don't change what your colleagues see.
+- The Overview, Expand and Arrange controls on the form keep working as manual, in-session toggles no matter what your defaults are set to.
 
 [⬆ Back to top](#table-of-contents)
 {: .text-right .fs-2 }
